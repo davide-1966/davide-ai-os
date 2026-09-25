@@ -6,13 +6,12 @@
 ## Chi sono
 - Età / fascia d'età: _…_
 - Città / paese: _…_
-- Lavoro o attività principale: _…_
+- Lavoro o attività principale: **pizzaiolo**
 
 ## Obiettivi (prossimi 12 mesi)
-- Lavoro: _…_
-- Economici: _…_
-- Salute / benessere: _…_
-- Progetti personali: _…_
+- Crescere come content creator con Pizza Perfetta a Casa (Instagram, TikTok e,
+  in prospettiva, YouTube).
+- Vendere prodotti legati alla pizza fatta in casa al proprio pubblico.
 
 ## Progetti in corso
 - **Pizza Perfetta a Casa**: progetto social di cucina dedicato alla pizza fatta in casa.
@@ -28,13 +27,14 @@
 - _…_ (es. famiglia, libertà, sicurezza economica, crescita)
 
 ## Punti di forza
-- _…_
+- Competenza professionale da pizzaiolo: impasti, lievitazione, cottura e
+  tecnica sono il valore che rende credibili i contenuti e i prodotti.
 
 ## Difficoltà ricorrenti
 - _…_
 
 ## Stile di comunicazione preferito
-- Lunghezza: _breve e diretta / dettagliata_
+- Lunghezza: **risposte dettagliate**, con spiegazioni e passaggi concreti
 - Tono: _formale / informale_
 
 ## Limiti
