@@ -4,8 +4,8 @@
 > Non inserire dati sensibili (indirizzo, codice fiscale, conti, password).
 
 ## Chi sono
-- Età / fascia d'età: _…_
-- Città / paese: _…_
+- Età: 60 anni
+- Città / paese: Lipsia, Germania
 - Lavoro o attività principale: **pizzaiolo**
 
 ## Obiettivi (prossimi 12 mesi)
@@ -24,18 +24,19 @@
 - Strumenti in uso: vidIQ (YouTube) e Metricool (pianificazione e analisi social).
 
 ## Valori e priorità
-- _…_ (es. famiglia, libertà, sicurezza economica, crescita)
+- Impegno e serietà in tutto ciò che fa.
 
 ## Punti di forza
 - Competenza professionale da pizzaiolo: impasti, lievitazione, cottura e
   tecnica sono il valore che rende credibili i contenuti e i prodotti.
 
 ## Difficoltà ricorrenti
-- _…_
+- Trovare la strada giusta per far crescere la pagina Pizza Perfetta a Casa:
+  strategia di contenuti, costanza e aumento del pubblico.
 
 ## Stile di comunicazione preferito
 - Lunghezza: **risposte dettagliate**, con spiegazioni e passaggi concreti
-- Tono: _formale / informale_
+- Tono: **formale**
 
 ## Limiti
 - Argomenti o scelte da non suggerire mai: _…_
