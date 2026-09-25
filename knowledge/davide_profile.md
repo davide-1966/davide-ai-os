@@ -15,7 +15,14 @@
 - Progetti personali: _…_
 
 ## Progetti in corso
-- _…_ (es. canale YouTube, profili social, attività)
+- **Pizza Perfetta a Casa**: progetto social di cucina dedicato alla pizza fatta in casa.
+  - Instagram: `@pizza_perfetta_a_casa`
+  - TikTok: `@pizza_perfetta_a_`
+  - Gestito con Metricool dall'8 settembre 2026 (fuso orario Europe/Berlin).
+- **Canale YouTube "Davide Paba"**: creato nel 2009, al momento senza video pubblicati
+  né iscritti. È un canale pronto da attivare, per esempio per portare
+  Pizza Perfetta a Casa anche su YouTube.
+- Strumenti in uso: vidIQ (YouTube) e Metricool (pianificazione e analisi social).
 
 ## Valori e priorità
 - _…_ (es. famiglia, libertà, sicurezza economica, crescita)
