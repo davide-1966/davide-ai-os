@@ -51,6 +51,19 @@
 - Orari migliori secondo Instagram: martedì 18–24, domenica 18–21.
 - Pubblica da 17 settimane consecutive.
 
+### Account tedesco @pizza_perfetta_a_casa2 (analisi del 3 ottobre 2026)
+- 28 follower, 12 reel dal 22 agosto, da 6 a 198 visualizzazioni.
+- Lo stesso reel del lievito: 1.779 visualizzazioni sull'account italiano, 10 su quello
+  tedesco. Era lo stesso file, con scritta e voce in italiano: i tedeschi scorrono via
+  nei primi 3 secondi.
+- 8 reel su 12 promuovono l'app o cercano tester; anche la bio spinge l'app
+  («Kostenlos testen»). Un reel era addirittura in italiano («CERCO 13 TESTER»).
+- Hashtag in parte italiani o sbagliati (#pizzafattaincasa, #pizzaperfectapizza).
+- Il migliore (198) è «Römische Pizza»: scritta in tedesco, contenuto utile, nessuna vendita.
+- Regola: sull'account tedesco solo versioni native (scritta, voce e attacco in tedesco,
+  HeyGen Video Translate o testo avatar tedesco), hashtag tedeschi e #leipzig,
+  posizionamento «Italienischer Pizzaiolo in Leipzig», app al massimo una volta a settimana.
+
 ## Valori e priorità
 - Impegno e serietà in tutto ciò che fa.
 
