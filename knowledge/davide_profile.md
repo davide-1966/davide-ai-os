@@ -19,9 +19,11 @@
     pizza come in pizzeria · Autore di Pizza Perfetta a casa")
   - TikTok: `@pizza_perfetta_a_`
   - Gestito con Metricool dall'8 settembre 2026 (fuso orario Europe/Berlin).
-- **Canale YouTube "Davide Paba"**: creato nel 2009, al momento senza video pubblicati
-  né iscritti. È un canale pronto da attivare, per esempio per portare
-  Pizza Perfetta a Casa anche su YouTube.
+- **Canale YouTube "Pizza Perfetta a Casa"** (`@pizzaperfettaacasa`, rinominato il 4 ottobre
+  2026 da "Davide Paba"; collegato a Metricool). Primo passo: gli stessi reel italiani come
+  Shorts (il primo, sul lievito, il 5 ottobre alle 18:00). Poi un tutorial lungo ogni due
+  settimane. Ricerche YouTube al mese: "pizza napoletana fatta in casa" 5.091 (concorrenza
+  bassa), "pizzateig selber machen" 13.969, "pizzateig ausrollen" 3.722 (concorrenza 9).
 - **App Pizza Perfetta a Casa**: corso pizza, ricette, calcolatore di idratazione e
   impasti, video tutorial e community. Nel settembre 2026 è in test con tester
   volontari su Android e iOS, prima del lancio su Google Play.
