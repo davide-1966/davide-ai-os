@@ -53,6 +53,14 @@
 - Orari migliori secondo Instagram: martedì 18–24, domenica 18–21.
 - Pubblica da 17 settimane consecutive.
 
+### Settimana 28 settembre – 4 ottobre 2026 e prima sponsorizzazione
+- 5 reel, 7.036 riproduzioni (media 1.407 per reel), follower da 266 a 411.
+- Reel del lievito: 5.084 visualizzazioni, 183 follow. Sponsorizzato dal 4/10 (15 € in 5 giorni,
+  pubblico «pizza fatta in casa IT»): dopo 5,11 € → 2.073 visualizzazioni pagate, 36 follow,
+  **0,14 € per follower**. Parte organica: ~147 follow da ~3.011 visualizzazioni (~49 ogni 1.000).
+- Regola: sponsorizzare solo il reel che va già meglio da solo; circa 15 € a settimana finché il
+  costo per follower resta sotto 0,30 €.
+
 ### Account tedesco @pizza_perfetta_a_casa2 (analisi del 3 ottobre 2026)
 - 28 follower, 12 reel dal 22 agosto, da 6 a 198 visualizzazioni.
 - Lo stesso reel del lievito: 1.779 visualizzazioni sull'account italiano, 10 su quello
