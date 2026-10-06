@@ -74,6 +74,14 @@
   HeyGen Video Translate o testo avatar tedesco), hashtag tedeschi e #leipzig,
   posizionamento «Italienischer Pizzaiolo in Leipzig», app al massimo una volta a settimana.
 
+## Regole di lavoro
+- **Prima di programmare qualsiasi post su Metricool, controllare sempre il calendario**
+  (getScheduledPosts, brand 6891914): Davide può aver già programmato contenuti da solo o con
+  altri strumenti. Il 6 ottobre 2026 c'erano due serie di reel avatar sovrapposte: un solo reel
+  al giorno su Instagram, nessun argomento ripetuto; i doppioni vanno messi in bozza, non cancellati.
+- I video si trascrivono con sherpa-onnx (modello Whisper small da GitHub, k2-fsa/sherpa-onnx):
+  non serve chiedere a Davide cosa dice un video.
+
 ## Valori e priorità
 - Impegno e serietà in tutto ciò che fa.
 
