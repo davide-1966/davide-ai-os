@@ -76,7 +76,8 @@
 
 ## Regole di lavoro
 - **Prima di programmare qualsiasi post su Metricool, controllare sempre il calendario**
-  (getScheduledPosts, brand 6891914): Davide può aver già programmato contenuti da solo o con
+  (getScheduledPosts): brand 6891914 per l'account italiano, TikTok e YouTube; brand 7285585 per
+  l'account tedesco @pizza_perfetta_a_casa2 (collegato il 7 ottobre 2026, reel tedeschi alle 19:00). Davide può aver già programmato contenuti da solo o con
   altri strumenti. Il 6 ottobre 2026 c'erano due serie di reel avatar sovrapposte: un solo reel
   al giorno su Instagram, nessun argomento ripetuto; i doppioni vanno messi in bozza, non cancellati.
 - I video si trascrivono con sherpa-onnx (modello Whisper small da GitHub, k2-fsa/sherpa-onnx):
