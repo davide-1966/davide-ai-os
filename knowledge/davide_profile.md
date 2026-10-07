@@ -73,6 +73,10 @@
 - Regola: sull'account tedesco solo versioni native (scritta, voce e attacco in tedesco,
   HeyGen Video Translate o testo avatar tedesco), hashtag tedeschi e #leipzig,
   posizionamento «Italienischer Pizzaiolo in Leipzig», app al massimo una volta a settimana.
+- Aggiornamento 7 ottobre 2026: 82 follower. Il reel «sale e lievito» con **voce italiana e
+  sottotitoli tedeschi** ha fatto 362 visualizzazioni (record dell'account), contro 35 dello stesso
+  tipo di reel con voce avatar in tedesco. Come il reel bilingue del 16 agosto: la voce vera
+  italiana con scritte tedesche funziona meglio della voce tedesca sintetica. Da provare ancora.
 
 ## Regole di lavoro
 - **Prima di programmare qualsiasi post su Metricool, controllare sempre il calendario**
