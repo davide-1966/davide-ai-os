@@ -5,6 +5,7 @@ https://pizza-perfetta-a-casa.netlify.app). L'app Android `app.netlify.pizza_per
 (creata con PWABuilder) apre questo sito a schermo pieno.
 
 - `index.html`: tutta l'app (login con Netlify Identity, dati con Firebase).
+- `manifest.json`, `service-worker.js`, `icon-*.png`: dati dell'app per PWABuilder e uso offline.
 - `assetlinks.json` + `_redirects`: certificato Digital Asset Links servito su
   `/.well-known/assetlinks.json`. Netlify Drop scarta le cartelle che iniziano con il punto,
   per questo il file sta nella radice e `_redirects` lo rende raggiungibile all'indirizzo giusto.

@@ -36,7 +36,7 @@
   (login con Netlify Identity, dati con Firebase). Per modificarla: scaricare il deploy da Netlify,
   cambiare index.html, ricaricare lo zip nella pagina Deploys. L'8/10 aggiunto l'occhio per mostrare
   la password e il certificato assetlinks.json (chiave di firma Play AA:32:CC… e di caricamento
-  0F:22:E3…). Copia dei file in `app_sito/`. Mancano ancora manifest.json e service-worker.js.
+  0F:22:E3…). Copia dei file in `app_sito/`. Aggiunti manifest.json, service-worker.js e icone (8/10).
 - **Libro "Pizza Perfetta a casa"**, di cui è autore.
 - Strumenti in uso: vidIQ (YouTube), Metricool (pianificazione e analisi social) e
   HeyGen (avatar con il suo volto e la sua voce clonata).
