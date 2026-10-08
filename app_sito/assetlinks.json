@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.netlify.pizza_perfetta_a_casa.twa",
+      "sha256_cert_fingerprints": [
+        "AA:32:CC:A5:59:27:D9:0B:BE:D8:DE:18:85:A1:65:14:12:E0:55:ED:5F:2C:2C:CD:4B:21:7A:6D:BF:6D:B6:B5",
+        "0F:22:E3:36:B3:9F:22:70:D9:90:28:66:50:81:EC:5C:8C:13:DF:11:4D:3A:D6:FB:94:2E:E5:C8:82:64:08:54"
+      ]
+    }
+  }
+]
