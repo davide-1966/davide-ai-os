@@ -105,6 +105,13 @@ pochi iscritti: serve un invito a iscriversi.
   lingua parlata. Come il reel bilingue del 16 agosto, l'italiano parlato con le scritte in tedesco
   funziona meglio del tedesco parlato. Da confermare con altri reel.
 
+## Raccolta contatti (lead magnet)
+- Dall'8/10/2026 è attiva su ManyChat (PRO, account italiano) la Quick Automation «IMPASTO»: commento
+  «IMPASTO» sotto qualsiasi post/reel → risposta pubblica → DM con pulsante → richiesta email (con
+  consenso, «puoi cancellarti quando vuoi») → richiesta di follow → link alla tabella
+  https://pizza-perfetta-a-casa.netlify.app/tabella-impasti.pdf. Obiettivo: lista email per il lancio
+  dell'app a fine ottobre. Nelle didascalie italiane aggiungere «Commenta IMPASTO e ti mando la tabella».
+
 ## Regole di lavoro
 - **Prima di programmare qualsiasi post su Metricool, controllare sempre il calendario**
   (getScheduledPosts): brand 6891914 per l'account italiano, TikTok e YouTube; brand 7285585 per
