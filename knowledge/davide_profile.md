@@ -111,6 +111,8 @@ pochi iscritti: serve un invito a iscriversi.
   l'account tedesco @pizza_perfetta_a_casa2 (collegato il 7 ottobre 2026, reel tedeschi alle 19:00). Davide può aver già programmato contenuti da solo o con
   altri strumenti. Il 6 ottobre 2026 c'erano due serie di reel avatar sovrapposte: un solo reel
   al giorno su Instagram, nessun argomento ripetuto; i doppioni vanno messi in bozza, non cancellati.
+- YouTube Shorts: alla fine di ogni Short una scritta di 2 secondi «ISCRIVITI per il prossimo segreto»;
+  sotto ogni Short Davide fissa il commento con l'invito a iscriversi e una domanda (fatto l'8/10 sui 3 migliori).
 - I video si trascrivono con sherpa-onnx (modello Whisper small da GitHub, k2-fsa/sherpa-onnx):
   non serve chiedere a Davide cosa dice un video.
 
