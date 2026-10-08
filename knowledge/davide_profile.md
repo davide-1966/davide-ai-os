@@ -82,6 +82,11 @@
 | 6/10 | 579 | 81 |
 | 8/10 | quasi 700 | oltre 100 |
 
+YouTube all'8/10: 6 iscritti, 3.100 visualizzazioni e 4,4 ore negli ultimi 28 giorni. Short migliori
+nelle ultime 48 ore: «Perché la tua pizza non viene così? 3 errori» 1.200 in 19 ore (78% visto in media,
+pizza vera, senza avatar), «L'impasto si strappa? È freddo» 742, «Più lievito» 89. Molte visualizzazioni,
+pochi iscritti: serve un invito a iscriversi.
+
 ### Account tedesco @pizza_perfetta_a_casa2 (analisi del 3 ottobre 2026)
 - 28 follower, 12 reel dal 22 agosto, da 6 a 198 visualizzazioni.
 - Lo stesso reel del lievito: 1.779 visualizzazioni sull'account italiano, 10 su quello
