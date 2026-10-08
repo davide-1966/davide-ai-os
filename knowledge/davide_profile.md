@@ -28,6 +28,9 @@
   impasti, video tutorial e community. Nel settembre 2026 è in test con tester
   volontari su Android e iOS, prima del lancio su Google Play.
   Sito: https://pizza-perfetta-a-casa.netlify.app
+  Test chiuso Google Play tramite Testers Community (piano Starter, 15/15 tester): giorno 5 di 16
+  l'8 ottobre 2026. Servono 2–3 aggiornamenti dell'app durante il test; dal 17/10 (giorno 14)
+  scaricare il «Production Access Report» e chiedere l'accesso alla produzione su Play Console.
 - **Libro "Pizza Perfetta a casa"**, di cui è autore.
 - Strumenti in uso: vidIQ (YouTube), Metricool (pianificazione e analisi social) e
   HeyGen (avatar con il suo volto e la sua voce clonata).
