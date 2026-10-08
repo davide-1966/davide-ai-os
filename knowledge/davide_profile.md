@@ -31,6 +31,11 @@
   Test chiuso Google Play tramite Testers Community (piano Starter, 15/15 tester): giorno 5 di 16
   l'8 ottobre 2026. Servono 2–3 aggiornamenti dell'app durante il test; dal 17/10 (giorno 14)
   scaricare il «Production Access Report» e chiedere l'accesso alla produzione su Play Console.
+  Com'è fatta: l'app Android (pacchetto app.netlify.pizza_perfetta_a_casa.twa, creato con PWABuilder)
+  apre il sito Netlify «pizza-perfetta-a-casa», che è un unico index.html caricato con Netlify Drop
+  (login con Netlify Identity, dati con Firebase). Per modificarla: scaricare il deploy da Netlify,
+  cambiare index.html, ricaricare lo zip nella pagina Deploys. L'8/10 aggiunto l'occhio per mostrare
+  la password. Nel deploy mancano manifest.json, service-worker.js e .well-known/assetlinks.json.
 - **Libro "Pizza Perfetta a casa"**, di cui è autore.
 - Strumenti in uso: vidIQ (YouTube), Metricool (pianificazione e analisi social) e
   HeyGen (avatar con il suo volto e la sua voce clonata).
