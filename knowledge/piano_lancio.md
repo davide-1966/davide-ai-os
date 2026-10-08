@@ -10,13 +10,13 @@ Preparato da Horacle l'8 ottobre 2026. Da confermare con Davide: data, offerta, 
 - Lista email: automazione ManyChat «IMPASTO» attiva dall'8/10.
 
 ## Decisione di Davide (8/10)
-Aspettare anche l'App Store di Apple prima del lancio; nel frattempo raccogliere follower ed email il più possibile.
-Da verificare: stato dell'app iOS (account Apple Developer, Mac per il pacchetto, revisione Apple) e
-pagamenti dentro le app (Apple e Google chiedono di norma il loro sistema per gli abbonamenti digitali).
+Il lancio si fa quando l'app è pubblica su **Google Play** (non Apple); nel frattempo raccogliere
+follower ed email il più possibile. Da verificare prima della richiesta di produzione del 17/10:
+le regole di Google Play sui pagamenti (abbonamento Premium venduto con Gumroad dentro l'app).
 
-## Data proposta (sospesa finché non è chiaro l'App Store)
+## Data proposta (dipende dall'approvazione di Google Play)
 **Martedì 27 ottobre, ore 18:30.** Il martedì sera è tra le serate migliori del pubblico.
-Se Google Play non ha ancora approvato, si lancia lo stesso con il sito e si aggiunge il link Play appena arriva.
+Se Google approva più tardi, la data slitta al primo martedì dopo l'approvazione.
 
 ## Offerta di lancio (proposta)
 - Prezzo normale: **4,99 €/mese** (resta quello attuale).
