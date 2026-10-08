@@ -74,6 +74,14 @@
 - Regola: sponsorizzare solo il reel che va già meglio da solo; circa 15 € a settimana finché il
   costo per follower resta sotto 0,30 €.
 
+### Crescita follower (aggiornato all'8 ottobre 2026)
+| Data | Instagram italiano | Instagram tedesco |
+|---|---|---|
+| 25/9 | 266 | – |
+| 3/10 | – | 28 |
+| 6/10 | 579 | 81 |
+| 8/10 | quasi 700 | oltre 100 |
+
 ### Account tedesco @pizza_perfetta_a_casa2 (analisi del 3 ottobre 2026)
 - 28 follower, 12 reel dal 22 agosto, da 6 a 198 visualizzazioni.
 - Lo stesso reel del lievito: 1.779 visualizzazioni sull'account italiano, 10 su quello
