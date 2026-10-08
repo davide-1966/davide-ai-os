@@ -9,7 +9,12 @@ Preparato da Horacle l'8 ottobre 2026. Da confermare con Davide: data, offerta, 
 - Pubblico all'8/10: Instagram IT quasi 700, DE oltre 100, YouTube 6 iscritti (3.100 visualizzazioni in 28 giorni).
 - Lista email: automazione ManyChat «IMPASTO» attiva dall'8/10.
 
-## Data proposta
+## Decisione di Davide (8/10)
+Aspettare anche l'App Store di Apple prima del lancio; nel frattempo raccogliere follower ed email il più possibile.
+Da verificare: stato dell'app iOS (account Apple Developer, Mac per il pacchetto, revisione Apple) e
+pagamenti dentro le app (Apple e Google chiedono di norma il loro sistema per gli abbonamenti digitali).
+
+## Data proposta (sospesa finché non è chiaro l'App Store)
 **Martedì 27 ottobre, ore 18:30.** Il martedì sera è tra le serate migliori del pubblico.
 Se Google Play non ha ancora approvato, si lancia lo stesso con il sito e si aggiunge il link Play appena arriva.
 
