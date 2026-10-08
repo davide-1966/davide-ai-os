@@ -13,6 +13,9 @@ Preparato da Horacle l'8 ottobre 2026. Da confermare con Davide: data, offerta, 
 Il lancio si fa quando l'app è pubblica su **Google Play** (non Apple); nel frattempo raccogliere
 follower ed email il più possibile. Da verificare prima della richiesta di produzione del 17/10:
 le regole di Google Play sui pagamenti (abbonamento Premium venduto con Gumroad dentro l'app).
+**Decisione di Davide (8/10): nell'app Android pagamento con Google Play** (più fiducia per i clienti,
+commissione 15% contro circa il 30% di Gumroad su 4,99 €). Sul sito si valuta Stripe al posto di Gumroad.
+Il 13/10 Horacle prepara i passi (PWABuilder: opzione Google Play Billing, abbonamento in Play Console).
 
 ## Data proposta (dipende dall'approvazione di Google Play)
 **Martedì 27 ottobre, ore 18:30.** Il martedì sera è tra le serate migliori del pubblico.
