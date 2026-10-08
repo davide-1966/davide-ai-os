@@ -37,8 +37,8 @@
   cambiare index.html, ricaricare lo zip nella pagina Deploys. L'8/10 aggiunto l'occhio per mostrare
   la password e il certificato assetlinks.json (chiave di firma Play AA:32:CC… e di caricamento
   0F:22:E3…). Copia dei file in `app_sito/`. Aggiunti manifest.json, service-worker.js e icone (8/10).
-  Aggiornamenti per il test chiuso (canale «alpha»): v2 (2.0.0) del 1/10; **v3 (2.0.1) inviata in
-  revisione l'8/10** (pacchetto PWABuilder, minimo Android 7). Prossimo aggiornamento: v4 verso il 14/10.
+  Aggiornamenti per il test chiuso (canale «alpha»): v2 (2.0.0) del 1/10; **v3 (2.0.1) approvata e pubblicata
+  l'8/10** (16 installazioni) (pacchetto PWABuilder, minimo Android 7). Prossimo aggiornamento: v4 verso il 14/10.
   Chiave di caricamento: alias pizza-perfetta-key, file signing.keystore (copia su Google Drive e
   WhatsApp di Davide; mai nel repository).
 - **Libro "Pizza Perfetta a casa"**, di cui è autore.
