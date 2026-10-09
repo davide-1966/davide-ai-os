@@ -81,6 +81,7 @@
 | 3/10 | – | 28 |
 | 6/10 | 579 | 81 |
 | 8/10 | quasi 700 | oltre 100 |
+| 9/10 | – | 151 |
 
 YouTube all'8/10: 6 iscritti, 3.100 visualizzazioni e 4,4 ore negli ultimi 28 giorni. Short migliori
 nelle ultime 48 ore: «Perché la tua pizza non viene così? 3 errori» 1.200 in 19 ore (78% visto in media,
@@ -102,8 +103,10 @@ pochi iscritti: serve un invito a iscriversi.
 - Aggiornamento 7 ottobre 2026: 82 follower. Il reel «sale e lievito» con **voce italiana e
   sottotitoli tedeschi** ha fatto 362 visualizzazioni (record dell'account), contro 35 del reel
   del lievito con l'avatar che parla tedesco. Entrambi sono reel avatar HeyGen: cambia solo la
-  lingua parlata. Come il reel bilingue del 16 agosto, l'italiano parlato con le scritte in tedesco
-  funziona meglio del tedesco parlato. Da confermare con altri reel.
+  lingua parlata. Ipotesi iniziale: l'italiano parlato con scritte tedesche funziona meglio.
+- **Smentita il 9/10:** il reel «Type 405 = Tipo 00? Falsch.» (avatar che parla tedesco, sulla farina
+  tedesca) ha fatto 3.317 visualizzazioni in 2 giorni, record assoluto dell'account; follower da 82 a 151.
+  Conta più l'argomento vicino al pubblico tedesco (le loro farine, i loro dubbi) che la lingua parlata.
 
 ## Raccolta contatti (lead magnet)
 - Dall'8/10/2026 è attiva su ManyChat (PRO, account italiano) la Quick Automation «IMPASTO»: commento
