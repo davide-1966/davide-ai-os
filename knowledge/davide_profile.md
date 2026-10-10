@@ -37,6 +37,9 @@
   cambiare index.html, ricaricare lo zip nella pagina Deploys. L'8/10 aggiunto l'occhio per mostrare
   la password e il certificato assetlinks.json (chiave di firma Play AA:32:CC… e di caricamento
   0F:22:E3…). Copia dei file in `app_sito/`. Aggiunti manifest.json, service-worker.js e icone (8/10).
+  10/10 pubblicata la v10 sul sito: foto «Vero Pizzaiolo» in home, pulsante Lezioni e Home funzionanti,
+  controllo dei valori nel calcolatore, dosi che si aggiornano da sole, biga 50% gratis (70–100% Premium),
+  ricetta 24h = 2+18+4 ore, stile «Pizza in teglia» (75–80%, 700 g per teglia, Premium).
   Aggiornamenti per il test chiuso (canale «alpha»): v2 (2.0.0) del 1/10; **v3 (2.0.1) approvata e pubblicata
   l'8/10** (16 installazioni) (pacchetto PWABuilder, minimo Android 7). Prossimo aggiornamento: v4 verso il 14/10.
   Chiave di caricamento: alias pizza-perfetta-key, file signing.keystore (copia su Google Drive e
