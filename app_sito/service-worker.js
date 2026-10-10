@@ -1,6 +1,6 @@
 // Service worker di Pizza Perfetta a Casa: la pagina arriva sempre dalla rete,
 // la copia salvata serve solo quando manca la connessione.
-const CACHE = 'pizza-perfetta-v2';
+const CACHE = 'pizza-perfetta-v3';
 const FILES = ['/', '/manifest.json', '/icon-192.png', '/icon-512.png', '/hero.jpg'];
 
 self.addEventListener('install', (event) => {
