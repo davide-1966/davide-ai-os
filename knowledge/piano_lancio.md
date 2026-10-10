@@ -15,6 +15,7 @@ follower ed email il più possibile. Da verificare prima della richiesta di prod
 le regole di Google Play sui pagamenti (abbonamento Premium venduto con Gumroad dentro l'app).
 **Decisione di Davide (8/10): nell'app Android pagamento con Google Play** (più fiducia per i clienti,
 commissione 15% contro circa il 30% di Gumroad su 4,99 €). Sul sito si valuta Stripe al posto di Gumroad.
+Profilo pagamenti Play Console collegato (Germania), IBAN inserito e commissione del 15% accettata (10/10).
 Il 13/10 Horacle prepara i passi (PWABuilder: opzione Google Play Billing, abbonamento in Play Console).
 
 ## Data proposta (dipende dall'approvazione di Google Play)
