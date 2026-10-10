@@ -2088,6 +2088,24 @@
     const suffix = (LANG[currentLang] && LANG[currentLang].hyd_free_suffix) || '(libera di scegliere)';
     document.getElementById('hydHint').textContent = prefix + ' ' + p.hydMin + '-' + p.hydMax + '% ' + suffix;
     document.getElementById('ballWeight').value = p.ballWeight;
+    // Per la teglia le etichette parlano di teglie invece che di palle
+    const TEGLIA_LBL = {
+      it: ['Numero teglie', 'Grammi a teglia'],
+      en: ['Number of pans', 'Grams per pan'],
+      es: ['Número de bandejas', 'Gramos por bandeja'],
+      fr: ['Nombre de plaques', 'Grammes par plaque'],
+      de: ['Anzahl Bleche', 'Gramm pro Blech']
+    };
+    const ballsLbl = document.querySelector('[data-i18n="calc_balls_label"]');
+    const weightLbl = document.querySelector('[data-i18n="calc_ballweight_label"]');
+    const dict = LANG[currentLang] || LANG.it;
+    if (styleKey === 'teglia') {
+      const tl = TEGLIA_LBL[currentLang] || TEGLIA_LBL.it;
+      ballsLbl.textContent = tl[0]; weightLbl.textContent = tl[1];
+    } else {
+      if (dict.calc_balls_label) ballsLbl.innerHTML = dict.calc_balls_label;
+      if (dict.calc_ballweight_label) weightLbl.innerHTML = dict.calc_ballweight_label;
+    }
   }
 
   document.querySelectorAll('.style-btn').forEach(function(btn){
