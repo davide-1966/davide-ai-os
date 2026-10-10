@@ -82,6 +82,7 @@
 | 6/10 | 579 | 81 |
 | 8/10 | quasi 700 | oltre 100 |
 | 9/10 | – | 151 |
+| 10/10 | 737 | 168 |
 
 YouTube all'8/10: 6 iscritti, 3.100 visualizzazioni e 4,4 ore negli ultimi 28 giorni. Short migliori
 nelle ultime 48 ore: «Perché la tua pizza non viene così? 3 errori» 1.200 in 19 ore (78% visto in media,
