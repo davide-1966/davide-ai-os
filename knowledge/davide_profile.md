@@ -120,6 +120,10 @@ pochi iscritti: serve un invito a iscriversi.
 - Regola: funzionano i dubbi di base sull'impasto (lievito, farina, impasto che si strappa), come in tedesco
   con la Type 405. I condimenti e le foto di pizze no.
 - Profilo: 604 visite, solo 5 tocchi sul link in bio. Il link in bio converte pochissimo.
+- Il reel del lievito (uscito il 29/9) è stato **sponsorizzato dal 4/10**: 14,74 € in 5 giorni, pubblico
+  «pizza fatta in casa IT», Instagram + Facebook. Dalla pubblicità: 6.453 visualizzazioni, 297 visite al profilo
+  (0,05 € l'una), **88 follow = circa 0,17 € a follower** (buono, soglia 0,30 €). Gli altri 358 follow e circa
+  3.000 visualizzazioni non sono attribuiti alla pubblicità.
 
 ## Raccolta contatti (lead magnet)
 - Dall'8/10/2026 è attiva su ManyChat (PRO, account italiano) la Quick Automation «IMPASTO»: commento
