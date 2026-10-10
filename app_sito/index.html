@@ -471,7 +471,7 @@
     <!-- BANNER NOVITÀ -->
     <div class="novita-banner" id="novitaBanner" onclick="openNovita()">
       <span class="novita-icon">🎉</span>
-      <span class="novita-text"><strong>Novità:</strong> aggiunta la Biga nel Calcolatore e nel Corso Pizza — tocca per vedere cosa c'è di nuovo</span>
+      <span class="novita-text" data-i18n="novita_banner"><strong>Novità:</strong> aggiunta la Biga nel Calcolatore e nel Corso Pizza — tocca per vedere cosa c'è di nuovo</span>
       <span class="novita-close" onclick="event.stopPropagation(); closeNovitaBanner();">✕</span>
     </div>
 
@@ -708,6 +708,8 @@
       <div class="calc-warning" id="calcWarning" style="display:none;">
         <span data-i18n="calc_warning_text">⚠️ Con la planetaria è meglio non scendere sotto il 60% di idratazione — rischio di sforzare il motore. Sotto quella soglia si consiglia l'impasto a mano.</span>
       </div>
+
+      <div class="calc-warning" id="calcError" style="display:none;"></div>
 
       <div class="calc-results" id="calcResults" style="display:none;">
         <div class="calc-result-title" data-i18n="calc_result_title">Le tue dosi</div>
@@ -1348,6 +1350,7 @@
       lbl_lievito_fresco_biga: 'Lievito fresco (biga)',
       lbl_lievito_secco_biga: 'Lievito secco (biga)',
       biga_subtitle: '🫓 Biga (prepara 16-24h prima, 16-18°C)',
+      novita_banner: '<strong>Novità:</strong> aggiunta la Biga nel Calcolatore e nel Corso Pizza — tocca per vedere cosa c\'è di nuovo',
       finale_subtitle: '🍕 Impasto finale (il giorno dopo)',
       watertemp_prefix: '💧 Acqua a',
       watertemp_cold: 'praticamente ghiacciata, usa acqua di frigo/ghiaccio',
@@ -1457,6 +1460,7 @@
       lbl_lievito_fresco_biga: 'Fresh yeast (biga)',
       lbl_lievito_secco_biga: 'Dry yeast (biga)',
       biga_subtitle: '🫓 Biga (prepare 16-24h ahead, 16-18°C)',
+      novita_banner: '<strong>New:</strong> Biga added to the Calculator and the Pizza Course — tap to see what\'s new',
       finale_subtitle: '🍕 Final dough (the next day)',
       watertemp_prefix: '💧 Water at',
       watertemp_cold: 'practically ice-cold, use fridge or ice water',
@@ -1566,6 +1570,7 @@
       lbl_lievito_fresco_biga: 'Levadura fresca (biga)',
       lbl_lievito_secco_biga: 'Levadura seca (biga)',
       biga_subtitle: '🫓 Biga (prepárala 16-24h antes, 16-18°C)',
+      novita_banner: '<strong>Novedad:</strong> añadida la Biga en la Calculadora y en el Curso de Pizza — toca para ver las novedades',
       finale_subtitle: '🍕 Masa final (al día siguiente)',
       watertemp_prefix: '💧 Agua a',
       watertemp_cold: 'prácticamente helada, usa agua de nevera o hielo',
@@ -1675,6 +1680,7 @@
       lbl_lievito_fresco_biga: 'Levure fraîche (biga)',
       lbl_lievito_secco_biga: 'Levure sèche (biga)',
       biga_subtitle: '🫓 Biga (à préparer 16-24h avant, 16-18°C)',
+      novita_banner: '<strong>Nouveau :</strong> la Biga arrive dans le Calculateur et le Cours de Pizza — touche pour voir les nouveautés',
       finale_subtitle: '🍕 Pâte finale (le lendemain)',
       watertemp_prefix: '💧 Eau à',
       watertemp_cold: 'pratiquement glacée, utilisez de l\'eau du réfrigérateur ou glacée',
@@ -1784,6 +1790,7 @@
       lbl_lievito_fresco_biga: 'Frischhefe (Biga)',
       lbl_lievito_secco_biga: 'Trockenhefe (Biga)',
       biga_subtitle: '🫓 Biga (16-24h vorher zubereiten, 16-18°C)',
+      novita_banner: '<strong>Neu:</strong> Biga im Rechner und im Pizzakurs — tippe, um die Neuigkeiten zu sehen',
       finale_subtitle: '🍕 Hauptteig (am nächsten Tag)',
       watertemp_prefix: '💧 Wasser mit',
       watertemp_cold: 'praktisch eiskalt, verwende Kühlschrank- oder Eiswasser',
@@ -1850,7 +1857,14 @@
       openProfilo();
       return;
     }
-    alert('Sezione "' + section + '" — qui andrà collegata la schermata reale.');
+    if (section === 'Lezioni') {
+      openCorso();
+      return;
+    }
+    // Home: chiude le finestre aperte e torna in cima
+    document.querySelectorAll('[id$="Modal"].show').forEach(function(m){ m.classList.remove('show'); });
+    const sc = document.querySelector('.scroll');
+    if (sc) sc.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   // ===== PREFERITI =====
@@ -2132,6 +2146,11 @@
 
   document.getElementById('hydRange').addEventListener('input', function(){
     document.getElementById('hydVal').textContent = this.value;
+    refreshCalcIfShown();
+  });
+  ['balls','ballWeight','hours','roomTemp','flourTemp','tidTemp'].forEach(function(id){
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('change', refreshCalcIfShown);
   });
 
   function calcola(){
@@ -2143,6 +2162,25 @@
     const hours = parseFloat(document.getElementById('hours').value) || 24;
     const roomTemp = parseFloat(document.getElementById('roomTemp').value) || 24;
     const flourTemp = parseFloat(document.getElementById('flourTemp').value) || 24;
+
+    // Controllo dei valori: niente dosi con numeri negativi o fuori misura
+    const CALC_ERR = {
+      it: '⚠️ Controlla i valori: palline da 1 a 100, peso da 100 a 600 g, ore da 2 a 96, temperature da 0 a 40 °C.',
+      en: '⚠️ Check the values: 1–100 balls, 100–600 g each, 2–96 hours, temperatures 0–40 °C.',
+      es: '⚠️ Revisa los valores: de 1 a 100 bolas, de 100 a 600 g, de 2 a 96 horas, temperaturas de 0 a 40 °C.',
+      fr: '⚠️ Vérifie les valeurs : 1 à 100 pâtons, 100 à 600 g, 2 à 96 heures, températures de 0 à 40 °C.',
+      de: '⚠️ Prüfe die Werte: 1–100 Teiglinge, 100–600 g, 2–96 Stunden, Temperaturen 0–40 °C.'
+    };
+    const errBox = document.getElementById('calcError');
+    const invalid = !(balls >= 1 && balls <= 100) || !(ballWeight >= 100 && ballWeight <= 600) ||
+      !(hours >= 2 && hours <= 96) || !(roomTemp >= 0 && roomTemp <= 40) || !(flourTemp >= 0 && flourTemp <= 40);
+    if (invalid) {
+      errBox.textContent = CALC_ERR[currentLang] || CALC_ERR.it;
+      errBox.style.display = 'block';
+      document.getElementById('calcResults').style.display = 'none';
+      return;
+    }
+    errBox.style.display = 'none';
 
     // sale e olio fissi allo standard dello stile, lievito (fresco) scalato in base alle ore di maturazione
     const saltPct = p.salt / 100;
@@ -2241,7 +2279,7 @@
     });
     document.documentElement.lang = lang;
     // ricalcola l'hint idratazione nella lingua corrente per lo stile attivo
-    if (typeof calcState !== 'undefined') { applyStylePreset(calcState.style); }
+    if (typeof calcState !== 'undefined') { applyStylePreset(calcState.style); if (typeof refreshCalcIfShown === 'function') refreshCalcIfShown(); }
     document.querySelectorAll('#langSwitcher .lang-btn').forEach(function(b){
       b.classList.toggle('active', b.dataset.lang === lang);
     });
