@@ -112,6 +112,15 @@ pochi iscritti: serve un invito a iscriversi.
   tedesca) ha fatto 3.317 visualizzazioni in 2 giorni, record assoluto dell'account; follower da 82 a 151.
   Conta più l'argomento vicino al pubblico tedesco (le loro farine, i loro dubbi) che la lingua parlata.
 
+## Instagram IT: cosa porta follower (insights 30 giorni, 10/10/2026)
+- Reel «Più lievito = pizza più buona? FALSO» (Il lievito dà velocità, non sapore): 9.300 visualizzazioni,
+  201 mi piace, 49 salvataggi, **446 follow**: quasi tutta la crescita del mese viene da qui.
+- Poi: «Il 90% degli impasti che si strappa» 1.900 visualizzazioni e 16 follow; «Cerco assaggiatori» 2.000 e 7;
+  «Farina del supermercato» 1.200 e 4. I «FALSO» sui condimenti (mozzarella, pomodoro) 230–260 e 0 follow.
+- Regola: funzionano i dubbi di base sull'impasto (lievito, farina, impasto che si strappa), come in tedesco
+  con la Type 405. I condimenti e le foto di pizze no.
+- Profilo: 604 visite, solo 5 tocchi sul link in bio. Il link in bio converte pochissimo.
+
 ## Raccolta contatti (lead magnet)
 - Dall'8/10/2026 è attiva su ManyChat (PRO, account italiano) la Quick Automation «IMPASTO»: commento
   «IMPASTO» sotto qualsiasi post/reel → risposta pubblica → DM con pulsante → richiesta email (con
