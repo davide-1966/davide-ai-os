@@ -274,6 +274,8 @@
   .style-btn.active{ background:var(--arancio); border-color:var(--arancio); color:white; }
   #calcStyles .style-btn:not([data-style="napoletana"])::after{ content:" 🔒"; font-size:9px; }
   body.is-premium #calcStyles .style-btn::after{ content:none; }
+  #calcBigaPct .biga-btn:not([data-biga="50"])::after{ content:" 🔒"; font-size:9px; }
+  body.is-premium #calcBigaPct .biga-btn::after{ content:none; }
   body.is-premium .lesson-head[data-premium="1"] .lesson-chevron::before{ content:""; }
   body.is-premium .card-lock, body.is-premium .trust-lock{ display:none; }
   .card-lock, .trust-lock{ font-size:10px; color:var(--arancio); font-weight:800; }
@@ -2116,6 +2118,11 @@
 
   document.querySelectorAll('.biga-btn').forEach(function(btn){
     btn.addEventListener('click', function(){
+      // Biga al 50% gratis per tutti; 70% e 100% solo Premium
+      if (btn.dataset.biga !== '50' && !isPremium) {
+        openPaywall();
+        return;
+      }
       document.querySelectorAll('.biga-btn').forEach(function(b){ b.classList.remove('active'); });
       btn.classList.add('active');
       calcState.bigaPct = parseFloat(btn.dataset.biga);
