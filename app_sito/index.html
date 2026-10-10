@@ -628,6 +628,7 @@
         <button type="button" class="style-btn" data-style="romana" data-i18n="style_romana">Romana</button>
         <button type="button" class="style-btn" data-style="contemporanea" data-i18n="style_contemporanea">Contemporanea</button>
         <button type="button" class="style-btn" data-style="pinsa" data-i18n="style_pinsa">Pinsa</button>
+        <button type="button" class="style-btn" data-style="teglia" data-i18n="style_teglia" style="grid-column:span 2;">Pizza in teglia</button>
       </div>
 
       <label class="calc-label" data-i18n="calc_hyd_label">Idratazione: <span id="hydVal">60</span>%</label>
@@ -1305,6 +1306,7 @@
       style_romana: 'Romana',
       style_contemporanea: 'Contemporanea',
       style_pinsa: 'Pinsa',
+      style_teglia: 'Pizza in teglia',
       calc_hyd_label: 'Idratazione: <span id="hydVal">60</span>%',
       hyd_hint_prefix: 'Range consigliato:',
       hyd_free_suffix: '(libera di scegliere)',
@@ -1415,6 +1417,7 @@
       style_romana: 'Roman',
       style_contemporanea: 'Contemporary',
       style_pinsa: 'Pinsa',
+      style_teglia: 'Pan pizza',
       calc_hyd_label: 'Hydration: <span id="hydVal">60</span>%',
       hyd_hint_prefix: 'Recommended range:',
       hyd_free_suffix: '(free to choose)',
@@ -1525,6 +1528,7 @@
       style_romana: 'Romana',
       style_contemporanea: 'Contemporánea',
       style_pinsa: 'Pinsa',
+      style_teglia: 'Pizza en bandeja',
       calc_hyd_label: 'Hidratación: <span id="hydVal">60</span>%',
       hyd_hint_prefix: 'Rango recomendado:',
       hyd_free_suffix: '(libre de elegir)',
@@ -1635,6 +1639,7 @@
       style_romana: 'Romaine',
       style_contemporanea: 'Contemporaine',
       style_pinsa: 'Pinsa',
+      style_teglia: 'Pizza à la plaque',
       calc_hyd_label: 'Hydratation : <span id="hydVal">60</span>%',
       hyd_hint_prefix: 'Plage recommandée :',
       hyd_free_suffix: '(libre à vous de choisir)',
@@ -1745,6 +1750,7 @@
       style_romana: 'Römisch',
       style_contemporanea: 'Zeitgenössisch',
       style_pinsa: 'Pinsa',
+      style_teglia: 'Blechpizza',
       calc_hyd_label: 'Hydration: <span id="hydVal">60</span>%',
       hyd_hint_prefix: 'Empfohlener Bereich:',
       hyd_free_suffix: '(frei wählbar)',
@@ -2001,7 +2007,9 @@
     napoletana:    { hydMin:55, hydMax:65, hydDefault:60, salt:3, yeast:0.08, oil:2.5, ballWeight:250 },
     romana:        { hydMin:55, hydMax:65, hydDefault:60, salt:3, yeast:0.06, oil:2.5, ballWeight:500 },
     contemporanea: { hydMin:70, hydMax:80, hydDefault:75, salt:3, yeast:0.04, oil:2.5, ballWeight:280 },
-    pinsa:         { hydMin:75, hydMax:80, hydDefault:77, salt:2.5, yeast:0.06, oil:2.5, ballWeight:230 }
+    pinsa:         { hydMin:75, hydMax:80, hydDefault:77, salt:2.5, yeast:0.06, oil:2.5, ballWeight:230 },
+    // teglia 30x40 di casa: circa 700 g di impasto per teglia
+    teglia:        { hydMin:75, hydMax:80, hydDefault:78, salt:2.5, yeast:0.06, oil:3, ballWeight:700 }
   };
   const YEAST_FRESH_TO_DRY = 8 / 3; // rapporto confermato da Davide: 8g fresco = 3g secco
   let calcState = { style: 'napoletana', method: 'mano', yeastType: 'fresco', doughType: 'diretto', bigaPct: 50 };
@@ -2165,14 +2173,14 @@
 
     // Controllo dei valori: niente dosi con numeri negativi o fuori misura
     const CALC_ERR = {
-      it: '⚠️ Controlla i valori: palline da 1 a 100, peso da 100 a 600 g, ore da 2 a 96, temperature da 0 a 40 °C.',
-      en: '⚠️ Check the values: 1–100 balls, 100–600 g each, 2–96 hours, temperatures 0–40 °C.',
-      es: '⚠️ Revisa los valores: de 1 a 100 bolas, de 100 a 600 g, de 2 a 96 horas, temperaturas de 0 a 40 °C.',
-      fr: '⚠️ Vérifie les valeurs : 1 à 100 pâtons, 100 à 600 g, 2 à 96 heures, températures de 0 à 40 °C.',
-      de: '⚠️ Prüfe die Werte: 1–100 Teiglinge, 100–600 g, 2–96 Stunden, Temperaturen 0–40 °C.'
+      it: '⚠️ Controlla i valori: palline da 1 a 100, peso da 100 a 1200 g, ore da 2 a 96, temperature da 0 a 40 °C.',
+      en: '⚠️ Check the values: 1–100 balls, 100–1200 g each, 2–96 hours, temperatures 0–40 °C.',
+      es: '⚠️ Revisa los valores: de 1 a 100 bolas, de 100 a 1200 g, de 2 a 96 horas, temperaturas de 0 a 40 °C.',
+      fr: '⚠️ Vérifie les valeurs : 1 à 100 pâtons, 100 à 1200 g, 2 à 96 heures, températures de 0 à 40 °C.',
+      de: '⚠️ Prüfe die Werte: 1–100 Teiglinge, 100–1200 g, 2–96 Stunden, Temperaturen 0–40 °C.'
     };
     const errBox = document.getElementById('calcError');
-    const invalid = !(balls >= 1 && balls <= 100) || !(ballWeight >= 100 && ballWeight <= 600) ||
+    const invalid = !(balls >= 1 && balls <= 100) || !(ballWeight >= 100 && ballWeight <= 1200) ||
       !(hours >= 2 && hours <= 96) || !(roomTemp >= 0 && roomTemp <= 40) || !(flourTemp >= 0 && flourTemp <= 40);
     if (invalid) {
       errBox.textContent = CALC_ERR[currentLang] || CALC_ERR.it;
