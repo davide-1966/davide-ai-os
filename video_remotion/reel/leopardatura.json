@@ -1,0 +1,11 @@
+{"foto":"pizza.jpg","avatar":"avatar_leo.mp4","titolo":"MACCHIE NERE = PIZZA BRUCIATA?","verdetto":"FALSO.","colore":"#ff5c48",
+ "fineAttacco":3.47,"durata":20.29,
+ "sottotitoli":[
+  {"a":0.0,"b":1.89,"t":"Queste macchie nere sul bordo?"},
+  {"a":1.89,"b":3.47,"t":"Non è pizza bruciata."},
+  {"a":3.47,"b":5.16,"t":"Si chiama leopardatura,"},
+  {"a":5.16,"b":8.64,"t":"ed è il segno di un impasto maturo cotto ad alta temperatura."},
+  {"a":8.64,"b":11.77,"t":"Le bolle d'aria del cornicione si scuriscono per prime."},
+  {"a":11.77,"b":16.35,"t":"Nel forno di casa la ottieni con la pietra ben calda e il grill negli ultimi due minuti."},
+  {"a":16.35,"b":30,"t":"Sono pizzaiolo da 20 anni: seguimi per altri segreti da pizzeria."}],
+ "dato":{"a":3.47,"b":8.64,"sopra":"LEOPARDATURA","sotto":"segno di impasto maturo"}}
