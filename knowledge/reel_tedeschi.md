@@ -8,6 +8,8 @@ Uscita alle 19:00 (Metricool, brand 7285585).
 - 9/10 Type 550 (mehl550_DE.mp4)
 
 ## Serie dell'11/10 (testi per HeyGen, circa 20 secondi)
+Video HeyGen ricevuti l'11/10, con scritte e sottotitoli tedeschi aggiunti: media/avatar/hefe_DE.mp4,
+teig_DE.mp4, ofen_DE.mp4. Programmati su Metricool alle 19:00 del 12, 14 e 16/10.
 
 ### 1. Hefewürfel – lunedì 12/10
 Scritta: EIN GANZER HEFEWÜRFEL? FALSCH.
