@@ -31,3 +31,8 @@ Testo: Dein Backofen schafft nur zweihundertfünfzig Grad? Kein Problem. Heize d
 ganze Stunde auf höchster Stufe vor, im oberen Drittel des Ofens. Schieb die Pizza direkt auf den
 heißen Stein und schalte in den letzten zwei Minuten den Grill ein. So wird der Boden knusprig und
 der Rand luftig. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
+
+## Reel con foto vere + avatar nel cerchio (Remotion, modello ReelPip) – proposti il 12/10
+Foto ricevute il 12/10 (uploads): pizze in pizzeria, impasto (bilancia, acqua, sale e olio, impastatrice), Hawaii.
+Non usare: screenshot Facebook di Andy (pizza di un altro), grafica «Herz-Pizza» se generata con AI.
+- DE «Pizza Hawaii? Team Ananas oder Team Nein?» (foto Hawaii, tagliare lo scontrino con il nome del collega).
