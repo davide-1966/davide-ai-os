@@ -1,6 +1,6 @@
-import {AbsoluteFill, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig, spring, interpolate} from 'remotion';
+import {AbsoluteFill, OffthreadVideo, Img, staticFile, useCurrentFrame, useVideoConfig, spring, interpolate} from 'remotion';
 
-export const PizzaPip = ({titolo, verdetto}) => {
+export const PizzaPip = ({titolo, verdetto, foto}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const zoom = interpolate(frame, [0, 240], [1, 1.08]);
@@ -10,7 +10,8 @@ export const PizzaPip = ({titolo, verdetto}) => {
   return (
     <AbsoluteFill style={{backgroundColor: 'black', fontFamily: 'DejaVu Sans, sans-serif'}}>
       <AbsoluteFill style={{transform: `scale(${zoom})`}}>
-        <OffthreadVideo src={staticFile('pizza.mp4')} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+        {foto ? <Img src={staticFile(foto)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          : <OffthreadVideo src={staticFile('pizza.mp4')} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />}
       </AbsoluteFill>
       <div style={{position: 'absolute', top: 150, left: 70, right: 70, padding: '34px 40px', borderRadius: 28,
         background: 'rgba(15,15,15,0.78)', textAlign: 'center', transform: `translateY(${(1 - entra) * -80}px)`, opacity: entra}}>
