@@ -15,8 +15,8 @@
 
 ## Progetti in corso
 - **Pizza Perfetta a Casa**: progetto social di cucina dedicato alla pizza fatta in casa.
-  - Instagram: `@pizza_perfetta_a_casa` (bio: "20 anni di esperienza · ti insegno a fare
-    pizza come in pizzeria · Autore di Pizza Perfetta a casa")
+  - Instagram: `@pizza_perfetta_a_casa` (bio dall'11/10/2026: "Pizzaiolo da 20 anni 🍕 Pizza da pizzeria nel forno di casa /
+    📖 Autore di «Pizza Perfetta a casa» / 📄 Tabella impasti gratis: commenta IMPASTO"; reel del lievito fissato in cima)
   - TikTok: `@pizza_perfetta_a_`
   - Gestito con Metricool dall'8 settembre 2026 (fuso orario Europe/Berlin).
 - **Canale YouTube "Pizza Perfetta a Casa"** (`@pizzaperfettaacasa`, rinominato il 4 ottobre
