@@ -1,0 +1,12 @@
+{"sfondi":[{"a":0,"b":2.14,"src":"bil_scale.jpg"},{"a":2.14,"b":4.2,"src":"bil_flour.jpg"},{"a":4.2,"b":6.31,"src":"bil_water.jpg"},{"a":6.31,"b":9.09,"src":"bil_salt.jpg"},{"a":9.09,"b":99,"src":"bil_scale.jpg"}],
+ "avatar":"avatar_bil.mp4","titolo":"VAI A OCCHIO?","verdetto":"ERRORE.","colore":"#ff5c48",
+ "fineAttacco":2.14,"durata":20.36,
+ "sottotitoli":[
+  {"a":0.0,"b":2.14,"t":"In pizzeria non vado mai a occhio."},
+  {"a":2.14,"b":6.31,"t":"Peso tutto: farina, acqua, sale, lievito."},
+  {"a":6.31,"b":9.09,"t":"Anche due grammi di sale in più cambiano l'impasto."},
+  {"a":9.09,"b":11.04,"t":"Se vuoi fare la pizza a casa,"},
+  {"a":11.04,"b":14.54,"t":"il primo attrezzo da comprare non è la pietra: è una bilancia digitale."},
+  {"a":14.54,"b":16.80,"t":"Costa pochi euro e ti cambia la pizza."},
+  {"a":16.80,"b":30,"t":"Sono pizzaiolo da 20 anni: seguimi per altri segreti da pizzeria."}],
+ "dato":{"a":11.04,"b":16.80,"sopra":"BILANCIA DIGITALE","sotto":"il primo attrezzo da comprare"}}

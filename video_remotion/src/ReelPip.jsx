@@ -7,7 +7,7 @@ const Box = ({children, style}) => (
     background: 'rgba(15,15,15,0.78)', textAlign: 'center', ...style}}>{children}</div>
 );
 
-export const ReelPip = ({foto, video, avatar, titolo, verdetto, colore, fineAttacco, sottotitoli, dato}) => {
+export const ReelPip = ({foto, sfondi, video, avatar, titolo, verdetto, colore, fineAttacco, sottotitoli, dato}) => {
   const frame = useCurrentFrame();
   const {fps, durationInFrames} = useVideoConfig();
   const t = frame / fps;
@@ -15,13 +15,14 @@ export const ReelPip = ({foto, video, avatar, titolo, verdetto, colore, fineAtta
   const entra = spring({frame, fps, config: {damping: 14}});
   const timbro = spring({frame: frame - 12, fps, config: {damping: 9, mass: 0.6}});
   const pip = spring({frame: frame - 6, fps, config: {damping: 15}});
+  const sfondo = sfondi ? (sfondi.find((s) => t >= s.a && t < s.b) || sfondi[sfondi.length - 1]).src : foto;
   const sub = sottotitoli.find((s) => t >= s.a && t < s.b);
   const datoOn = dato && t >= dato.a && t < dato.b;
   const datoIn = dato ? spring({frame: frame - Math.round(dato.a * fps), fps, config: {damping: 12}}) : 0;
   return (
     <AbsoluteFill style={{backgroundColor: 'black', fontFamily: 'DejaVu Sans, sans-serif'}}>
       <AbsoluteFill style={{transform: `scale(${zoom})`}}>
-        {foto ? <Img src={staticFile(foto)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+        {sfondo ? <Img src={staticFile(sfondo)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
           : <OffthreadVideo src={staticFile(video)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />}
       </AbsoluteFill>
       {t < fineAttacco && (
