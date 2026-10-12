@@ -1,0 +1,16 @@
+{"foto":"hawaii.jpg","avatar":"avatar_hawaii.mp4","titolo":"PIZZA HAWAII?","verdetto":"TEAM ANANAS?","colore":"#ffcf4a",
+ "fineAttacco":3.44,"durata":25.34,
+ "sottotitoli":[
+  {"a":0.0,"b":1.33,"t":"Pizza Hawaii?"},
+  {"a":1.33,"b":3.44,"t":"In Italien ist das fast ein Verbrechen."},
+  {"a":3.44,"b":5.97,"t":"Aber hier in Leipzig backe ich sie fast jeden Tag."},
+  {"a":5.97,"b":7.21,"t":"Und ehrlich gesagt:"},
+  {"a":7.21,"b":10.66,"t":"Ob Ananas oder nicht, entscheidet nicht über eine gute Pizza."},
+  {"a":10.66,"b":12.16,"t":"Der Teig entscheidet."},
+  {"a":12.16,"b":15.73,"t":"Lange Teigruhe, heißer Ofen, luftiger Rand."},
+  {"a":15.73,"b":16.66,"t":"Und du?"},
+  {"a":16.66,"b":18.50,"t":"Team Ananas oder Team Nein?"},
+  {"a":18.50,"b":20.01,"t":"Schreib es in die Kommentare."},
+  {"a":20.01,"b":22.41,"t":"Ich bin italienischer Pizzaiolo in Leipzig."},
+  {"a":22.41,"b":30,"t":"Folge mir für mehr Geheimnisse aus der Pizzeria."}],
+ "dato":{"a":10.66,"b":15.73,"sopra":"DER TEIG","sotto":"entscheidet"}}
