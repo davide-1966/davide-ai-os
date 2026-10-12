@@ -1,0 +1,12 @@
+{"foto":"cornicione.jpg","avatar":"avatar_corn.mp4","titolo":"CORNICIONE ALTO? PIÙ LIEVITO?","verdetto":"FALSO.","colore":"#ff5c48",
+ "fineAttacco":3.48,"durata":18.14,
+ "sottotitoli":[
+  {"a":0.0,"b":1.81,"t":"Vuoi un cornicione alto così?"},
+  {"a":1.81,"b":3.48,"t":"Non serve più lievito."},
+  {"a":3.48,"b":5.23,"t":"Quando stendi la pallina,"},
+  {"a":5.23,"b":8.80,"t":"spingi l'aria dal centro verso il bordo con la punta delle dita,"},
+  {"a":8.80,"b":10.59,"t":"e il bordo non lo toccare mai."},
+  {"a":10.59,"b":12.93,"t":"Niente mattarello: schiaccia tutta l'aria."},
+  {"a":12.93,"b":14.39,"t":"Poi forno al massimo."},
+  {"a":14.39,"b":30,"t":"Sono pizzaiolo da 20 anni: seguimi per altri segreti da pizzeria."}],
+ "dato":{"a":5.23,"b":10.59,"sopra":"ARIA → BORDO","sotto":"il bordo non si tocca"}}
