@@ -37,6 +37,7 @@
   cambiare index.html, ricaricare lo zip nella pagina Deploys. L'8/10 aggiunto l'occhio per mostrare
   la password e il certificato assetlinks.json (chiave di firma Play AA:32:CC… e di caricamento
   0F:22:E3…). Copia dei file in `app_sito/`. Aggiunti manifest.json, service-worker.js e icone (8/10).
+  13/10 pubblicata la v11: nell'app Google Play (TWA) il pulsante Gumroad è nascosto («Premium in arrivo su Google Play»), sul sito resta; verificato da Davide sul telefono.
   10/10 pubblicata la v10 sul sito: foto «Vero Pizzaiolo» in home, pulsante Lezioni e Home funzionanti,
   controllo dei valori nel calcolatore, dosi che si aggiornano da sole, biga 50% gratis (70–100% Premium),
   ricetta 24h = 2+18+4 ore, stile «Pizza in teglia» (75–80%, 700 g per teglia, Premium).
