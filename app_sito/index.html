@@ -1274,7 +1274,8 @@
       <div style="font-size:44px; margin-bottom:12px;">🔒</div>
       <p class="calc-hint" style="color:var(--testo-chiaro); font-size:14px; font-weight:700; margin-bottom:10px;">Questo contenuto è riservato agli abbonati</p>
       <p class="calc-hint" style="margin-bottom:20px;">Con l'abbonamento Premium sblocchi la Biga, tutte le ricette gourmet, il Calcolatore completo, i video curati e la Community — nuovi contenuti ogni mese.</p>
-      <button type="button" class="calc-submit" onclick="goToSubscribe()">Abbonati — €4,99/mese</button>
+      <button type="button" id="paywallSubscribeBtn" class="calc-submit" onclick="goToSubscribe()">Abbonati — €4,99/mese</button>
+      <p class="calc-hint" id="paywallPlayNote" style="display:none; margin-top:10px;">L'abbonamento Premium arriverà a breve direttamente su Google Play.</p>
       <p class="calc-hint" id="paywallLoginHint" style="margin-top:14px; display:none;">Hai già un abbonamento? <span style="color:var(--arancio); text-decoration:underline; cursor:pointer;" onclick="closePaywall(); openProfilo(); netlifyIdentity.open('login');">Accedi qui</span></p>
     </div>
   </div>
@@ -2330,6 +2331,15 @@
   let isPremium = false;
   let currentUser = null;
   const GUMROAD_URL = 'https://pabavibe.gumroad.com/l/iasqm';
+  // App Android da Google Play (TWA): niente acquisti fuori da Google Play, come chiedono le regole dello store.
+  const PLAY_APP_REFERRER = 'android-app://app.netlify.pizza_perfetta_a_casa.twa';
+  const IS_PLAY_APP = (function(){
+    const fromPlay = document.referrer.indexOf(PLAY_APP_REFERRER) === 0 || /[?&]source=play\b/.test(location.search);
+    try {
+      if (fromPlay) localStorage.setItem('ppac_play_app', '1');
+      return localStorage.getItem('ppac_play_app') === '1';
+    } catch (e) { return fromPlay; }
+  })();
 
   function trackActivity(user){
     if (!user) return;
@@ -2375,12 +2385,17 @@
   function openPaywall(){
     const hint = document.getElementById('paywallLoginHint');
     if (hint) hint.style.display = currentUser ? 'none' : 'block';
+    const btn = document.getElementById('paywallSubscribeBtn');
+    const note = document.getElementById('paywallPlayNote');
+    if (btn) btn.style.display = IS_PLAY_APP ? 'none' : '';
+    if (note) note.style.display = IS_PLAY_APP ? 'block' : 'none';
     document.getElementById('paywallModal').classList.add('show');
   }
   function closePaywall(){
     document.getElementById('paywallModal').classList.remove('show');
   }
   function goToSubscribe(){
+    if (IS_PLAY_APP) return;
     window.open(GUMROAD_URL, '_blank');
   }
 
