@@ -16,6 +16,8 @@ le regole di Google Play sui pagamenti (abbonamento Premium venduto con Gumroad 
 **Decisione di Davide (8/10): nell'app Android pagamento con Google Play** (più fiducia per i clienti,
 commissione 15% contro circa il 30% di Gumroad su 4,99 €). Sul sito si valuta Stripe al posto di Gumroad.
 Profilo pagamenti Play Console collegato (Germania), IBAN inserito e commissione del 15% accettata (10/10).
+Conto bancario verificato con il micro-versamento di Google il 13/10.
+Regole verificate il 13/10: nell'app Android niente pulsante Gumroad (solo Google Play Billing, 10% + 5% = 15% sugli abbonamenti dal 30/6/2026); proposta in due tempi: nascondere Gumroad nella versione Android prima del 17/10, poi abbonamento Google Play «premium_mensile» con PWABuilder (opzione Google Play Billing).
 Il 13/10 Horacle prepara i passi (PWABuilder: opzione Google Play Billing, abbonamento in Play Console).
 
 ## Data proposta (dipende dall'approvazione di Google Play)
