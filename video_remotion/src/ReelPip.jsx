@@ -7,7 +7,7 @@ const Box = ({children, style}) => (
     background: 'rgba(15,15,15,0.78)', textAlign: 'center', ...style}}>{children}</div>
 );
 
-export const ReelPip = ({foto, sfondi, video, avatar, titolo, verdetto, colore, fineAttacco, sottotitoli, dato}) => {
+export const ReelPip = ({alto, foto, sfondi, video, avatar, titolo, verdetto, colore, fineAttacco, sottotitoli, dato}) => {
   const frame = useCurrentFrame();
   const {fps, durationInFrames} = useVideoConfig();
   const t = frame / fps;
@@ -21,7 +21,7 @@ export const ReelPip = ({foto, sfondi, video, avatar, titolo, verdetto, colore, 
   const datoIn = dato ? spring({frame: frame - Math.round(dato.a * fps), fps, config: {damping: 12}}) : 0;
   return (
     <AbsoluteFill style={{backgroundColor: 'black', fontFamily: 'DejaVu Sans, sans-serif'}}>
-      <AbsoluteFill style={{transform: `scale(${zoom})`}}>
+      <AbsoluteFill style={{transform: `scale(${zoom})`, transformOrigin: alto ? 'center bottom' : 'center center'}}>
         {sfondo ? <Img src={staticFile(sfondo)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
           : <OffthreadVideo src={staticFile(video)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />}
       </AbsoluteFill>
@@ -38,10 +38,10 @@ export const ReelPip = ({foto, sfondi, video, avatar, titolo, verdetto, colore, 
         </Box>
       )}
       {sub && (
-        <div style={{position: 'absolute', left: 60, right: 500, bottom: 300, padding: '18px 22px', borderRadius: 20,
+        <div style={{position: 'absolute', left: 60, right: 500, ...(alto ? {top: 640} : {bottom: 300}), padding: '18px 22px', borderRadius: 20,
           background: 'rgba(15,15,15,0.8)', color: 'white', fontSize: 42, fontWeight: 800, lineHeight: 1.25}}>{sub.t}</div>
       )}
-      <div style={{position: 'absolute', right: 50, bottom: 220, width: 400, height: 400, borderRadius: '50%', overflow: 'hidden',
+      <div style={{position: 'absolute', right: 50, ...(alto ? {top: 560} : {bottom: 220}), width: 400, height: 400, borderRadius: '50%', overflow: 'hidden',
         border: '10px solid white', boxShadow: '0 12px 40px rgba(0,0,0,0.55)', transform: `scale(${pip})`}}>
         <OffthreadVideo src={staticFile(avatar)} style={{width: 520, height: 924, marginLeft: -60, marginTop: -22}} />
       </div>
