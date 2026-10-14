@@ -17,5 +17,6 @@
 
 ## Metodo vero in pizzeria (confermato da Davide il 14/10)
 - Spinaci: surgelati, scongelati e strizzati, messi crudi sopra la mozzarella prima di infornare (non saltati in padella).
-  Il video HeyGen con «li salto in padella» (14/10) NON va usato.
-- Reel domenica 18/10 IT: «Spinaci surgelati sulla pizza? Si può, ma con un trucco» (foto della bianca con spinaci).
+  Davide però, a casa, li farebbe in padella (olio e aglio) e poi strizzati: è il SUO consiglio, quindi il video
+  «Spinaci crudi? Errore… io li salto in padella» va bene se la didascalia lo presenta come consiglio per casa.
+- Reel domenica 18/10 IT: «Spinaci crudi sulla pizza? ERRORE» (foto della bianca, camerieri tagliati fuori).
