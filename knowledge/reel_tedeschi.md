@@ -36,3 +36,11 @@ der Rand luftig. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr
 Foto ricevute il 12/10 (uploads): pizze in pizzeria, impasto (bilancia, acqua, sale e olio, impastatrice), Hawaii.
 Non usare: screenshot Facebook di Andy (pizza di un altro), grafica «Herz-Pizza» se generata con AI.
 - DE «Pizza Hawaii? Team Ananas oder Team Nein?» (foto Hawaii, tagliare lo scontrino con il nome del collega).
+
+## Serie del 14/10 (testi per HeyGen, foto vere di Davide come sfondo)
+1. Backpapier – «PIZZA AUF BACKPAPIER? FALSCH.»
+   Pizza auf Backpapier backen? Falsch. Das Papier steht zwischen Teig und heißem Stein, und der Boden wird nie richtig knusprig. Mein Trick aus der Pizzeria: etwas Hartweizengrieß auf das Brett, die Pizza darauf belegen und mit einem kurzen Ruck direkt auf den Stein schieben. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
+2. Umluft – «UMLUFT FÜR PIZZA? NEIN.»
+   Umluft für Pizza? Lieber nicht. Umluft trocknet den Rand aus, bevor der Boden fertig ist. Ich nehme Ober- und Unterhitze auf höchster Stufe, heize den Stein eine Stunde vor und schalte nur in den letzten zwei Minuten den Grill dazu. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
+3. Teig am selben Tag – «TEIG AM SELBEN TAG? ZU SPÄT.»
+   Pizzateig am selben Tag machen? Zu spät. Mach ihn einen Tag vorher und lass ihn im Kühlschrank reifen. Mit wenig Hefe und viel Zeit wird der Teig aromatischer, leichter verdaulich und lässt sich viel besser ausziehen. Zwei Stunden vor dem Backen rausnehmen. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
