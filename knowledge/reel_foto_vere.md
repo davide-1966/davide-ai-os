@@ -14,3 +14,8 @@
    gesagt: Ob Ananas oder nicht, entscheidet nicht über eine gute Pizza. Der Teig entscheidet. Lange Teigruhe, heißer
    Ofen, luftiger Rand. Und du? Team Ananas oder Team Nein? Schreib es in die Kommentare. Ich bin italienischer
    Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
+
+## Metodo vero in pizzeria (confermato da Davide il 14/10)
+- Spinaci: surgelati, scongelati e strizzati, messi crudi sopra la mozzarella prima di infornare (non saltati in padella).
+  Il video HeyGen con «li salto in padella» (14/10) NON va usato.
+- Reel domenica 18/10 IT: «Spinaci surgelati sulla pizza? Si può, ma con un trucco» (foto della bianca con spinaci).
