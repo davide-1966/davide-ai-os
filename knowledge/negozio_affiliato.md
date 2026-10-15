@@ -31,6 +31,7 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 | Contenitore per panetti | https://link.amazon/B08Kr1RNR |
 | Spatola (tarocco) | https://link.amazon/B027yqMo9 |
 | Pietra refrattaria | https://link.amazon/B07cg8EQK |
+| Pala per infornare | https://link.amazon/B04aHDkyo |
 
 ## Da fare per Amazon.de (quando arriva il codice PartnerNet)
 - Caputo Nuvola 10x1 kg (MIGASE), amazon.de ASIN B0BTDJN43M
