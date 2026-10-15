@@ -35,6 +35,7 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 | Palino | https://link.amazon/B09X9eMfI |
 | Termometro | https://link.amazon/B01oStkSd |
 | Rotella taglia pizza | https://link.amazon/B036XoZiX |
+| Forno pizza «Vulcano» (da chiarire: elettrico? provato da Davide?) | https://link.amazon/B0i4bOK8W |
 
 ## Da fare per Amazon.de (quando arriva il codice PartnerNet)
 - Caputo Nuvola 10x1 kg (MIGASE), amazon.de ASIN B0BTDJN43M
