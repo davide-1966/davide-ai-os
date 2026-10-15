@@ -170,4 +170,4 @@ pochi iscritti: serve un invito a iscriversi.
 - Uomini 70,9%; età 35-44 40,7%, 25-34 22,4%, 45-54 21,3%.
 - Paesi: Italia 67,5%, Germania 21,3%, Venezuela 3,7%. Città: Vibo Valentia 37,1%, Roma 9,7%, Lipsia 6,9%.
 - Grafico giornaliero: crescita lenta fino all'8/10 (~2.500/giorno), picco ~15.600 il 10-11/10 (reel lievito promosso), poi ritorno a ~2.000/giorno.
-- Lettura: base molto legata a Vibo Valentia (rete personale); salvataggi bassi (0,2% delle visualizzazioni): servono più contenuti «da salvare» (numeri, dosi, tabelle).
+- Lettura: Davide non conosce nessuno a Vibo Valentia (né Pizzo): il gruppo calabrese arriva probabilmente dalla promozione del reel del lievito o da una condivisione locale; salvataggi bassi (0,2% delle visualizzazioni): servono più contenuti «da salvare» (numeri, dosi, tabelle).
