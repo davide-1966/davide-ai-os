@@ -45,7 +45,7 @@
   l'8/10** (16 installazioni) (pacchetto PWABuilder, minimo Android 7). Prossimo aggiornamento: v4 verso il 14/10.
   Chiave di caricamento: alias pizza-perfetta-key, file signing.keystore (copia su Google Drive e
   WhatsApp di Davide; mai nel repository).
-- **Libro "Pizza Perfetta a casa"**, di cui è autore.
+- **Libro "Pizza Perfetta a casa"**, di cui è autore: ebook venduto su Amazon (Kindle). Niente Shopify: il sito rimanda ad Amazon; se il libro è in KDP Select non si può vendere il PDF altrove.
 - Strumenti in uso: vidIQ (YouTube), Metricool (pianificazione e analisi social) e
   HeyGen (avatar con il suo volto e la sua voce clonata).
 - Piano contenuti in corso: `knowledge/piano_30_giorni.md` (29 settembre – 28 ottobre 2026).
