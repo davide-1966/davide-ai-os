@@ -47,3 +47,5 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 - Pronte: storia_attrezzatura.jpg e copertina_negozio.jpg (storia in evidenza "Negozio").
 - Foto prodotti: NON copiare immagini Amazon; Davide fotografa i suoi attrezzi.
 - ManyChat IMPASTO: link tabella cambiato in https://pizza-perfetta-a-casa.netlify.app/tabella (15/10).
+- Storia "La mia attrezzatura" (Diavola) pubblicata su IT con sticker Link corretto; storia in evidenza "Negozio" creata (15/10).
+- Prossimo: foto attrezzi di Davide nella pagina; codice Amazon.de → pagina tedesca; storia negozio anche su DE.
