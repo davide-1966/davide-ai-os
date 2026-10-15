@@ -15,3 +15,5 @@ Pagina «La mia attrezzatura» sul sito/app (nascosta nell'app Google Play per p
 - Spatola (tarocco) per staccare e porzionare l'impasto
 - Taglia pizza (rotella)
 Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra. Forno da casa: escluso per ora (non indicato da Davide). Modelli precisi da scegliere insieme su Amazon.
+- 15/10: aggiunto «un buon forno da casa» (decimo prodotto). Da scegliere: elettrico (tipo Effeuno) o a gas (tipo Ooni).
+  Se Davide non l'ha provato di persona, sulla pagina va scritto onestamente («consigliato», non «uso»).
