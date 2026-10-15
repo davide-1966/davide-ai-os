@@ -40,3 +40,9 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 
 ## Da fare per Amazon.de (quando arriva il codice PartnerNet)
 - Caputo Nuvola 10x1 kg (MIGASE), amazon.de ASIN B0BTDJN43M
+
+## Stato (15/10)
+- v13 online: /attrezzatura e /tabella funzionano.
+- Link in bio IT aggiunto: "La mia attrezzatura" con icona (media/storie/negozio/link_*.jpg).
+- Pronte: storia_attrezzatura.jpg e copertina_negozio.jpg (storia in evidenza "Negozio").
+- Foto prodotti: NON copiare immagini Amazon; Davide fotografa i suoi attrezzi.
