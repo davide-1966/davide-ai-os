@@ -171,3 +171,5 @@ pochi iscritti: serve un invito a iscriversi.
 - Paesi: Italia 67,5%, Germania 21,3%, Venezuela 3,7%. Città: Vibo Valentia 37,1%, Roma 9,7%, Lipsia 6,9%.
 - Grafico giornaliero: crescita lenta fino all'8/10 (~2.500/giorno), picco ~15.600 il 10-11/10 (reel lievito promosso), poi ritorno a ~2.000/giorno.
 - Lettura: Davide non conosce nessuno a Vibo Valentia (né Pizzo): il gruppo calabrese arriva probabilmente dalla promozione del reel del lievito o da una condivisione locale; salvataggi bassi (0,2% delle visualizzazioni): servono più contenuti «da salvare» (numeri, dosi, tabelle).
+- 15/10/2026: automazione IMPASTO a 4 email (3 follower veri + 1 prova di Davide), 2 tabelle inviate e 2 clic.
+  Alcuni lasciano l'email ma non arrivano al link (passaggio del follow): valutare il follow-up automatico di ManyChat.
