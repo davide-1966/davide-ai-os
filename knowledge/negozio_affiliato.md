@@ -35,7 +35,7 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 | Palino | https://link.amazon/B09X9eMfI |
 | Termometro | https://link.amazon/B01oStkSd |
 | Rotella taglia pizza | https://link.amazon/B036XoZiX |
-| Forno pizza «Vulcano» (da chiarire se sostituisce Effeuno) | https://link.amazon/B0i4bOK8W |
+| Forno pizza Vulcano (elettrico, sostituisce Effeuno) | https://link.amazon/B0i4bOK8W |
 | Forno Ooni da esterno (gas) | https://link.amazon/B0eKQvfxt |
 
 ## Da fare per Amazon.de (quando arriva il codice PartnerNet)
