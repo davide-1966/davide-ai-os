@@ -19,3 +19,5 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
   Se Davide non l'ha provato di persona, sulla pagina va scritto onestamente («consigliato», non «uso»).
 - 15/10: Davide ha provato entrambi (Effeuno elettrico e Ooni a gas) e li giudica «eccezionali» → sulla pagina:
   «I forni che ho provato»: Effeuno per la cucina, Ooni per balcone/giardino. Totale 11 prodotti.
+- 15/10: iscritto al Programma Affiliazione Amazon.it, ID «pizzaperfetta-21». Revisione dopo 3 vendite idonee
+  (di solito entro 180 giorni). Prossimo: Amazon.de PartnerNet dalla stessa pagina («Registrati ora»).
