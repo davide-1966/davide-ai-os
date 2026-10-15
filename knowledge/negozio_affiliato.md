@@ -46,3 +46,4 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 - Link in bio IT aggiunto: "La mia attrezzatura" con icona (media/storie/negozio/link_*.jpg).
 - Pronte: storia_attrezzatura.jpg e copertina_negozio.jpg (storia in evidenza "Negozio").
 - Foto prodotti: NON copiare immagini Amazon; Davide fotografa i suoi attrezzi.
+- ManyChat IMPASTO: link tabella cambiato in https://pizza-perfetta-a-casa.netlify.app/tabella (15/10).
