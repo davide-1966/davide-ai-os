@@ -164,3 +164,10 @@ pochi iscritti: serve un invito a iscriversi.
 
 ## Limiti
 - Argomenti o scelte da non suggerire mai: _…_
+
+## Pubblico Instagram IT (export Edits, 14/9–14/10/2026)
+- 771 follower; 21 reel; 42.682 visualizzazioni dei reel, 32.681 account raggiunti; 386 mi piace, 30 commenti, 97 salvataggi, 15 condivisioni.
+- Uomini 70,9%; età 35-44 40,7%, 25-34 22,4%, 45-54 21,3%.
+- Paesi: Italia 67,5%, Germania 21,3%, Venezuela 3,7%. Città: Vibo Valentia 37,1%, Roma 9,7%, Lipsia 6,9%.
+- Grafico giornaliero: crescita lenta fino all'8/10 (~2.500/giorno), picco ~15.600 il 10-11/10 (reel lievito promosso), poi ritorno a ~2.000/giorno.
+- Lettura: base molto legata a Vibo Valentia (rete personale); salvataggi bassi (0,2% delle visualizzazioni): servono più contenuti «da salvare» (numeri, dosi, tabelle).
