@@ -26,6 +26,7 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 | Prodotto | Link |
 |---|---|
 | Farina Caputo Pizzeria, sacco blu 5 kg (Scelta Amazon) | https://link.amazon/B06mSrySb |
+| Bilancia digitale (da confermare con Davide) | https://link.amazon/B0eXsbAtr |
 
 ## Da fare per Amazon.de (quando arriva il codice PartnerNet)
 - Caputo Nuvola 10x1 kg (MIGASE), amazon.de ASIN B0BTDJN43M
