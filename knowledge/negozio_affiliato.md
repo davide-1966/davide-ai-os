@@ -14,4 +14,4 @@ Pagina «La mia attrezzatura» sul sito/app (nascosta nell'app Google Play per p
 - Palino (pala piccola tonda per girare la pizza)
 - Spatola (tarocco) per staccare e porzionare l'impasto
 - Taglia pizza (rotella)
-Da chiarire: forno da casa? modelli/marche precise.
+Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra. Forno da casa: escluso per ora (non indicato da Davide). Modelli precisi da scegliere insieme su Amazon.
