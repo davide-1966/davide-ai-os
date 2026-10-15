@@ -173,3 +173,5 @@ pochi iscritti: serve un invito a iscriversi.
 - Lettura: Davide non conosce nessuno a Vibo Valentia (né Pizzo): il gruppo calabrese arriva probabilmente dalla promozione del reel del lievito o da una condivisione locale; salvataggi bassi (0,2% delle visualizzazioni): servono più contenuti «da salvare» (numeri, dosi, tabelle).
 - 15/10/2026: automazione IMPASTO a 4 email (3 follower veri + 1 prova di Davide), 2 tabelle inviate e 2 clic.
   Alcuni lasciano l'email ma non arrivano al link (passaggio del follow): valutare il follow-up automatico di ManyChat.
+- 15/10/2026: tolta la richiesta di follow dall'automazione IMPASTO (bloccava 3 persone su 4) e attivato il promemoria
+  automatico a 30 minuti per chi non apre il link. Percorso ora: commento → Mandamela → email → tabella.
