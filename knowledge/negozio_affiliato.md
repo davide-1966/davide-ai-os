@@ -21,3 +21,11 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
   «I forni che ho provato»: Effeuno per la cucina, Ooni per balcone/giardino. Totale 11 prodotti.
 - 15/10: iscritto al Programma Affiliazione Amazon.it, ID «pizzaperfetta-21». Revisione dopo 3 vendite idonee
   (di solito entro 180 giorni). Prossimo: Amazon.de PartnerNet dalla stessa pagina («Registrati ora»).
+
+## Link affiliati creati (Amazon.it, pizzaperfetta-21)
+| Prodotto | Link |
+|---|---|
+| Farina Caputo Pizzeria, sacco blu 5 kg (Scelta Amazon) | https://link.amazon/B06mSrySb |
+
+## Da fare per Amazon.de (quando arriva il codice PartnerNet)
+- Caputo Nuvola 10x1 kg (MIGASE), amazon.de ASIN B0BTDJN43M
