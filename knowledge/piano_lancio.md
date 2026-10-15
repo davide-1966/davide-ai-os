@@ -44,7 +44,7 @@ Proposta: **MailerLite gratuito** (fino a 1.000 contatti). Si esportano i contat
 | Lun 20/10 | **Email 1**: «Ti presento la mia app» (anteprima, nessuna vendita). |
 | 22–26/10 | Reel e storie «tra pochi giorni»: dietro le quinte, sticker conto alla rovescia nelle storie. |
 | **Mar 27/10, 18:30** | **Lancio**: reel con Davide vero, **email 2** con il codice, storie per tutta la sera. |
-| Ven 30/10 | **Email 3**: cosa dicono i tester + ultimi giorni del codice + il libro. |
+| Ven 30/10 | **Email 3**: le domande più frequenti dei follower + ultimi giorni del codice + il libro. |
 | Mar 3/11 | Fine offerta. Bilancio: abbonati, email aperte, follower. |
 
 ## Le 3 email (testi da rivedere, al «tu»)
@@ -77,10 +77,10 @@ Se hai domande, rispondi a questa email: leggo tutto io.
 Davide
 
 ### Email 3 – venerdì 30/10
-Oggetto: Cosa ne pensano i primi che l'hanno provata
+Oggetto: Le 3 domande che mi fate di più
 
 Ciao,
-prima del lancio 15 persone hanno provato l'app per due settimane. [Qui 1–2 frasi vere dei tester, con il loro permesso.]
+in queste settimane mi avete scritto tanto. Le domande più frequenti: quanto lievito usare, quale farina comprare, perché l'impasto si strappa. Nell'app trovi la risposta a tutte e tre, con il calcolatore che fa i conti per te. [Domande vere prese dai commenti e dai messaggi.]
 
 Ti ricordo che il codice **FONDATORE** (metà prezzo per 3 mesi) scade martedì 3 novembre.
 👉 https://pizza-perfetta-a-casa.netlify.app
@@ -99,4 +99,4 @@ Davide
 1. Data: martedì 27 ottobre va bene?
 2. Offerta: codice FONDATORE -50% per 3 mesi, o altro?
 3. Email: MailerLite gratuito va bene? Le email le firma lui e risponde lui.
-4. Frasi dei tester: ne ha già qualcuna da usare (con il loro permesso)?
+4. Niente frasi dei tester: vengono dal servizio Testers Community (test obbligatorio di Google), non sono clienti veri. Come prova sociale si usano commenti e messaggi veri dei follower.
