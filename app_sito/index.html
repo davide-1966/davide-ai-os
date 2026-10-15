@@ -177,6 +177,19 @@
   .trust-desc{ font-size:8.5px; color:var(--testo-muto); margin-top:3px; line-height:1.3; }
 
   /* MISSION BANNER */
+  /* LIBRO */
+  .libro-box{
+    display:flex; align-items:center; gap:14px; margin:14px 14px 4px; padding:12px;
+    border-radius:16px; background:linear-gradient(135deg, rgba(240,120,58,0.14), rgba(198,40,40,0.08));
+    border:1px solid rgba(240,120,58,0.35); cursor:pointer; -webkit-tap-highlight-color:transparent;
+  }
+  .libro-box img{ width:78px; height:auto; border-radius:6px; box-shadow:0 4px 14px rgba(0,0,0,0.45); flex-shrink:0; }
+  .libro-kicker{ font-size:10.5px; font-weight:700; letter-spacing:1px; color:var(--arancio); }
+  .libro-title{ font-size:15px; font-weight:800; color:var(--testo-chiaro); margin:3px 0 4px; }
+  .libro-desc{ font-size:11.5px; color:var(--testo-muto); line-height:1.4; }
+  .libro-btn{ display:inline-block; margin-top:8px; padding:6px 12px; border-radius:20px; background:var(--arancio); color:#fff; font-size:12px; font-weight:700; }
+  body.play-app .libro-box{ display:none; }
+
   .mission{
     margin:20px 16px 0; position:relative; overflow:hidden;
     background:
@@ -550,6 +563,17 @@
         <div class="trust-title" data-i18n="trust_community_title">COMMUNITY</div>
         <div class="trust-desc" data-i18n="trust_community_desc">Unisciti alla community di appassionati</div>
         <div class="trust-lock">🔒 PREMIUM</div>
+      </div>
+    </div>
+
+    <!-- LIBRO (ebook su Amazon; nascosto nell'app Google Play) -->
+    <div class="libro-box" id="libroBox" onclick="openLibro()">
+      <img src="/libro.jpg" alt="Pizza Perfetta a Casa – ebook" loading="lazy">
+      <div>
+        <div class="libro-kicker" data-i18n="libro_kicker">IL MIO LIBRO</div>
+        <div class="libro-title" data-i18n="libro_title">Pizza Perfetta a Casa</div>
+        <div class="libro-desc" data-i18n="libro_desc">Il mio metodo semplice per una pizza come in pizzeria, in un ebook.</div>
+        <span class="libro-btn" data-i18n="libro_btn">Acquista su Amazon ›</span>
       </div>
     </div>
 
@@ -1294,6 +1318,7 @@
       trust_percorso_title:"DA PRINCIPIANTE A PROFESSIONISTA", trust_percorso_desc:"Percorso completo e progressivo",
       trust_passione_title:"FATTO CON PASSIONE", trust_passione_desc:"Dalla nostra esperienza alla tua cucina",
       trust_community_title:"COMMUNITY", trust_community_desc:"Unisciti alla community di appassionati",
+      libro_kicker:'IL MIO LIBRO', libro_title:'Pizza Perfetta a Casa', libro_desc:'Il mio metodo semplice per una pizza come in pizzeria, in un ebook.', libro_btn:'Acquista su Amazon ›',
       mission_title:'LA TUA <span class="g">PASSIONE</span><br>LA NOSTRA <span class="r">MISSIONE</span>',
       mission_text:"Tutto quello che serve per fare una pizza perfetta, a casa tua.",
       mission_made:"MADE IN<br><strong>ITALY</strong>",
@@ -1405,6 +1430,7 @@
       trust_percorso_title:"FROM BEGINNER TO PRO", trust_percorso_desc:"A complete, progressive path",
       trust_passione_title:"MADE WITH PASSION", trust_passione_desc:"From our experience to your kitchen",
       trust_community_title:"COMMUNITY", trust_community_desc:"Join a community of enthusiasts",
+      libro_kicker:'MY BOOK', libro_title:'Pizza Perfetta a Casa', libro_desc:'My simple method for pizzeria-style pizza at home, as an ebook (Italian or German).', libro_btn:'Buy on Amazon ›',
       mission_title:'YOUR <span class="g">PASSION</span><br>OUR <span class="r">MISSION</span>',
       mission_text:"Everything you need to make the perfect pizza, at home.",
       mission_made:"MADE IN<br><strong>ITALY</strong>",
@@ -1516,6 +1542,7 @@
       trust_percorso_title:"DE PRINCIPIANTE A PROFESIONAL", trust_percorso_desc:"Un recorrido completo y progresivo",
       trust_passione_title:"HECHO CON PASIÓN", trust_passione_desc:"De nuestra experiencia a tu cocina",
       trust_community_title:"COMUNIDAD", trust_community_desc:"Únete a una comunidad de apasionados",
+      libro_kicker:'MI LIBRO', libro_title:'Pizza Perfetta a Casa', libro_desc:'Mi método sencillo para una pizza de pizzería en casa, en ebook (italiano o alemán).', libro_btn:'Comprar en Amazon ›',
       mission_title:'TU <span class="g">PASIÓN</span><br>NUESTRA <span class="r">MISIÓN</span>',
       mission_text:"Todo lo que necesitas para hacer la pizza perfecta, en casa.",
       mission_made:"HECHO EN<br><strong>ITALIA</strong>",
@@ -1627,6 +1654,7 @@
       trust_percorso_title:"DE DÉBUTANT À PROFESSIONNEL", trust_percorso_desc:"Un parcours complet et progressif",
       trust_passione_title:"FAIT AVEC PASSION", trust_passione_desc:"De notre expérience à votre cuisine",
       trust_community_title:"COMMUNAUTÉ", trust_community_desc:"Rejoignez une communauté de passionnés",
+      libro_kicker:'MON LIVRE', libro_title:'Pizza Perfetta a Casa', libro_desc:'Ma méthode simple pour une pizza de pizzeria à la maison, en ebook (italien ou allemand).', libro_btn:'Acheter sur Amazon ›',
       mission_title:'TA <span class="g">PASSION</span><br>NOTRE <span class="r">MISSION</span>',
       mission_text:"Tout ce qu'il faut pour faire la pizza parfaite, chez vous.",
       mission_made:"FABRIQUÉ EN<br><strong>ITALIE</strong>",
@@ -1738,6 +1766,7 @@
       trust_percorso_title:"VOM ANFÄNGER ZUM PROFI", trust_percorso_desc:"Ein vollständiger, schrittweiser Weg",
       trust_passione_title:"MIT LEIDENSCHAFT GEMACHT", trust_passione_desc:"Von unserer Erfahrung in deine Küche",
       trust_community_title:"COMMUNITY", trust_community_desc:"Werde Teil einer Community von Enthusiasten",
+      libro_kicker:'MEIN BUCH', libro_title:'Pizza Perfetta a Casa', libro_desc:'Meine einfache Methode für Pizza wie aus der Pizzeria – als E-Book auf Deutsch.', libro_btn:'Bei Amazon kaufen ›',
       mission_title:'DEINE <span class="g">LEIDENSCHAFT</span><br>UNSERE <span class="r">MISSION</span>',
       mission_text:"Alles, was du brauchst, um zu Hause die perfekte Pizza zu machen.",
       mission_made:"HERGESTELLT IN<br><strong>ITALIEN</strong>",
@@ -2394,6 +2423,14 @@
   function closePaywall(){
     document.getElementById('paywallModal').classList.remove('show');
   }
+  // Libro: edizione tedesca per chi usa l'app in tedesco, italiana per tutti gli altri
+  const LIBRO_URL = { it:'https://amzn.eu/d/0iLHZB8v', de:'https://amzn.eu/d/0dAbGhOs' };
+  function openLibro(){
+    if (IS_PLAY_APP) return;
+    window.open(currentLang === 'de' ? LIBRO_URL.de : LIBRO_URL.it, '_blank');
+  }
+  document.body.classList.toggle('play-app', IS_PLAY_APP);
+
   function goToSubscribe(){
     if (IS_PLAY_APP) return;
     window.open(GUMROAD_URL, '_blank');
