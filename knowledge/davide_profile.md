@@ -175,3 +175,7 @@ pochi iscritti: serve un invito a iscriversi.
   Alcuni lasciano l'email ma non arrivano al link (passaggio del follow): valutare il follow-up automatico di ManyChat.
 - 15/10/2026: tolta la richiesta di follow dall'automazione IMPASTO (bloccava 3 persone su 4) e attivato il promemoria
   automatico a 30 minuti per chi non apre il link. Percorso ora: commento → Mandamela → email → tabella.
+
+## Cella di lievitazione (16/10)
+- Costruita da Davide, costo ~350 €. Termostato digitale, 3 ventole, luce, listelli in legno + griglia.
+- La usa per la biga a 18 °C. Video: media/video_davide/cella_lievitazione.mp4 (25 s, verticale).
