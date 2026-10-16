@@ -45,3 +45,5 @@ Non usare: screenshot Facebook di Andy (pizza di un altro), grafica «Herz-Pizza
 3. Teig am selben Tag – «TEIG AM SELBEN TAG? ZU SPÄT.»
    Pizzateig am selben Tag machen? Zu spät. Mach ihn einen Tag vorher und lass ihn im Kühlschrank reifen. Mit wenig Hefe und viel Zeit wird der Teig aromatischer, leichter verdaulich und lässt sich viel besser ausziehen. Zwei Stunden vor dem Backen rausnehmen. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
 - Reel cella con avatar DE programmato: mar 20/10 19:00 IG DE (Metricool id 398143105).
+- Reel gamberi DE: mer 21/10 19:00 IG DE (id 398157602).
+- Da fare: biga 18 ore a 18 gradi IT+DE (attesa video HeyGen).

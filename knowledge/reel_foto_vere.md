@@ -25,3 +25,4 @@
 ## Pizza ai gamberi (video 16/10, media/video_davide/pizza_gamberi.mp4)
 Metodo vero di Davide: gamberi cotti PRIMA, un po' di peperoncino, filo d'olio a crudo in uscita.
 Visibili: pomodoro, fiordilatte, prezzemolo. Reel avatar "Gamberi crudi sulla pizza? Errore" in preparazione.
+- Reel gamberi IT: mar 20/10 18:30 IG+TikTok (uuid 609265675338137601).
