@@ -20,3 +20,4 @@
   Davide però, a casa, li farebbe in padella (olio e aglio) e poi strizzati: è il SUO consiglio, quindi il video
   «Spinaci crudi? Errore… io li salto in padella» va bene se la didascalia lo presenta come consiglio per casa.
 - Reel domenica 18/10 IT: «Spinaci crudi sulla pizza? ERRORE» (foto della bianca, camerieri tagliati fuori).
+- Reel cella con avatar IT programmato: lun 19/10 18:30 IG+TikTok (Metricool id 398137816). Versione DE da fare.
