@@ -178,4 +178,4 @@ pochi iscritti: serve un invito a iscriversi.
 
 ## Cella di lievitazione (16/10)
 - Costruita da Davide, costo ~350 €. Termostato digitale, 3 ventole, luce, listelli in legno + griglia.
-- La usa per la biga a 18 °C e per i panetti a 4-5 °C (maturazione in fresco). Video: media/video_davide/cella_lievitazione.mp4 (25 s, verticale).
+- Biga: 18 ore a 18 °C. Panetti a 4-5 °C (maturazione in fresco). Video: media/video_davide/cella_lievitazione.mp4 (25 s, verticale).
