@@ -50,3 +50,5 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 - Storia "La mia attrezzatura" (Diavola) pubblicata su IT con sticker Link corretto; storia in evidenza "Negozio" creata (15/10).
 - Prossimo: foto attrezzi di Davide nella pagina; codice Amazon.de → pagina tedesca; storia negozio anche su DE.
 - 16/10: penny test Amazon (0,01 EUR) arrivato sul conto di Davide -> conto pagamenti Associates verificato.
+- Foto vere di Davide per il negozio (media/foto_davide_vecchie/): pala e palino Napo "Essenza" (18,19),
+  Ooni Koda a gas (21), forno elettrico rosso tipo G3 Ferrari (20). Valutare: sostituire pala/palino generici con Napo Essenza se su Amazon.
