@@ -1,0 +1,11 @@
+{"video":"bg_cella.mp4","foto":null,"avatar":"av_cella_de.mp4","titolo":"MEIN GÄRSCHRANK","verdetto":"SELBST GEBAUT","colore":"#ffcf4a","fineAttacco":3.18,"durata":23.0,
+ "sfondi":[{"a":0,"b":15.03,"src":null},{"a":15.03,"b":99,"src":"alveolatura.jpg"}],
+ "sottotitoli":[{"a":0,"b":2.22,"t":"Diesen Gärschrank habe ich mir selbst gebaut."},
+  {"a":2.22,"b":5.23,"t":"Thermostat, drei Lüfter und Licht innen."},
+  {"a":5.23,"b":7.50,"t":"Die Biga reift bei 18 Grad."},
+  {"a":7.50,"b":10.05,"t":"Die Teiglinge ruhen bei 4 bis 5 Grad."},
+  {"a":10.05,"b":15.03,"t":"Immer die gleiche Temperatur, Sommer wie Winter: So arbeitet man in der Pizzeria."},
+  {"a":15.03,"b":17.51,"t":"Und das Ergebnis... ist dieser Rand."},
+  {"a":17.51,"b":20.14,"t":"Ich bin italienischer Pizzaiolo in Leipzig."},
+  {"a":20.14,"b":30,"t":"Folge mir für mehr Geheimnisse aus der Pizzeria."}],
+ "dato":{"a":5.23,"b":10.05,"sopra":"BIGA 18 °C","sotto":"Teiglinge 4-5 °C"}}
