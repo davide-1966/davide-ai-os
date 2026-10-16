@@ -7,7 +7,7 @@ Regola: NON pubblicizzare l'app di Davide nel gruppo. Usare solo come fonte di i
   (serie in 4 parti: rinfresco, staglio/appretto, stesura/precottura), pizza in teglia/ruoto con Ooni Koda 16,
   lievito madre, farine W 340-360, menu pizzeria.
 - Domanda tipica: "Quanto fate alta l'idratazione? La prima acqua a che percentuale?" -> idea reel.
-- Sondaggio 2023: appassionato / professionista / "sto cercando di capirci" -> pubblico misto.
+- Sondaggio 2023 (27 voti prima di Davide): 22 appassionati (~80%), 5 professionisti, 0 principianti -> pubblico di appassionati evoluti.
 - Anche loro usano link affiliati (Ooni via ShareASale, barattoli Amazon): conferma il modello del negozio.
 - L'app di Davide copre già biga, poolish e teglia: punto di forza da mostrare nei reel.
 
