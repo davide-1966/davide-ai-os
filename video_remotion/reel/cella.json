@@ -1,0 +1,10 @@
+{"video":"bg_cella.mp4","foto":null,"avatar":"av_cella.mp4","titolo":"LA MIA CELLA DI LIEVITAZIONE","verdetto":"FATTA DA ME","colore":"#ffcf4a","fineAttacco":3.16,"durata":22.9,
+ "sfondi":[{"a":0,"b":16.94,"src":null},{"a":16.94,"b":99,"src":"alveolatura.jpg"}],
+ "sottotitoli":[{"a":0,"b":3.16,"t":"Questa cella di lievitazione me la sono costruita da solo."},
+  {"a":3.16,"b":6.68,"t":"Termostato, tre ventole e luce interna."},
+  {"a":6.68,"b":9.30,"t":"La biga la faccio maturare a 18 gradi."},
+  {"a":9.30,"b":12.64,"t":"I panetti riposano a 4-5 gradi."},
+  {"a":12.64,"b":16.94,"t":"Sempre la stessa temperatura, estate e inverno: in pizzeria si lavora così."},
+  {"a":16.94,"b":19.73,"t":"E il risultato... è questo cornicione."},
+  {"a":19.73,"b":30,"t":"Scrivi IMPASTO nei commenti e ti mando la mia tabella."}],
+ "dato":{"a":6.68,"b":12.64,"sopra":"BIGA 18 °C","sotto":"panetti 4-5 °C"}}
