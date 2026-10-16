@@ -49,3 +49,4 @@ Davide: «gli altri mettili tu» → la lista completa sono tutte le voci sopra.
 - ManyChat IMPASTO: link tabella cambiato in https://pizza-perfetta-a-casa.netlify.app/tabella (15/10).
 - Storia "La mia attrezzatura" (Diavola) pubblicata su IT con sticker Link corretto; storia in evidenza "Negozio" creata (15/10).
 - Prossimo: foto attrezzi di Davide nella pagina; codice Amazon.de → pagina tedesca; storia negozio anche su DE.
+- 16/10: penny test Amazon (0,01 EUR) arrivato sul conto di Davide -> conto pagamenti Associates verificato.
