@@ -100,3 +100,10 @@ Davide
 2. Offerta: codice FONDATORE -50% per 3 mesi, o altro?
 3. Email: MailerLite gratuito va bene? Le email le firma lui e risponde lui.
 4. Niente frasi dei tester: vengono dal servizio Testers Community (test obbligatorio di Google), non sono clienti veri. Come prova sociale si usano commenti e messaggi veri dei follower.
+
+## 17/10/2026 00:10 – Richiesta accesso produzione INVIATA
+- Risposta Google entro ~7 giorni (email al proprietario).
+- Report Testers Community: nessun crash/bug. Suggerimenti: descrizione Play piu' ricca (ASO), screenshot migliori,
+  guida iniziale (onboarding), pulsante "valuta l'app", login Google.
+- Promesso a Google: migliorare descrizione, screenshot, guida iniziale -> farlo prima/al lancio.
+- Non fermare il test chiuso finche' non arriva l'approvazione.
