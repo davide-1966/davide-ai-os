@@ -25,3 +25,8 @@ Regola: NON pubblicizzare l'app di Davide nel gruppo. Usare solo come fonte di i
 - Temi: biga 100%, biga matura (come riconoscerla), biga con planetaria, mozzarella/latticini sulla pizza.
 - MasterBiga PRO gratis su Android/iOS; spingono canale/gruppo WhatsApp. Ultimi link: marzo 2025 -> gruppo poco attivo ora.
 - Idee prodotti negozio (da confermare con Davide): planetaria, cassetta lievitazione, pHmetro? (no, troppo tecnico).
+
+## 2025-2026 (terza serie)
+- Maggio/Giugno 2026: lamentela utenti sulla PUBBLICITA' nell'app MasterBiga; risposta: "il problema della
+  pubblicita' stanno cercando di risolverlo, non dipende da noi". -> Punto di forza: app di Davide SENZA pubblicita'.
+- Gruppo vivo ma lento (link sporadici 2025-2026, ~20 online).
