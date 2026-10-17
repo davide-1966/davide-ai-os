@@ -23,7 +23,7 @@ Lezioni brevi e chiare:
 • Gli errori più comuni (e come evitarli)
 
 🍅 RICETTE
-Dall'impasto classico alla Margherita, alla pizza in teglia senza pietra refrattaria.
+Impasto classico 24h e Margherita spiegati passo passo. Altre ricette (impasto 48h, pizza in teglia, gourmet) nella versione Premium.
 
 ⭐ CONTENUTI PREMIUM
 Alcuni contenuti sono riservati alla versione Premium: biga al 70% e al 100%, altri stili di impasto (teglia, romana, pinsa, contemporanea), ricette gourmet, video e community.
