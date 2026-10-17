@@ -108,3 +108,4 @@ Davide
 - Promesso a Google: migliorare descrizione, screenshot, guida iniziale -> farlo prima/al lancio.
 - Non fermare il test chiuso finche' non arriva l'approvazione.
 - Nota: nella richiesta produzione ho scritto per errore che il calcolatore fa anche il poolish (non lo fa: solo menzionato nella lezione biga). Valutare se aggiungere il poolish al calcolatore.
+- 17/10: nuova descrizione IT inviata in revisione su Play Console.
