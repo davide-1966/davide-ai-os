@@ -458,6 +458,20 @@
   .fav-btn.active{ color:var(--rosso); }
   .fav-btn-video{ position:absolute; top:8px; right:8px; background:rgba(0,0,0,0.5); border-radius:50%; width:26px; height:26px; display:flex; align-items:center; justify-content:center; }
   .video-item{ position:relative; }
+
+  /* ===== GUIDA INIZIALE (primo avvio) ===== */
+  .ob-overlay{ position:fixed; inset:0; z-index:9999; background:rgba(10,8,6,0.92); display:none; align-items:center; justify-content:center; padding:16px; }
+  .ob-overlay.show{ display:flex; }
+  .ob-card{ width:100%; max-width:380px; background:#1f1915; border:1px solid #3a2e25; border-radius:22px; padding:28px 22px 20px; color:#f5efe4; text-align:center; box-shadow:0 20px 60px rgba(0,0,0,0.6); }
+  .ob-emoji{ font-size:64px; line-height:1; margin-bottom:14px; }
+  .ob-title{ font-size:22px; font-weight:800; margin:0 0 10px; }
+  .ob-text{ font-size:15.5px; line-height:1.5; color:#d9cfc1; margin:0 0 22px; min-height:70px; }
+  .ob-dots{ display:flex; justify-content:center; gap:8px; margin-bottom:18px; }
+  .ob-dot{ width:8px; height:8px; border-radius:50%; background:#5a4a3c; }
+  .ob-dot.on{ background:var(--arancio); width:22px; border-radius:6px; }
+  .ob-actions{ display:flex; justify-content:space-between; align-items:center; gap:10px; }
+  .ob-skip{ background:none; border:none; color:#a89a87; font-size:15px; padding:10px 6px; cursor:pointer; }
+  .ob-next{ background:var(--arancio); color:#fff; border:none; border-radius:24px; font-size:16px; font-weight:800; padding:12px 26px; cursor:pointer; }
 </style>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
@@ -1283,6 +1297,21 @@
         <p class="calc-hint" style="color:var(--testo-chiaro); font-weight:700;">Grazie! Segnalazione inviata.</p>
         <p class="calc-hint" style="margin-top:6px;">Davide la leggerà a breve.</p>
       </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- GUIDA INIZIALE -->
+<div class="ob-overlay" id="obOverlay" role="dialog" aria-modal="true">
+  <div class="ob-card">
+    <div class="ob-emoji" id="obEmoji">🍕</div>
+    <h2 class="ob-title" id="obTitle"></h2>
+    <p class="ob-text" id="obText"></p>
+    <div class="ob-dots" id="obDots"></div>
+    <div class="ob-actions">
+      <button type="button" class="ob-skip" id="obSkip" onclick="closeOnboarding(false)"></button>
+      <button type="button" class="ob-next" id="obNext" onclick="nextOnboarding()"></button>
     </div>
   </div>
 </div>
@@ -2430,6 +2459,62 @@
     window.open(currentLang === 'de' ? LIBRO_URL.de : LIBRO_URL.it, '_blank');
   }
   document.body.classList.toggle('play-app', IS_PLAY_APP);
+
+  // ===== GUIDA INIZIALE: 4 schermate al primo avvio =====
+  const OB_TEXT = {
+    it:{ skip:'Salta', next:'Avanti', start:'Inizia', s:[
+      ['🍕','Benvenuto!','Sono Davide, pizzaiolo da oltre 20 anni. Qui trovi il mio metodo per fare la pizza da pizzeria nel forno di casa.'],
+      ['⚖️','Il calcolatore','Scegli quante pizze vuoi e il peso dei panetti: calcolo farina, acqua, sale e lievito al grammo.'],
+      ['📚','Corso e ricette','Lezioni brevi e ricette passo passo, dall\'impasto alla Margherita. Tocca il cuore ♡ per salvarle nei Preferiti.'],
+      ['🔥','Pronto?','Iniziamo dal calcolatore: in un minuto hai le dosi del tuo primo impasto.'] ]},
+    en:{ skip:'Skip', next:'Next', start:'Start', s:[
+      ['🍕','Welcome!','I\'m Davide, a pizzaiolo with over 20 years of experience. Here is my method for pizzeria-style pizza in your home oven.'],
+      ['⚖️','The calculator','Choose how many pizzas and the dough ball weight: I calculate flour, water, salt and yeast to the gram.'],
+      ['📚','Course and recipes','Short lessons and step-by-step recipes, from the dough to the Margherita. Tap the heart ♡ to save them to Favorites.'],
+      ['🔥','Ready?','Let\'s start with the calculator: in one minute you\'ll have the amounts for your first dough.'] ]},
+    es:{ skip:'Saltar', next:'Siguiente', start:'Empezar', s:[
+      ['🍕','¡Bienvenido!','Soy Davide, pizzero con más de 20 años de experiencia. Aquí tienes mi método para una pizza de pizzería en el horno de casa.'],
+      ['⚖️','La calculadora','Elige cuántas pizzas quieres y el peso de cada bola: calculo harina, agua, sal y levadura al gramo.'],
+      ['📚','Curso y recetas','Lecciones cortas y recetas paso a paso, de la masa a la Margherita. Toca el corazón ♡ para guardarlas en Favoritos.'],
+      ['🔥','¿Listo?','Empecemos por la calculadora: en un minuto tendrás las cantidades de tu primera masa.'] ]},
+    fr:{ skip:'Passer', next:'Suivant', start:'Commencer', s:[
+      ['🍕','Bienvenue !','Je suis Davide, pizzaiolo depuis plus de 20 ans. Voici ma méthode pour une pizza de pizzeria dans votre four.'],
+      ['⚖️','Le calculateur','Choisissez le nombre de pizzas et le poids des pâtons : je calcule farine, eau, sel et levure au gramme.'],
+      ['📚','Cours et recettes','Des leçons courtes et des recettes pas à pas, de la pâte à la Margherita. Touchez le cœur ♡ pour les garder en Favoris.'],
+      ['🔥','Prêt ?','Commençons par le calculateur : en une minute, vous avez les doses de votre première pâte.'] ]},
+    de:{ skip:'Überspringen', next:'Weiter', start:'Los geht\'s', s:[
+      ['🍕','Willkommen!','Ich bin Davide, Pizzaiolo seit über 20 Jahren. Hier findest du meine Methode für Pizza wie aus der Pizzeria – im eigenen Ofen.'],
+      ['⚖️','Der Teigrechner','Wähle die Anzahl der Pizzen und das Gewicht der Teiglinge: Ich berechne Mehl, Wasser, Salz und Hefe aufs Gramm.'],
+      ['📚','Kurs und Rezepte','Kurze Lektionen und Rezepte Schritt für Schritt, vom Teig bis zur Margherita. Tippe auf das Herz ♡, um sie zu speichern.'],
+      ['🔥','Bereit?','Starten wir mit dem Teigrechner: In einer Minute hast du die Mengen für deinen ersten Teig.'] ]}
+  };
+  let obStep = 0;
+  function renderOnboarding(){
+    const t = OB_TEXT[currentLang] || OB_TEXT.it, sl = t.s[obStep], last = obStep === t.s.length - 1;
+    document.getElementById('obEmoji').textContent = sl[0];
+    document.getElementById('obTitle').textContent = sl[1];
+    document.getElementById('obText').textContent = sl[2];
+    document.getElementById('obSkip').textContent = t.skip;
+    document.getElementById('obSkip').style.visibility = last ? 'hidden' : 'visible';
+    document.getElementById('obNext').textContent = last ? t.start : t.next;
+    document.getElementById('obDots').innerHTML = t.s.map(function(_, i){ return '<span class="ob-dot' + (i === obStep ? ' on' : '') + '"></span>'; }).join('');
+  }
+  function nextOnboarding(){
+    const n = (OB_TEXT[currentLang] || OB_TEXT.it).s.length;
+    if (obStep < n - 1) { obStep++; renderOnboarding(); } else { closeOnboarding(true); }
+  }
+  function closeOnboarding(openCalculator){
+    document.getElementById('obOverlay').classList.remove('show');
+    try { localStorage.setItem('ppac_onboarding_done', '1'); } catch(e) {}
+    if (openCalculator && typeof openCalc === 'function') openCalc();
+  }
+  (function initOnboarding(){
+    let done = false;
+    try { done = localStorage.getItem('ppac_onboarding_done') === '1'; } catch(e) {}
+    if (done) return;
+    obStep = 0; renderOnboarding();
+    document.getElementById('obOverlay').classList.add('show');
+  })();
 
   function goToSubscribe(){
     if (IS_PLAY_APP) return;
