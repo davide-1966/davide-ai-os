@@ -114,3 +114,6 @@ Davide
 - 18/10/2026: ACCESSO ALLA PRODUZIONE CONCESSO da Google. Paesi selezionati. Prossimo: creare release di produzione (riusare AAB del test chiuso dalla libreria), note di rilascio, invio in revisione.
 - 18/10/2026: release di produzione 3 (2.0.1), implementazione completa, INVIATA IN REVISIONE. Pubblicazione gestita disattivata: va online da sola dopo l'approvazione. Note rilascio IT+DE.
 - Piano dopo la pubblicazione: 1) lancio social (reel annuncio, storie, link Play in bio, email ManyChat); 2) abbonamento Play Billing 'premium_mensile' 4,99 €: creare su Play Console, collegare Digital Goods API nella TWA, nuovo AAB in revisione; 3) ManyChat DE con parola TEIG e /tabelle (v15 da caricare).
+- 18/10: ManyChat DE creato (ricetta/tabella), email riattivata anche IT. Offerta: chi lascia l'email riceve 1 MESE GRATIS di Premium, attivato A MANO da Davide:
+  Netlify -> Identity -> Invite users (email) -> sul nuovo utente: Edit settings -> Roles: premium. Dopo 30 giorni togliere il ruolo.
+  L'utente accetta l'invito via email, crea la password, nell'app: Profilo -> Accedi. Funziona anche nella versione Play (link "Accedi qui" visibile).
