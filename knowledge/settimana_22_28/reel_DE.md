@@ -47,19 +47,19 @@ DA CHIEDERE A DAVIDE: idratazione e lievito della biga, se vuole aggiungerli nel
 
 ---
 
-## 2. Venerdì 23/10 – Temperatura dell'impasto 21 °C
+## 2. Venerdì 23/10 – Temperatura dell'impasto (21 °C pizzeria / 24 °C casa)
 
 - **Formato:** avatar nel cerchio con sfondo video vero (il termometro deve restare ben visibile, cerchio in basso a sinistra).
 - **Materiale:** `media/video_davide/impasto_16ott/impastatrice_termometro.mp4`
 - **Attacco a schermo:** TEIGTEMPERATUR EGAL? FALSCH.
 
 **Testo avatar (~20 s):**
-> Die Temperatur vom Teig ist egal? Falsch. Ich messe jeden Teig mit dem Thermometer. Am Ende des Knetens sollte er ungefähr einundzwanzig Grad haben. Ist er zu warm, geht er viel zu schnell. Ist er zu kalt, kommt er kaum in Gang. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
+> Die Temperatur vom Teig ist egal? Falsch. Ich messe jeden Teig mit dem Thermometer. In meiner Pizzeria hat er am Ende des Knetens einundzwanzig Grad. Zu Hause empfehle ich ungefähr vierundzwanzig Grad. Ist er zu warm, geht er viel zu schnell. Ist er zu kalt, kommt er kaum in Gang. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
 
 **Didascalia:**
 ```
 Die wichtigste Zahl im Pizzateig? Nicht nur Gramm – sondern Grad. 🌡️
-Am Ende des Knetens hat mein Teig ca. 21 °C.
+In meiner Pizzeria hat der Teig am Ende des Knetens 21 °C – zu Hause empfehle ich ca. 24 °C.
 Zu warm → er geht zu schnell und verliert Aroma.
 Zu kalt → er kommt kaum in Gang.
 Ein einfaches Küchenthermometer reicht.
@@ -69,9 +69,9 @@ Misst du die Temperatur von deinem Teig – ja oder nein? 👇
 #pizzateig #teigtemperatur #pizzabacken #neapolitanischepizza #pizzaselbermachen #pizzaiolo #leipzig
 ```
 
-**IT:** «Temperatura dell'impasto? Non conta… Sbagliato.» Misuro sempre: a fine impasto circa 21 °C. Troppo caldo
+**IT:** «Temperatura dell'impasto? Non conta… Sbagliato.» Misuro sempre: in pizzeria a fine impasto 21 °C, a casa consiglio circa 24 °C. Troppo caldo
 lievita troppo in fretta, troppo freddo non parte. Domanda: misuri la temperatura del tuo impasto?
-DA CHIEDERE A DAVIDE: come regola l'acqua (fredda/ghiacciata) per arrivare a 21 °C – utile per un reel successivo.
+Risposta di Davide: ci arriva impastando; a casa 24 °C.
 
 ---
 
@@ -171,12 +171,12 @@ controllare nel video che si veda bene l'impasto liscio che si stacca dalla vasc
 - **Attacco a schermo:** DEIN KÜHLSCHRANK? WAHRSCHEINLICH ZU WARM.
 
 **Testo avatar (~19 s):**
-> Deine Teiglinge reifen im Kühlschrank, aber werden trotzdem zu weich? Dann ist dein Kühlschrank vielleicht zu warm. In meiner Pizzeria reifen die Teiglinge bei vier bis fünf Grad. Leg ein Thermometer in deinen Kühlschrank und prüf es. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
+> Deine Teiglinge reifen im Kühlschrank, aber werden trotzdem zu weich? Dann ist dein Kühlschrank vielleicht zu warm. In meiner Pizzeria reifen die Teiglinge vierundzwanzig bis sechsunddreißig Stunden bei vier bis fünf Grad. Leg ein Thermometer in deinen Kühlschrank und prüf es. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
 
 **Didascalia:**
 ```
 Teiglinge im Kühlschrank – aber bei wie viel Grad? ❄️
-In meiner Pizzeria reifen die Teiglinge bei 4–5 °C.
+In meiner Pizzeria reifen die Teiglinge 24–36 Stunden bei 4–5 °C – je nach Mehlstärke.
 Viele Kühlschränke zu Hause sind wärmer eingestellt, und dann geht der Teig zu schnell.
 Mein Tipp: Leg ein Thermometer rein und schau nach.
 
@@ -191,32 +191,30 @@ Nota: tema diverso da «Teig am Vortag» (lì si parlava del giorno prima, qui d
 
 ---
 
-## 7. Mercoledì 28/10 – Pala forata (fondo non croccante)
+## 7. Mercoledì 28/10 – Mein Pizzaschieber: leicht und handlich
 
 - **Formato:** avatar nel cerchio con sfondo foto vere.
 - **Materiale:** `media/foto_davide_vecchie/18_pala_napo_essenza.jpg`, poi `19_palino_napo_essenza.jpg`.
   Niente marchio a voce né link: non è un reel pubblicitario.
-- **Attacco a schermo:** VIEL MEHL AUF DEN SCHIEBER? FALSCH.
+- **Attacco a schermo:** SCHWERER SCHIEBER? FALSCH.
 
-**Testo avatar (~21 s):**
-> Viel Mehl auf den Pizzaschieber, damit nichts klebt? Falsch. Das überschüssige Mehl verbrennt auf dem heißen Stein, und der Boden schmeckt bitter. Ich arbeite mit einem Lochschieber: Ich schüttle ihn kurz, und das lose Mehl fällt durch die Löcher. Der Boden bleibt sauber und knusprig. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
+**Testo avatar (~18 s):**
+> Ein schwerer Pizzaschieber? Falsch. Ich arbeite mit einem leichten Lochschieber aus Aluminium. Er liegt gut in der Hand, und die Pizza gleitet mit einer kurzen, sicheren Bewegung auf den Stein. Zum Drehen im Ofen nehme ich einen kleinen runden Schieber. Ich bin italienischer Pizzaiolo in Leipzig. Folge mir für mehr Geheimnisse aus der Pizzeria.
 
 **Didascalia:**
 ```
-Boden bitter oder schwarz verbrannt? Schuld ist oft das Mehl auf dem Schieber. 🔥
-Zu viel Mehl verbrennt auf dem heißen Pizzastein.
-Mit einem Lochschieber fällt das lose Mehl durch die Löcher, bevor die Pizza auf den Stein kommt.
-Ergebnis: sauberer, knuspriger Boden.
+Mein Werkzeug für jeden Abend in der Pizzeria: ein leichter Lochschieber. 🍕
+Leicht und handlich – so kommt die Pizza mit einer kurzen, sicheren Bewegung auf den Stein.
+Zum Drehen im Ofen: ein kleiner runder Schieber.
 
 Womit schießt du deine Pizza ein – Holzschieber, Blech oder Lochschieber? 👇
 
 #pizzaschieber #pizzastein #pizzabacken #pizzateig #pizzaselbermachen #pizzaiolo #leipzig
 ```
 
-**IT:** «Tanta farina sulla pala? Sbagliato.» La farina in eccesso brucia sulla pietra e il fondo sa di amaro: con la
-pala forata la scuoto e la farina cade dai buchi. Domanda: con cosa inforni la pizza?
-DA CHIEDERE A DAVIDE (prima di registrare): conferma che usa la pala forata proprio così e per questo motivo.
-Se non è il suo metodo, sostituire con un altro tema.
+**IT:** «Pala pesante? Sbagliato.» Uso una pala forata in alluminio, leggera e maneggevole: la pizza entra con un gesto
+breve e sicuro. Per girarla in forno uso il palino. Domanda: con cosa inforni la pizza?
+Motivo confermato da Davide (18/10): leggera e maneggevole.
 
 ---
 

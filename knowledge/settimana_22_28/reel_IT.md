@@ -26,15 +26,15 @@ Attenzione per Horacle/Davide:
 ## 1. Giovedì 22 ottobre, 18:30 · Avatar nel cerchio + foto vere sullo sfondo
 
 **Materiale**
-- Avatar HeyGen «biga 18 ore a 18 gradi»: **DA REGISTRARE** (se il testo già scritto è diverso da quello qui sotto, vale quello già scritto; questo è una proposta di riserva).
+- Avatar HeyGen «biga 18 ore a 18 gradi»: **DA REGISTRARE** (testo già concordato con Davide il 16/10).
 - Sfondo, in ordine: `media/foto_davide_vecchie/10.jpg` (biga nei tre contenitori, sotto l'attacco) →
-  `media/foto_davide_vecchie/11.jpg` (termometro sulla biga) → `media/video_davide/impasto_16ott/biga_blocco_1.mp4` (biga matura tagliata, nel finale).
+  `media/video_davide/impasto_16ott/biga_blocco_1.mp4` (biga matura tagliata) → `impastatrice_3.mp4` (nel finale). Foto 11 (16,5 °C) esclusa: non torna con i 18 °C.
 - Scritta fissa sul dato: «BIGA · 18 ORE · 18 °C».
 
 **Attacco a schermo:** 18 ORE A 18 GRADI
 
 **Testo avatar (circa 19 s)**
-> La mia biga matura diciotto ore a diciotto gradi. Sempre. Non a occhio, non "quando capita". Diciotto ore sono il tempo che le serve per prendere sapore; diciotto gradi la tengono regolare, estate e inverno. Per questo me la tengo in una cella che mi sono costruito io. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
+> La mia biga ha una regola semplice: diciotto ore a diciotto gradi. Guarda com'è dentro: tutta alveolata, profumata. Poi va in impastatrice per l'impasto finale. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
 
 **Didascalia**
 ```
@@ -47,9 +47,7 @@ Tu la biga la fai già o usi l'impasto diretto? 👇
 #pizzafattaincasa #pizzaperfettaacasa #biga #impastopizza #pizzaiolo #lievitazione
 ```
 
-**DA CHIEDERE A DAVIDE**
-- La frase «18 ore per prendere sapore, 18 gradi per tenerla regolare» rispecchia il suo pensiero? Come lo direbbe lui?
-- Il 16,5 °C della foto `11.jpg`: quando l'ha misurato (biga appena fatta o dopo la cella)? Se non torna con i 18 °C, la foto la togliamo.
+**Stato:** testo confermato.
 
 ---
 
@@ -98,24 +96,22 @@ Salvalo per la tua prossima biga.
 
 **Scritte a schermo**
 1. QUESTO NUMERO DECIDE L'IMPASTO
-2. Fine impasto: circa 21 °C
-3. Lo controllo ogni volta, col termometro
-4. [Perché proprio 21 °C – DA CHIEDERE A DAVIDE]
+2. In pizzeria il mio esce a 21 °C
+3. A casa punta a circa 24 °C
+4. Ci arrivi impastando: controlla col termometro
 5. Commenta IMPASTO 📄
 
 **Didascalia**
 ```
-A fine impasto guardo sempre un numero: la temperatura. Il mio impasto deve stare a circa 21 °C.
-Tu la misuri o vai a sensazione? 👇
+A fine impasto guardo sempre un numero: la temperatura. In pizzeria il mio esce a 21 °C, impastando.
+A casa ti consiglio circa 24 °C a fine impasto. Tu la misuri o vai a sensazione? 👇
 
 📄 Commenta IMPASTO e ti mando gratis la mia tabella degli impasti
 
 #pizzafattaincasa #pizzaperfettaacasa #impastopizza #temperaturaimpasto #pizzaiolo #biga
 ```
 
-**DA CHIEDERE A DAVIDE**
-- Perché 21 °C? Cosa succede se l'impasto esce più caldo o più freddo?
-- Come ci arriva (acqua fredda, ghiaccio, tempo di impasto)?
+**Risposta di Davide (18/10):** in pizzeria 21 °C, ci arriva impastando; a casa consiglia 24 °C.
 - Il reel del 15/10 diceva «circa 24° a fine impastamento»: per la pizza fatta in casa consiglia 24 °C o anche lì 21 °C? (Se 21, nella didascalia o in un commento fissato si può correggere.)
 
 ---
@@ -130,7 +126,7 @@ Tu la misuri o vai a sensazione? 👇
 **Attacco a schermo:** IL TRUCCO DELLE RIGHE BLU
 
 **Testo avatar (circa 18 s)** – le parti tra parentesi quadre si completano con la risposta di Davide
-> Vedi queste righe blu sul contenitore? È un trucco semplicissimo. Segno con un pennarello il livello dell'impasto [quando lo metto dentro], poi [la seconda riga dove deve arrivare]. Così non indovino: vedo esattamente quanto è cresciuto. Ti costa un pennarello. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
+> Vedi queste righe blu sul contenitore? È un trucco semplicissimo. Con un pennarello segno il livello della biga o dell'impasto, e poi controllo quanto è cresciuto. Così non vado a occhio: vedo esattamente lo sviluppo. Ti costa solo un pennarello. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
 
 **Didascalia**
 ```
@@ -142,10 +138,7 @@ Salvalo e provalo al prossimo impasto.
 #pizzafattaincasa #pizzaperfettaacasa #impastopizza #lievitazione #trucchidicucina #pizzaiolo
 ```
 
-**DA CHIEDERE A DAVIDE**
-- Cosa segnano esattamente le due righe? (livello di partenza e livello d'arrivo? il raddoppio?)
-- Nel contenitore della foto `08.jpg` c'è la biga o l'impasto/panetti?
-- Lo usa per la biga, per l'impasto o per tutti e due?
+**Risposta di Davide (18/10):** le righe segnano lo sviluppo della biga o dell'impasto.
 
 ---
 
@@ -193,12 +186,12 @@ Tu impasti a mano o con la macchina? 👇
 **Attacco a schermo:** QUESTI BUCHI NON LI FA IL LIEVITO
 
 **Testo avatar (circa 20 s)**
-> Guarda dentro questo cornicione. Questi buchi non li fa il lievito: io ne metto otto grammi su dieci chili di farina. Li fa il tempo. La biga matura diciotto ore a diciotto gradi, poi i panetti riposano al fresco, a quattro-cinque gradi. Più lievito non ti dà questa alveolatura: ti dà solo fretta. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
+> Guarda dentro questo cornicione. Questi buchi non li fa il lievito: io ne metto otto grammi su dieci chili di farina. Li fa il tempo. La biga matura diciotto ore a diciotto gradi, poi i panetti riposano da ventiquattro a trentasei ore, a quattro-cinque gradi. Più lievito non ti dà questa alveolatura: ti dà solo fretta. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
 
 **Didascalia**
 ```
 Un cornicione così non nasce dal lievito: io ne uso 8 g su 10 kg di farina.
-Nasce dal tempo: biga 18 ore a 18 °C, poi panetti al fresco a 4–5 °C.
+Nasce dal tempo: biga 18 ore a 18 °C, poi panetti 24–36 ore a 4–5 °C (secondo la forza della farina).
 Salvalo e guarda la tua prossima pizza dentro, non solo fuori.
 
 📄 Commenta IMPASTO e ti mando gratis la mia tabella degli impasti
@@ -206,9 +199,7 @@ Salvalo e guarda la tua prossima pizza dentro, non solo fuori.
 #pizzafattaincasa #pizzaperfettaacasa #alveolatura #cornicione #biga #impastopizza #pizzaiolo
 ```
 
-**DA CHIEDERE A DAVIDE**
-- Gli 8 g di lievito su 10 kg di farina sono per la biga o per l'impasto completo? (Il reel lo cita come nel reel del lievito del 29/9; se serve precisare, cambiamo la frase.)
-- Per quante ore restano i panetti a 4–5 °C? (Ora il testo dice solo «al fresco», senza ore.)
+**Risposta di Davide (18/10):** 8 g su 10 kg riferiti a tutto l'impasto; panetti 24–36 ore.
 
 ---
 
