@@ -112,3 +112,4 @@ Davide
 - 17/10: inviati in revisione 4 screenshot nuovi (media/play_screenshots) + descrizione corretta (teglia premium). Prossimo: guida iniziale (onboarding) nell'app.
 - 17/10: v14 online (guida iniziale). Promesse a Google completate: descrizione, screenshot, onboarding. Attesa esito produzione (entro ~24/10).
 - 18/10/2026: ACCESSO ALLA PRODUZIONE CONCESSO da Google. Paesi selezionati. Prossimo: creare release di produzione (riusare AAB del test chiuso dalla libreria), note di rilascio, invio in revisione.
+- 18/10/2026: release di produzione 3 (2.0.1), implementazione completa, INVIATA IN REVISIONE. Pubblicazione gestita disattivata: va online da sola dopo l'approvazione. Note rilascio IT+DE.
