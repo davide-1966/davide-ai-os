@@ -179,3 +179,12 @@ pochi iscritti: serve un invito a iscriversi.
 ## Cella di lievitazione (16/10)
 - Costruita da Davide, costo ~350 €. Termostato digitale, 3 ventole, luce, listelli in legno + griglia.
 - Biga: 18 ore a 18 °C. Panetti a 4-5 °C (maturazione in fresco). Video: media/video_davide/cella_lievitazione.mp4 (25 s, verticale).
+
+## Biga matura – come la riconosce Davide (18/10)
+- Sviluppo: crescita moderata, aspetto spugnoso. Non collassata o sgonfia.
+- Interno: micro-alveolatura ben distribuita, struttura aperta.
+- Superficie: a temperatura ambiente leggera crosticina / più opaca (ossidazione); in frigo più lucida (condensa).
+- Consistenza: compatta, morbida, soffice, elastica. Non appiccicosa, non troppo molle.
+- Non filante: se è filante c'è troppa proteolisi. Strappando un pezzetto deve staccarsi netto.
+- Profumo: dolce, fermentativo, leggermente alcolico o di yogurt (nocciola con lievito madre).
+- Da evitare: odore pungente, acetico o troppo acido = biga sovramaturata.

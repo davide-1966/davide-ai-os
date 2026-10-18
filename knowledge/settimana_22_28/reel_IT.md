@@ -64,23 +64,27 @@ Tu la biga la fai già o usi l'impasto diretto? 👇
 **Scritte a schermo** (una alla volta, 2–3 s ciascuna)
 1. BIGA PRONTA? TAGLIALA E GUARDA
 2. Dopo 18 ore a 18 °C
-3. ✅ [segno di maturità n. 1 – DA CHIEDERE A DAVIDE]
-4. ✅ [segno di maturità n. 2 – DA CHIEDERE A DAVIDE]
-5. ❌ [segno che non è ancora pronta / che è andata oltre – DA CHIEDERE A DAVIDE]
+3. ✅ Spugnosa, micro-alveoli ovunque
+4. ✅ Si strappa netta, profuma di yogurt
+5. ❌ Filante o odore acido = andata oltre
 6. Commenta IMPASTO 📄
 
 **Didascalia**
 ```
 La biga non si controlla con l'orologio: si apre e si guarda dentro.
-Questa è la mia, dopo 18 ore a 18 °C. Salvalo per la tua prossima biga.
+Questa è la mia, dopo 18 ore a 18 °C.
+✅ Cresciuta il giusto, spugnosa, con micro-alveoli ben distribuiti
+✅ Morbida ed elastica, non appiccicosa: strappandola si stacca netta
+✅ Profumo dolce, leggermente alcolico, come lo yogurt
+❌ Se è filante o sa di acido/aceto, è andata oltre
+Salvalo per la tua prossima biga.
 
 📄 Commenta IMPASTO e ti mando gratis la mia tabella degli impasti
 
 #pizzafattaincasa #pizzaperfettaacasa #biga #bigamatura #impastopizza #pizzaiolo
 ```
 
-**DA CHIEDERE A DAVIDE**
-- Da cosa capisce che la biga è matura quando la taglia? (profumo, colore, alveoli/rete interna, consistenza, volume…) Servono 2 segni positivi e 1 negativo, con le sue parole.
+**Risposta di Davide (18/10):** criteri completi in `knowledge/davide_profile.md` → «Biga matura».
 
 ---
 
