@@ -1,4 +1,4 @@
-# Idea: "Il pizzaiolo giudica la tua pizza" (proposta del 18/10, da approvare)
+# Idea: "Il pizzaiolo giudica la tua pizza" (approvata da Davide il 18/10)
 
 Spunto: Carla ha mandato le sue pizze fatte con i consigli di Davide → contenuto vero, nato dai follower.
 
