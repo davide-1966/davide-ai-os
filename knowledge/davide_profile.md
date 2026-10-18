@@ -195,3 +195,4 @@ pochi iscritti: serve un invito a iscriversi.
 - Lievito 8 g su 10 kg: riferito a TUTTO l'impasto.
 - Panetti a 4-5 °C: 24-36 ore, dipende sempre dalla forza della farina.
 - Pala forata Napo Essenza: la preferisce perche' leggera e maneggevole (NON citare il motivo "farina che cade dai buchi").
+- Stesura: niente mattarello; punta delle dita dal centro verso l'esterno, aria spinta nel cornicione, bordo non toccato (confermato 18/10).
