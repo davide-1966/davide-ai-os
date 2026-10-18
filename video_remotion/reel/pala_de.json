@@ -1,0 +1,9 @@
+{"foto":"pala.jpg","avatar":"av_pala_de.mp4","titolo":"SCHWERER SCHIEBER?","verdetto":"FALSCH.","colore":"#ff5c48","fineAttacco":2.63,"durata":19.9,
+ "sfondi":[{"a":0,"b":11.37,"src":"pala.jpg"},{"a":11.37,"b":99,"src":"palino.jpg"}],
+ "sottotitoli":[{"a":0,"b":1.71,"t":"Ein schwerer Pizzaschieber?"},{"a":1.71,"b":2.63,"t":"Falsch."},
+  {"a":2.63,"b":5.65,"t":"Ich arbeite mit einem leichten Lochschieber aus Aluminium."},
+  {"a":5.65,"b":11.37,"t":"Er liegt gut in der Hand, und die Pizza gleitet mit einer kurzen, sicheren Bewegung auf den Stein."},
+  {"a":11.37,"b":14.74,"t":"Zum Drehen im Ofen nehme ich einen kleinen runden Schieber."},
+  {"a":14.74,"b":17.13,"t":"Ich bin italienischer Pizzaiolo in Leipzig."},
+  {"a":17.13,"b":30,"t":"Folge mir für mehr Geheimnisse aus der Pizzeria."}],
+ "dato":{"a":2.63,"b":11.37,"sopra":"LEICHT & HANDLICH","sotto":"Lochschieber aus Aluminium"}}

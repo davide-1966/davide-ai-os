@@ -1,0 +1,10 @@
+{"foto":"cornicione15.jpg","avatar":"av_va10.mp4","titolo":"NUDELHOLZ FÜR PIZZA?","verdetto":"FALSCH.","colore":"#ff5c48","fineAttacco":3.30,"durata":20.2,
+ "sfondi":[{"a":0,"b":7.30,"src":"cornicione15.jpg"},{"a":7.30,"b":14.90,"src":"alveolatura.jpg"},{"a":14.90,"b":99,"src":"margherita09.jpg"}],
+ "sottotitoli":[{"a":0,"b":2.33,"t":"Pizzateig mit dem Nudelholz ausrollen?"},{"a":2.33,"b":3.30,"t":"Falsch."},
+  {"a":3.30,"b":7.30,"t":"Das Nudelholz drückt die ganze Luft raus, und der Rand bleibt flach."},
+  {"a":7.30,"b":11.05,"t":"Drück den Teigling mit den Fingerspitzen von der Mitte nach außen"},
+  {"a":11.05,"b":12.86,"t":"und schieb die Luft in den Rand."},
+  {"a":12.86,"b":14.90,"t":"Den Rand selbst fasst du nicht an."},
+  {"a":14.90,"b":17.48,"t":"Ich bin italienischer Pizzaiolo in Leipzig."},
+  {"a":17.48,"b":30,"t":"Folge mir für mehr Geheimnisse aus der Pizzeria."}],
+ "dato":{"a":7.30,"b":14.90,"sopra":"FINGERSPITZEN","sotto":"Luft in den Rand schieben"}}

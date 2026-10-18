@@ -1,0 +1,10 @@
+{"foto":"alveolatura.jpg","avatar":"av_va12.mp4","titolo":"QUESTI BUCHI","verdetto":"NON LI FA IL LIEVITO","colore":"#ffcf4a","fineAttacco":2.15,"durata":21.7,
+ "sfondi":[{"a":0,"b":10.48,"src":"alveolatura.jpg"},{"a":10.48,"b":15.37,"src":"cornicione15.jpg"},{"a":15.37,"b":99,"src":"margherita09.jpg"}],
+ "sottotitoli":[{"a":0,"b":2.15,"t":"Guarda dentro questo cornicione."},
+  {"a":2.15,"b":6.46,"t":"Questi buchi non li fa il lievito: io ne metto 8 grammi su 10 kg di farina."},
+  {"a":6.46,"b":7.71,"t":"Li fa il tempo."},
+  {"a":7.71,"b":10.48,"t":"La biga matura 18 ore a 18 gradi,"},
+  {"a":10.48,"b":15.37,"t":"poi i panetti riposano da 24 a 36 ore, a 4-5 gradi."},
+  {"a":15.37,"b":18.62,"t":"Più lievito non ti dà questa alveolatura: ti dà solo fretta."},
+  {"a":18.62,"b":30,"t":"Scrivi IMPASTO nei commenti e ti mando la mia tabella."}],
+ "dato":{"a":2.15,"b":7.71,"sopra":"8 g DI LIEVITO","sotto":"su 10 kg di farina"}}
