@@ -1,0 +1,9 @@
+{"foto":"righe.jpg","avatar":"av_righe_it.mp4","titolo":"IL TRUCCO DELLE","verdetto":"RIGHE BLU","colore":"#4aa3ff","fineAttacco":3.98,"durata":18.0,
+ "sfondi":[{"a":0,"b":12.67,"src":"righe.jpg"},{"a":12.67,"b":99,"src":"biga_tirata.jpg"}],
+ "sottotitoli":[{"a":0,"b":3.98,"t":"Vedi queste righe blu sul contenitore? È un trucco semplicissimo."},
+  {"a":3.98,"b":7.45,"t":"Con un pennarello segno il livello della biga o dell'impasto,"},
+  {"a":7.45,"b":9.52,"t":"e poi controllo quanto è cresciuto."},
+  {"a":9.52,"b":12.67,"t":"Così non vado a occhio: vedo esattamente lo sviluppo."},
+  {"a":12.67,"b":14.40,"t":"Ti costa solo un pennarello."},
+  {"a":14.40,"b":30,"t":"Scrivi IMPASTO nei commenti e ti mando la mia tabella."}],
+ "dato":null}
