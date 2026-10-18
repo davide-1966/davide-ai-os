@@ -188,3 +188,10 @@ pochi iscritti: serve un invito a iscriversi.
 - Non filante: se è filante c'è troppa proteolisi. Strappando un pezzetto deve staccarsi netto.
 - Profumo: dolce, fermentativo, leggermente alcolico o di yogurt (nocciola con lievito madre).
 - Da evitare: odore pungente, acetico o troppo acido = biga sovramaturata.
+
+## Risposte di Davide (18/10) per i reel 22-28/10
+- Temperatura impasto: ci arriva "impastando" (DA CHIARIRE: a casa 21 o 24 °C?).
+- Righe blu sul contenitore: segnano lo sviluppo/crescita della biga o dell'impasto.
+- Lievito 8 g su 10 kg: riferito a TUTTO l'impasto.
+- Panetti a 4-5 °C: 24-36 ore, dipende sempre dalla forza della farina.
+- Pala forata Napo Essenza: la preferisce perche' leggera e maneggevole (NON citare il motivo "farina che cade dai buchi").
