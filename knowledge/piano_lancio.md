@@ -118,3 +118,11 @@ Davide
   Netlify -> Identity -> Invite users (email) -> sul nuovo utente: Edit settings -> Roles: premium. Dopo 30 giorni togliere il ruolo.
   L'utente accetta l'invito via email, crea la password, nell'app: Profilo -> Accedi. Funziona anche nella versione Play (link "Accedi qui" visibile).
 - 18/10: didascalie dei 14 reel 22-28/10 aggiornate con offerta tabella + 1 mese gratis app (IT: IMPASTO, DE: TEIG).
+
+## Priorità (Pareto, deciso con Davide il 18/10)
+Davide ha poco tempo nei giorni di lavoro. Il 20% che conta:
+1. Girare video veri nel giorno libero (1–2 ore) → Horacle monta e programma la settimana IT + DE.
+2. Raccogliere email con IMPASTO/TEIG e attivare a mano il mese gratis (5–10 min al giorno).
+3. Lancio su Google Play appena arriva l'email di Google.
+Il resto (didascalie, montaggio, programmazione) lo fa Horacle; negozio Amazon 1 volta al mese; gruppi Facebook e libro solo se avanza tempo; niente nuovi strumenti per ora.
+Verifica con i numeri Metricool lunedì 26/10.
