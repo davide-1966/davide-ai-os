@@ -140,3 +140,8 @@ Valori relativi (più alto = meglio). Domenica 25/10 si torna all'ora solare (�
    Attenzione al cambio d'ora del 25/10 sui post già programmati.
 5. **Sponsorizzazione e TikTok:** la regola dice "sponsorizzare il reel che va meglio da solo" → candidato il reel del 10/10, ma solo se
    l'app mostra che porta follow (max ~15 €, soglia 0,30 € a follower). TikTok (73 visualizzazioni in 17 video): non dedicarci tempo extra, solo ripubblicare.
+
+## Programmazione (18/10, approvata da Davide)
+- 14 reel programmati su Metricool, 22-28/10. Orari di prova: IT 19:30 (IG+TikTok), DE 18:00 (IG).
+- File in media/reel_settimana/. Tutti con avatar e isAiGenerated=true.
+- 26/10 lunedì: controllare se i nuovi orari funzionano meglio di 18:30/19:00.
