@@ -16,7 +16,7 @@ Prima di agire leggi `knowledge/davide_profile.md` e `knowledge/piano_lancio.md`
 - Niente testimonianze dei tester (vengono da Testers Community, non sono clienti).
 - Non usare materiale di altri (foto del gruppo MasterBiga, immagini Amazon, foto ufficiali dei produttori).
 - Non pubblicare prezzi della cella di lievitazione o simili se Davide non lo chiede.
-- Orari: reel IT alle **18:30** (Instagram + TikTok), reel DE alle **19:00**. IT: CTA "Commenta IMPASTO" (ManyChat). DE: "Folge mir für mehr Geheimnisse aus der Pizzeria".
+- Orari (prova dal 22/10): reel IT alle **19:30** (Instagram + TikTok), reel DE alle **18:00**. IT: CTA "Commenta IMPASTO" (ManyChat). DE: "Folge mir für mehr Geheimnisse aus der Pizzeria".
 - Nei post con avatar segnare `isAiGenerated` / `isAigc` = true.
 
 ## Sicurezza e consenso

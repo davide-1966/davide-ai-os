@@ -117,3 +117,4 @@ Davide
 - 18/10: ManyChat DE creato (ricetta/tabella), email riattivata anche IT. Offerta: chi lascia l'email riceve 1 MESE GRATIS di Premium, attivato A MANO da Davide:
   Netlify -> Identity -> Invite users (email) -> sul nuovo utente: Edit settings -> Roles: premium. Dopo 30 giorni togliere il ruolo.
   L'utente accetta l'invito via email, crea la password, nell'app: Profilo -> Accedi. Funziona anche nella versione Play (link "Accedi qui" visibile).
+- 18/10: didascalie dei 14 reel 22-28/10 aggiornate con offerta tabella + 1 mese gratis app (IT: IMPASTO, DE: TEIG).
