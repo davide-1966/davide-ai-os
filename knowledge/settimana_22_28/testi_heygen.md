@@ -22,6 +22,18 @@ Vedi queste righe blu sul contenitore? È un trucco semplicissimo. Con un pennar
 Guarda dentro questo cornicione. Questi buchi non li fa il lievito: io ne metto otto grammi su dieci chili di farina. Li fa il tempo. La biga matura diciotto ore a diciotto gradi, poi i panetti riposano da ventiquattro a trentasei ore, a quattro-cinque gradi. Più lievito non ti dà questa alveolatura: ti dà solo fretta. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
 ```
 
+### EXTRA – Venerdì 23 ottobre (biga pronta, avatar sopra il video del blocco tagliato)
+
+```
+La biga non si controlla con l'orologio: si taglia e si guarda dentro. La mia, dopo diciotto ore a diciotto gradi, è cresciuta il giusto, spugnosa, con tanti piccoli alveoli. Strappandola si stacca netta e profuma di yogurt. Se invece è filante o sa di acido, è andata oltre. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
+```
+
+### EXTRA – Sabato 24 ottobre (temperatura, avatar sopra il video del termometro)
+
+```
+A fine impasto guardo sempre un numero: la temperatura. In pizzeria il mio impasto esce a circa ventuno gradi, e ci arrivo impastando. A casa ti consiglio circa ventiquattro gradi. Basta un termometro da cucina: lo controlli ogni volta e non vai più a occhio. Scrivi IMPASTO nei commenti e ti mando la mia tabella.
+```
+
 ## 🇩🇪 TEDESCO (voce Deutsch)
 
 ### 1. Giovedì 22/10 – Biga
