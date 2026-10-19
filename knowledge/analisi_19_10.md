@@ -21,3 +21,8 @@
 - Settembre: ~80 per reel → oggi circa 9 volte di più (senza contare il virale).
 - Riprese vere (senza pallina) media ~1.160; avatar media ~640. Campione piccolo, da riverificare.
 - Il formato vincente: errore concreto + mani vere sull'impasto nel primo fotogramma.
+
+## Insight reel "pallina" (screenshot 19/10)
+36.990 visualizzazioni · 26.651 account · tempo medio 10 s · 41 follow · 32 salvataggi · 71 like · 13 commenti · 5 repost.
+→ 1,1 nuovi follower ogni 1.000 visualizzazioni (fine settembre ~5,5; obiettivo >10).
+Lettura: il reel ha raggiunto tanti non follower ma pochi hanno seguito. Proposte: "Parte 2" con la soluzione (chiusura corretta della pallina, mani vere), fissare il reel in cima al profilo, chiusura con motivo per seguire (serie).
