@@ -200,3 +200,4 @@ pochi iscritti: serve un invito a iscriversi.
 ## Chiusura della pallina (detto da Davide il 19/10)
 - Peso: 250 g adesso (può essere di più, dipende dalla pizza).
 - Prima la prende in mano e la chiude; poi la gira sul banco per darle una forma rotonda e ben tesa.
+- Poi la mette in una cassetta.
