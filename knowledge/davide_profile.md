@@ -196,3 +196,7 @@ pochi iscritti: serve un invito a iscriversi.
 - Panetti a 4-5 °C: 24-36 ore, dipende sempre dalla forza della farina.
 - Pala forata Napo Essenza: la preferisce perche' leggera e maneggevole (NON citare il motivo "farina che cade dai buchi").
 - Stesura: niente mattarello; punta delle dita dal centro verso l'esterno, aria spinta nel cornicione, bordo non toccato (confermato 18/10).
+
+## Chiusura della pallina (detto da Davide il 19/10)
+- Peso: 250 g adesso (può essere di più, dipende dalla pizza).
+- Prima la prende in mano e la chiude; poi la gira sul banco per darle una forma rotonda e ben tesa.
