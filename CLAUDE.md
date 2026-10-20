@@ -11,7 +11,7 @@ Prima di agire leggi `knowledge/davide_profile.md` e `knowledge/piano_lancio.md`
 
 ## Contenuti per i follower
 - Ai follower si dà del **"tu"**. Account IT: @pizza_perfetta_a_casa · DE: @pizza_perfetta_a_casa2.
-- **Solo foto e video veri di Davide** (eccezione: foto di pizze dei follower con il loro permesso, rubrica "Il pizzaiolo giudica la tua pizza"). Mai pizze generate con l'AI (niente "Prompt to Video" / "Cinematic Clip" di HeyGen). L'avatar HeyGen di Davide va bene solo nel cerchio.
+- **Solo foto e video veri di Davide** (eccezione: foto di pizze dei follower con il loro permesso, rubrica "Il pizzaiolo giudica la tua pizza"). Mai pizze generate con l'AI (niente "Prompt to Video" / "Cinematic Clip" di HeyGen, niente Kling). L'avatar HeyGen di Davide va bene solo nel cerchio.
 - Scrivere sempre il **metodo vero di Davide**; se non lo si conosce, chiederlo prima.
 - Niente testimonianze dei tester (vengono da Testers Community, non sono clienti).
 - Non usare materiale di altri (foto del gruppo MasterBiga, immagini Amazon, foto ufficiali dei produttori).
