@@ -3,7 +3,7 @@
 Stato: in attesa — dopo il lancio di Pizza Perfetta a Casa su Google Play (Pareto).
 
 - Prodotto da vendere a titolari di pizzerie e ristoranti.
-- Nome di lavoro: KüchenKompass. Controllo di TUTTO ciò che si usa (bestand, einkauf, verbrauch, abfall), cucina e pizzeria.
+- Nome: KüchenKompass (approvato da Davide il 20/10; da verificare marchio DPMA prima di investire). Controllo di TUTTO ciò che si usa (bestand, einkauf, verbrauch, abfall), cucina e pizzeria.
 - Nucleo: previsione di quante palline/porzioni preparare (storico serate, giorno, meteo, eventi) + lista di preparazione + registro di cosa si butta.
 - Concorrenti noti (grandi, costosi, per mense/hotel): Winnow, Leanpath, Orbisk; gestione magazzino: Apicbase, MarketMan.
 - Vantaggio di Davide: 20 anni di esperienza, sa quanto impasto serve; contatti con pizzerie a Lipsia.
