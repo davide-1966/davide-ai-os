@@ -126,3 +126,7 @@ Davide ha poco tempo nei giorni di lavoro. Il 20% che conta:
 3. Lancio su Google Play appena arriva l'email di Google.
 Il resto (didascalie, montaggio, programmazione) lo fa Horacle; negozio Amazon 1 volta al mese; gruppi Facebook e libro solo se avanza tempo; niente nuovi strumenti per ora.
 Verifica con i numeri Metricool lunedì 26/10.
+
+## Prova pubblicità DE (decisa da Davide, 19/10 22:19)
+Reel "Type 405 = Tipo 00? FALSCH." su @pizza_perfetta_a_casa2 · 15 € in 5 giorni · obiettivo visite al profilo e messaggi · Germania, 25–65.
+Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va bene, se 0–5 follower con ~6–9 € spesi → fermarla.
