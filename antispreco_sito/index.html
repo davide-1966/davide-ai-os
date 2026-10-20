@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teigplan – weniger Teig wegwerfen</title>
+<meta name="description" content="Teigplan sagt Pizzerien jeden Tag, wie viele Teiglinge sie vorbereiten sollen. Testphase in Leipzig.">
+<style>
+:root{--rot:#b5301f;--creme:#f5ede3;--text:#2e241c;--grau:#6b5e52}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--creme);color:var(--text);line-height:1.5}
+header{background:var(--rot);color:#fff;padding:40px 16px 32px;text-align:center}
+header h1{margin:0 0 8px;font-size:2rem}
+header p{margin:0 auto;max-width:560px;font-size:1.15rem}
+main{max-width:640px;margin:0 auto;padding:24px 16px 40px}
+h2{color:var(--rot);font-size:1.3rem;margin:32px 0 8px}
+.karte{background:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.karte b{display:block;margin-bottom:4px}
+.beispiel{font-size:1.1rem;font-weight:600;border-left:4px solid var(--rot);padding-left:12px}
+form{background:#fff;border-radius:12px;padding:18px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+label{display:block;font-weight:600;margin:12px 0 4px}
+input,textarea{width:100%;padding:12px;border:1px solid #cdbfb2;border-radius:8px;font:inherit}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:.9rem;color:var(--grau)}
+.check input{width:auto;margin-top:4px}
+button{margin-top:16px;width:100%;padding:14px;border:0;border-radius:8px;background:var(--rot);color:#fff;font-size:1.1rem;font-weight:700;cursor:pointer}
+.versteckt{display:none}
+footer{font-size:.85rem;color:var(--grau);max-width:640px;margin:0 auto;padding:0 16px 40px}
+footer h3{font-size:.95rem;margin:20px 0 4px;color:var(--text)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Teigplan</h1>
+  <p>Weniger Teig wegwerfen. Jeden Abend wissen, wie viele Teiglinge Sie morgen brauchen.</p>
+</header>
+<main>
+  <p>Ich bin Davide, Pizzaiolo mit über 20 Jahren Erfahrung, hier in Leipzig. Ich kenne das Problem aus der eigenen Küche: Am Ende des Abends liegen Teiglinge übrig – oder sie gehen aus, und Gäste warten.</p>
+  <p>Deshalb entwickle ich <b>Teigplan</b>, ein einfaches Programm für Pizzerien und Restaurants.</p>
+
+  <h2>So soll es funktionieren</h2>
+  <div class="karte"><b>1. Abendabschluss in 30 Sekunden</b>Sie tragen ein: verkaufte Pizzen, übrige Teiglinge.</div>
+  <div class="karte"><b>2. Vorschlag für morgen</b>Teigplan schaut auf denselben Wochentag der letzten Wochen und auf das Wetter.
+    <p class="beispiel">„Morgen ist Freitag, es regnet: Bereiten Sie 80 Teiglinge vor.“</p></div>
+  <div class="karte"><b>3. Vorbereitungsliste</b>Teiglinge, Mozzarella, Tomaten – auf dem Handy oder zum Ausdrucken.</div>
+  <div class="karte"><b>Jeden Montag eine kurze E-Mail</b>Wie viel Sie letzte Woche weggeworfen haben – und wie viel weniger als vorher.</div>
+
+  <h2>Testphase in Leipzig</h2>
+  <p>Teigplan ist noch in Entwicklung. Ich suche <b>3 Pizzerien oder Restaurants</b>, die es 4 Wochen <b>kostenlos</b> testen. Danach entscheiden Sie selbst, ob Sie es weiter nutzen möchten.</p>
+
+  <h2>Interesse? Schreiben Sie mir</h2>
+  <form name="interesse" method="POST" action="/danke.html" data-netlify="true" netlify-honeypot="bot-feld">
+    <input type="hidden" name="form-name" value="interesse">
+    <p class="versteckt"><label>Nicht ausfüllen: <input name="bot-feld"></label></p>
+    <label for="name">Ihr Name</label>
+    <input id="name" name="name" required autocomplete="name">
+    <label for="betrieb">Name des Betriebs</label>
+    <input id="betrieb" name="betrieb" required>
+    <label for="kontakt">Telefon oder E-Mail</label>
+    <input id="kontakt" name="kontakt" required>
+    <label for="nachricht">Wie viel Teig werfen Sie ungefähr pro Woche weg? (optional)</label>
+    <textarea id="nachricht" name="nachricht" rows="3"></textarea>
+    <label class="check"><input type="checkbox" name="einwilligung" required> Ich bin einverstanden, dass Davide mich zu Teigplan kontaktiert. Meine Daten werden nur dafür verwendet und auf Wunsch gelöscht.</label>
+    <button type="submit">Ja, ich habe Interesse</button>
+  </form>
+</main>
+<footer>
+  <h3>Impressum</h3>
+  <p>[NAME NACHNAME]<br>[STRASSE NR.]<br>[PLZ] Leipzig<br>E-Mail: [E-MAIL]</p>
+  <h3>Datenschutz</h3>
+  <p>Die Angaben aus dem Formular werden nur genutzt, um Sie zu Teigplan zu kontaktieren. Gespeichert werden sie beim Hosting-Anbieter Netlify. Sie können jederzeit per E-Mail Auskunft oder Löschung verlangen.</p>
+</footer>
+</body>
+</html>
