@@ -130,3 +130,4 @@ Verifica con i numeri Metricool lunedì 26/10.
 ## Prova pubblicità DE (decisa da Davide, 19/10 22:19)
 Reel "Type 405 = Tipo 00? FALSCH." su @pizza_perfetta_a_casa2 · 15 € in 5 giorni · obiettivo visite al profilo e messaggi · Germania, 25–65.
 Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va bene, se 0–5 follower con ~6–9 € spesi → fermarla.
+- 20/10 sera: spesi 3,09 € → 47 visite al profilo, 18 follow, 8 salvataggi = ~0,17 € per follower (sotto la soglia di 0,50 €). Lasciarla andare; controllo finale a fine promozione.
