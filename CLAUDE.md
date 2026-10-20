@@ -16,7 +16,7 @@ Prima di agire leggi `knowledge/davide_profile.md` e `knowledge/piano_lancio.md`
 - Niente testimonianze dei tester (vengono da Testers Community, non sono clienti).
 - Non usare materiale di altri (foto del gruppo MasterBiga, immagini Amazon, foto ufficiali dei produttori).
 - Non pubblicare prezzi della cella di lievitazione o simili se Davide non lo chiede.
-- Orari (prova dal 22/10): reel IT alle **19:30** (Instagram + TikTok), reel DE alle **18:00**. IT: CTA "Commenta IMPASTO" → tabella + 1 mese gratis dell'app (ManyChat). DE: "Kommentiere TEIG" → Teig-Tabelle + 1 Monat App gratis (ManyChat DE); l'avatar DE chiude con "Folge mir für mehr Geheimnisse aus der Pizzeria". Il mese gratis si attiva a mano (vedi `knowledge/piano_lancio.md`).
+- Orari (prova dal 22/10): reel IT alle **19:30** (Instagram + TikTok + YouTube Shorts, dal 20/10; su YouTube CTA "Scrivimi IMPASTO su Instagram @pizza_perfetta_a_casa"), reel DE alle **18:00**. IT: CTA "Commenta IMPASTO" → tabella + 1 mese gratis dell'app (ManyChat). DE: "Kommentiere TEIG" → Teig-Tabelle + 1 Monat App gratis (ManyChat DE); l'avatar DE chiude con "Folge mir für mehr Geheimnisse aus der Pizzeria". Il mese gratis si attiva a mano (vedi `knowledge/piano_lancio.md`).
 - Nei post con avatar segnare `isAiGenerated` / `isAigc` = true.
 
 ## Sicurezza e consenso
