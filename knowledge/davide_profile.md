@@ -17,6 +17,8 @@
 - **Pizza Perfetta a Casa**: progetto social di cucina dedicato alla pizza fatta in casa.
   - Instagram: `@pizza_perfetta_a_casa` (bio: "20 anni di esperienza · ti insegno a fare
     pizza come in pizzeria · Autore di Pizza Perfetta a casa")
+  - Instagram in tedesco: `@pizza_perfetta_a_casa2` ("Davide | Pizzaiolo in Leipzig"),
+    277 follower al 14 ottobre 2026. Il profilo italiano ne ha 770.
   - TikTok: `@pizza_perfetta_a_`
   - Gestito con Metricool dall'8 settembre 2026 (fuso orario Europe/Berlin).
 - **Canale YouTube "Davide Paba"**: creato nel 2009, al momento senza video pubblicati
@@ -24,11 +26,14 @@
   Pizza Perfetta a Casa anche su YouTube.
 - **App Pizza Perfetta a Casa**: corso pizza, ricette, calcolatore di idratazione e
   impasti, video tutorial e community. Nel settembre 2026 è in test con tester
-  volontari su Android e iOS, prima del lancio su Google Play.
+  volontari su Android e iOS, prima del lancio su Google Play. Il 18 ottobre 2026 ha
+  inviato la richiesta di accesso alla produzione, che al 21 ottobre è in revisione:
+  dettagli in `knowledge/lancio_app_google_play.md`.
   Sito: https://pizza-perfetta-a-casa.netlify.app
 - **Libro "Pizza Perfetta a casa"**, di cui è autore.
 - Strumenti in uso: vidIQ (YouTube), Metricool (pianificazione e analisi social) e
-  HeyGen (avatar con il suo volto e la sua voce clonata).
+  HeyGen (avatar con il suo volto e la sua voce clonata). Google Flow per brevi video
+  generati: la funzione Avatar di Flow non è disponibile nell'UE.
 - Piano contenuti in corso: `knowledge/piano_30_giorni.md` (29 settembre – 28 ottobre 2026).
 
 ## Cosa dicono i dati Instagram (aggiornato al 25 settembre 2026)

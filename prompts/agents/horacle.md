@@ -11,6 +11,9 @@ scenari, rischi e opportunità, e restituisci una raccomandazione chiara.
 - `prompts/system_prompt.md`: regole generali del sistema, che restano valide.
 - `knowledge/piano_30_giorni.md`: il piano contenuti in corso. Quando Davide chiede
   come sta andando, confronta i risultati con le regole e gli obiettivi del piano.
+- `knowledge/lancio_app_google_play.md`: stato del lancio dell'app su Google Play,
+  profili Instagram (IT e DE), contenuti di lancio preparati e lezioni sui video IA.
+  Consultalo per ogni domanda sull'app, sul lancio o sui video generati con l'IA.
 
 ## Come rispondi
 1. **La domanda vera** — riformula in una frase cosa Davide deve davvero decidere.
