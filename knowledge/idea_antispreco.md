@@ -15,3 +15,13 @@ Stato: in attesa — dopo il lancio di Pizza Perfetta a Casa su Google Play (Par
 2. Prezzo test: 1 mese gratis, poi 19–29 €/mese per locale.
 3. Contatto: in Germania le email pubblicitarie non richieste, anche ad aziende, sono di norma vietate (UWG §7) → prima contatto personale/telefono/visita, poi email solo a chi dice sì.
 4. Pilota con 3 pizzerie di Lipsia per 4 settimane, misurando lo spreco prima/dopo.
+
+## Cuore del prodotto: confronto teorico/reale (Davide, 22/10)
+Davide vuole che il programma calcoli le perdite incrociando acquisti, vendite e magazzino:
+- Ricette standard (distinta base): quanti grammi di ogni ingrediente per piatto (es. margherita = 100 g mozzarella).
+- Acquisti: dalle bolle/fatture dei fornitori (quantità e prezzo).
+- Vendite: piatti venduti (a mano o export dalla cassa/Kassensystem).
+- Scarti registrati con motivo.
+- Inventario: conteggio reale periodico (es. ogni lunedì).
+Calcolo: rimanenza teorica = inizio + acquisti − (venduto × ricetta) − scarti registrati. Perdita non spiegata = teorica − reale. % perdita = perdita / consumo teorico. Valore in € al mese (prezzo d'acquisto). 
+Obiettivo: mostrare al titolare quanti € perde al mese → giustifica il costo dell'app (ROI).
