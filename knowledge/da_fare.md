@@ -4,7 +4,6 @@ Legenda: [ ] da fare · [x] fatto
 
 
 ## Da decidere (Davide)
-- [ ] Carosello "I 4 pilastri" (media/caroselli/4_pilastri): ok per dom 25/10 12:00?
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
 ## Giorno libero
@@ -21,6 +20,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v1.zip)
 
 ## Fatto
+- [x] Carosello "I 4 pilastri" programmato dom 25/10 12:00 (Instagram IT, 6 foto)
 - [x] Avatar tedesco annuncio: "TEIG" si sente bene (confermato da Davide 22/10)
 - [x] Lezione 1 Scuola di Pizza fatta da Davide su HeyGen, programmata sab 24/10 12:00 (IG + TikTok + YouTube Short)
 - [x] Reel programmati fino al 28/10 (IT + DE + YouTube)
