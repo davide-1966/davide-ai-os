@@ -25,3 +25,4 @@ Davide vuole che il programma calcoli le perdite incrociando acquisti, vendite e
 - Inventario: conteggio reale periodico (es. ogni lunedì).
 Calcolo: rimanenza teorica = inizio + acquisti − (venduto × ricetta) − scarti registrati. Perdita non spiegata = teorica − reale. % perdita = perdita / consumo teorico. Valore in € al mese (prezzo d'acquisto). 
 Obiettivo: mostrare al titolare quanti € perde al mese → giustifica il costo dell'app (ROI).
+- Acquisti caricati con una foto della fattura/bolla (lettura automatica, poi conferma). Confronto teorico/reale su TUTTI i prodotti (22/10).

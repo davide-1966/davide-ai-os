@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KüchenKompass – Acquisti e sprechi sotto controllo</title>
-<meta name="description" content="KüchenKompass aiuta ristoranti e pizzerie a pianificare acquisti, preparazione e sprechi. Prova gratuita a Lipsia.">
+<title>KüchenKompass – Acquisti e perdite sotto controllo</title>
+<meta name="description" content="KüchenKompass confronta acquisti, vendite e magazzino di tutti i prodotti e mostra quanti soldi perde la vostra cucina ogni mese. Prova gratuita a Lipsia.">
 <style>
 :root{--grun:#1d4d3c;--grun2:#2c6b54;--hell:#f6f4ef;--text:#1f2a26;--grau:#5d6b65;--linie:#e3ded3;--akzent:#d9822b;--weiss:#fff}
 *{box-sizing:border-box}
@@ -82,19 +82,21 @@ footer h4{margin:0 0 6px;color:var(--text);font-size:.92rem}
 <header class="hero"><div class="wrap">
   <div>
     <span class="badge">Per ristoranti e pizzerie</span>
-    <h1>Buttare meno. Comprare meglio.</h1>
-    <p class="lead">KüchenKompass pianifica per voi cosa preparare e cosa ordinare per domani, partendo dai vostri dati di vendita. In un minuto a sera.</p>
+    <h1>Sapere quanti soldi perde la vostra cucina.</h1>
+    <p class="lead">KüchenKompass confronta, per tutti i prodotti, quello che è stato acquistato, venduto e buttato con quello che c'è davvero in magazzino. Così ogni mese vedete nero su bianco dove e quanto perdete, e pianificate meglio preparazione e ordini.</p>
     <a class="btn" href="#kontakt">Richiedi la prova gratuita</a>
     <p class="hinweis">Prova a Lipsia · 4 settimane gratis · senza impegno</p>
   </div>
   <div class="mock" aria-label="Esempio">
-    <div class="kopf"><span>Proposta per domani</span><span class="chip">Esempio</span></div>
-    <div class="titel">Venerdì · prevista pioggia</div>
-    <div class="zeile"><span>Palline</span><b>80 pezzi</b></div>
-    <div class="zeile"><span>Mozzarella</span><b>6,0 kg</b></div>
-    <div class="zeile"><span>Salsa di pomodoro</span><b>4,5 kg</b></div>
-    <div class="zeile"><span>Lasagne (porzioni)</span><b>4</b></div>
-    <div class="fuss">Calcolato dagli ultimi venerdì e dalle previsioni del tempo.</div>
+    <div class="kopf"><span>Resoconto mensile</span><span class="chip">Esempio</span></div>
+    <div class="titel">Perdita non spiegata a ottobre</div>
+    <div class="zeile"><span>Mozzarella · 7 %</span><b>96 €</b></div>
+    <div class="zeile"><span>Prosciutto · 9 %</span><b>44 €</b></div>
+    <div class="zeile"><span>Farina · 4 %</span><b>18 €</b></div>
+    <div class="zeile"><span>Pomodori · 5 %</span><b>15 €</b></div>
+    <div class="zeile"><span>… tutti gli altri prodotti</span><b>247 €</b></div>
+    <div class="zeile" style="font-size:1.05rem"><span><b>Totale del mese</b></span><b style="color:#b5301f">420 €</b></div>
+    <div class="fuss">Rimanenza teorica (acquisti − venduto × ricetta − scarti registrati) confrontata con l'inventario.</div>
   </div>
 </div></header>
 
@@ -109,17 +111,43 @@ footer h4{margin:0 0 6px;color:var(--text);font-size:.92rem}
 </div></section>
 
 <section><div class="wrap">
-  <h2>Come funziona</h2>
-  <p class="unter">Niente gestionale complicato. Uno strumento semplice che funziona dal telefono.</p>
-  <div class="grid3">
-    <div class="karte"><div class="nr">1</div><h3>Chiusura serata in 1 minuto</h3><p>Si inseriscono i piatti venduti, la merce avanzata e quella buttata.</p></div>
-    <div class="karte"><div class="nr">2</div><h3>Proposta per domani</h3><p>In base allo stesso giorno delle settimane passate e al meteo.</p></div>
-    <div class="karte"><div class="nr">3</div><h3>Lista ordini e preparazione</h3><p>Cosa preparare e cosa riordinare: né troppo né troppo poco.</p></div>
+  <h2>Confronto teorico/reale su tutti i prodotti</h2>
+  <p class="unter">Il cuore di KüchenKompass. Per ogni ingrediente il programma calcola quanto dovrebbe esserci ancora, e lo confronta con quello che c'è davvero.</p>
+  <div class="grid2">
+    <div class="karte"><h3>Cosa mette insieme KüchenKompass</h3>
+      <ul class="liste">
+        <li><b>Ricette:</b> quanto di ogni ingrediente c'è in ogni piatto (si inseriscono una volta sola)</li>
+        <li><b>Acquisti:</b> basta una foto della fattura o della bolla: KüchenKompass legge prodotti, quantità e prezzi da solo</li>
+        <li><b>Vendite:</b> piatti venduti, a mano o dalla cassa</li>
+        <li><b>Scarti:</b> cosa si butta, con il motivo</li>
+        <li><b>Inventario:</b> una volta a settimana si conta cosa c'è davvero</li>
+      </ul>
+    </div>
+    <div class="karte"><h3>Esempio: mozzarella, una settimana</h3>
+      <div class="zeile"><span>In magazzino lunedì</span><b>10 kg</b></div>
+      <div class="zeile"><span>+ acquistata</span><b>40 kg</b></div>
+      <div class="zeile"><span>− venduta (400 margherite × 100 g)</span><b>40 kg</b></div>
+      <div class="zeile"><span>− scarti registrati</span><b>1 kg</b></div>
+      <div class="zeile"><span><b>Dovrebbero restare</b></span><b>9 kg</b></div>
+      <div class="zeile"><span><b>Contati davvero</b></span><b>6 kg</b></div>
+      <div class="zeile"><span><b>Perdita non spiegata</b></span><b style="color:#b5301f">3 kg · 7 % · 24 €</b></div>
+    </div>
   </div>
-  <div class="karte" style="margin-top:20px"><h3>Ogni lunedì un breve resoconto via email</h3><p>Cosa si è buttato la settimana precedente, in euro e per ingrediente, e se è meno di prima.</p></div>
+  <div class="karte" style="margin-top:20px"><h3>A fine mese: la vostra perdita in euro</h3><p>KüchenKompass fa questo calcolo per tutti i prodotti e mostra la perdita totale del mese, ordinata per ingrediente. Le cause possono essere porzioni abbondanti, scarti non registrati, errori negli ordini o ammanchi: il programma mostra dove guardare.</p></div>
 </div></section>
 
 <section class="weiss"><div class="wrap">
+  <h2>Come funziona</h2>
+  <p class="unter">Niente gestionale complicato. Uno strumento semplice che funziona dal telefono.</p>
+  <div class="grid3">
+    <div class="karte"><div class="nr">1</div><h3>Chiusura serata in 1 minuto</h3><p>Si inseriscono piatti venduti, merce avanzata e buttata (con il motivo). Le consegne si registrano all'arrivo.</p></div>
+    <div class="karte"><div class="nr">2</div><h3>Proposta per domani</h3><p>In base allo stesso giorno delle settimane passate e al meteo.</p></div>
+    <div class="karte"><div class="nr">3</div><h3>Inventario settimanale</h3><p>Una volta a settimana si conta il magazzino: KüchenKompass calcola la perdita e prepara la lista degli ordini.</p></div>
+  </div>
+  <div class="karte" style="margin-top:20px"><h3>Ogni lunedì un breve resoconto via email</h3><p>Perdite e scarti della settimana precedente, in euro e per ingrediente, e se sono meno di prima. Una volta al mese la perdita totale.</p></div>
+</div></section>
+
+<section><div class="wrap">
   <div class="ueber">
     <div class="avatar">D</div>
     <div>

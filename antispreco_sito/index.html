@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KüchenKompass – Wareneinsatz und Abfall im Griff</title>
-<meta name="description" content="KüchenKompass hilft Restaurants und Pizzerien, Einkauf, Vorbereitung und Abfall zu planen. Kostenlose Testphase in Leipzig.">
+<meta name="description" content="KüchenKompass vergleicht Einkauf, Verkauf und Bestand aller Waren und zeigt, wie viel Geld Ihre Küche jeden Monat verliert. Kostenlose Testphase in Leipzig.">
 <style>
 :root{--grun:#1d4d3c;--grun2:#2c6b54;--hell:#f6f4ef;--text:#1f2a26;--grau:#5d6b65;--linie:#e3ded3;--akzent:#d9822b;--weiss:#fff}
 *{box-sizing:border-box}
@@ -82,19 +82,21 @@ footer h4{margin:0 0 6px;color:var(--text);font-size:.92rem}
 <header class="hero"><div class="wrap">
   <div>
     <span class="badge">Für Restaurants &amp; Pizzerien</span>
-    <h1>Weniger wegwerfen. Gezielter einkaufen.</h1>
-    <p class="lead">KüchenKompass plant für Sie, was morgen vorbereitet und was bestellt werden muss – auf Basis Ihrer eigenen Verkaufszahlen. In einer Minute pro Abend.</p>
+    <h1>Wissen, wie viel Geld Ihre Küche verliert.</h1>
+    <p class="lead">KüchenKompass vergleicht für alle Waren, was eingekauft, verkauft und weggeworfen wurde, mit dem, was tatsächlich noch da ist. So sehen Sie jeden Monat schwarz auf weiß, wo und wie viel Sie verlieren – und planen Vorbereitung und Bestellungen genauer.</p>
     <a class="btn" href="#kontakt">Kostenlose Testphase anfragen</a>
     <p class="hinweis">Testphase in Leipzig · 4 Wochen kostenlos · unverbindlich</p>
   </div>
   <div class="mock" aria-label="Beispielansicht">
-    <div class="kopf"><span>Vorschlag für morgen</span><span class="chip">Beispiel</span></div>
-    <div class="titel">Freitag · Regen erwartet</div>
-    <div class="zeile"><span>Teiglinge</span><b>80 Stück</b></div>
-    <div class="zeile"><span>Mozzarella</span><b>6,0 kg</b></div>
-    <div class="zeile"><span>Tomatensauce</span><b>4,5 kg</b></div>
-    <div class="zeile"><span>Lasagne (Portionen)</span><b>4</b></div>
-    <div class="fuss">Berechnet aus den letzten Freitagen und der Wettervorhersage.</div>
+    <div class="kopf"><span>Monatsbericht</span><span class="chip">Beispiel</span></div>
+    <div class="titel">Ungeklärter Verlust im Oktober</div>
+    <div class="zeile"><span>Mozzarella · 7 %</span><b>96 €</b></div>
+    <div class="zeile"><span>Prosciutto · 9 %</span><b>44 €</b></div>
+    <div class="zeile"><span>Mehl · 4 %</span><b>18 €</b></div>
+    <div class="zeile"><span>Tomaten · 5 %</span><b>15 €</b></div>
+    <div class="zeile"><span>… alle weiteren Waren</span><b>247 €</b></div>
+    <div class="zeile" style="font-size:1.05rem"><span><b>Gesamt im Monat</b></span><b style="color:#b5301f">420 €</b></div>
+    <div class="fuss">Soll-Bestand (Einkauf − Verkauf × Rezept − erfasster Abfall) im Vergleich zur Inventur.</div>
   </div>
 </div></header>
 
@@ -109,17 +111,43 @@ footer h4{margin:0 0 6px;color:var(--text);font-size:.92rem}
 </div></section>
 
 <section><div class="wrap">
-  <h2>So funktioniert es</h2>
-  <p class="unter">Kein kompliziertes Warenwirtschaftssystem. Ein einfaches Werkzeug, das auf dem Handy funktioniert.</p>
-  <div class="grid3">
-    <div class="karte"><div class="nr">1</div><h3>Abendabschluss in 1 Minute</h3><p>Verkaufte Gerichte, übrige und weggeworfene Ware eintragen.</p></div>
-    <div class="karte"><div class="nr">2</div><h3>Vorschlag für morgen</h3><p>Auf Basis desselben Wochentags der letzten Wochen und des Wetters.</p></div>
-    <div class="karte"><div class="nr">3</div><h3>Bestell- und Vorbereitungsliste</h3><p>Was vorbereitet und was nachbestellt werden muss – nicht zu viel, nicht zu wenig.</p></div>
+  <h2>Soll-Ist-Vergleich für alle Waren</h2>
+  <p class="unter">Das Herzstück von KüchenKompass. Für jede Zutat rechnet das Programm aus, wie viel noch da sein müsste – und vergleicht es mit dem, was wirklich da ist.</p>
+  <div class="grid2">
+    <div class="karte"><h3>Was KüchenKompass zusammenführt</h3>
+      <ul class="liste">
+        <li><b>Rezepturen:</b> wie viel von jeder Zutat in jedem Gericht steckt (einmalig angelegt)</li>
+        <li><b>Einkauf:</b> Rechnung oder Lieferschein einfach fotografieren – KüchenKompass liest Produkte, Mengen und Preise automatisch aus</li>
+        <li><b>Verkauf:</b> verkaufte Gerichte – von Hand oder aus der Kasse</li>
+        <li><b>Abfall:</b> was weggeworfen wird, mit Grund</li>
+        <li><b>Inventur:</b> einmal pro Woche den echten Bestand zählen</li>
+      </ul>
+    </div>
+    <div class="karte"><h3>Beispiel: Mozzarella, eine Woche</h3>
+      <div class="zeile"><span>Bestand Montag</span><b>10 kg</b></div>
+      <div class="zeile"><span>+ Einkauf</span><b>40 kg</b></div>
+      <div class="zeile"><span>− Verkauf (400 Margherita × 100 g)</span><b>40 kg</b></div>
+      <div class="zeile"><span>− erfasster Abfall</span><b>1 kg</b></div>
+      <div class="zeile"><span><b>Soll-Bestand</b></span><b>9 kg</b></div>
+      <div class="zeile"><span><b>Ist-Bestand (gezählt)</b></span><b>6 kg</b></div>
+      <div class="zeile"><span><b>Ungeklärter Verlust</b></span><b style="color:#b5301f">3 kg · 7 % · 24 €</b></div>
+    </div>
   </div>
-  <div class="karte" style="margin-top:20px"><h3>Jeden Montag ein kurzer Bericht per E-Mail</h3><p>Was in der Vorwoche weggeworfen wurde – in Euro und nach Zutat – und ob es weniger war als vorher.</p></div>
+  <div class="karte" style="margin-top:20px"><h3>Am Monatsende: Ihr Verlust in Euro</h3><p>KüchenKompass rechnet das für alle Waren und zeigt den Gesamtverlust des Monats, sortiert nach Zutat. Ursachen können großzügige Portionen, nicht erfasster Abfall, Fehler bei Bestellungen oder Schwund sein – das Programm zeigt, wo Sie hinschauen sollten.</p></div>
 </div></section>
 
 <section class="weiss"><div class="wrap">
+  <h2>So funktioniert es</h2>
+  <p class="unter">Kein kompliziertes Warenwirtschaftssystem. Ein einfaches Werkzeug, das auf dem Handy funktioniert.</p>
+  <div class="grid3">
+    <div class="karte"><div class="nr">1</div><h3>Abendabschluss in 1 Minute</h3><p>Verkaufte Gerichte, übrige und weggeworfene Ware (mit Grund) eintragen. Lieferungen werden beim Eingang erfasst.</p></div>
+    <div class="karte"><div class="nr">2</div><h3>Vorschlag für morgen</h3><p>Auf Basis desselben Wochentags der letzten Wochen und des Wetters.</p></div>
+    <div class="karte"><div class="nr">3</div><h3>Wöchentliche Inventur</h3><p>Einmal pro Woche den Bestand zählen – KüchenKompass rechnet den Verlust aus und erstellt die Bestellliste.</p></div>
+  </div>
+  <div class="karte" style="margin-top:20px"><h3>Jeden Montag ein kurzer Bericht per E-Mail</h3><p>Verlust und Abfall der Vorwoche – in Euro und nach Zutat – und ob es weniger war als vorher. Einmal im Monat der Gesamtverlust.</p></div>
+</div></section>
+
+<section><div class="wrap">
   <div class="ueber">
     <div class="avatar">D</div>
     <div>
