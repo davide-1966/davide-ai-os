@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KüchenKompass – Acquisti e sprechi sotto controllo</title>
+<meta name="description" content="KüchenKompass aiuta ristoranti e pizzerie a pianificare acquisti, preparazione e sprechi. Prova gratuita a Lipsia.">
+<style>
+:root{--grun:#1d4d3c;--grun2:#2c6b54;--hell:#f6f4ef;--text:#1f2a26;--grau:#5d6b65;--linie:#e3ded3;--akzent:#d9822b;--weiss:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--hell);color:var(--text);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{background:var(--weiss);border-bottom:1px solid var(--linie);position:sticky;top:0;z-index:5}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.1rem;color:var(--grun);text-decoration:none}
+.logo svg{width:30px;height:30px}
+.btn{display:inline-block;background:var(--grun);color:#fff;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:8px;border:0;font-size:1rem;cursor:pointer}
+.btn:hover{background:var(--grun2)}
+.btn.klein{padding:9px 14px;font-size:.92rem}
+header.hero{padding:56px 0 48px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.badge{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--grun);background:#e2ece6;padding:5px 10px;border-radius:999px}
+h1{font-size:2.6rem;line-height:1.15;margin:16px 0 14px;letter-spacing:-.02em}
+.lead{font-size:1.15rem;color:var(--grau);margin:0 0 26px}
+.hinweis{font-size:.88rem;color:var(--grau);margin-top:12px}
+.mock{background:var(--weiss);border:1px solid var(--linie);border-radius:16px;box-shadow:0 18px 40px rgba(29,77,60,.12);padding:20px}
+.mock .kopf{display:flex;justify-content:space-between;align-items:center;font-size:.85rem;color:var(--grau);margin-bottom:12px}
+.mock .titel{font-weight:700;font-size:1.05rem;margin-bottom:12px}
+.zeile{display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid var(--linie);font-size:.95rem}
+.zeile b{font-variant-numeric:tabular-nums}
+.chip{font-size:.75rem;background:#fbefe2;color:#9a5410;padding:3px 8px;border-radius:999px}
+.mock .fuss{margin-top:12px;font-size:.8rem;color:var(--grau)}
+section{padding:56px 0}
+section.weiss{background:var(--weiss);border-top:1px solid var(--linie);border-bottom:1px solid var(--linie)}
+h2{font-size:1.8rem;letter-spacing:-.01em;margin:0 0 10px}
+.unter{color:var(--grau);margin:0 0 32px;max-width:640px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.karte{background:var(--weiss);border:1px solid var(--linie);border-radius:12px;padding:22px}
+section.weiss .karte{background:var(--hell)}
+.nr{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:8px;background:var(--grun);color:#fff;font-weight:700;margin-bottom:12px}
+.karte h3{margin:0 0 6px;font-size:1.08rem}
+.karte p{margin:0;color:var(--grau);font-size:.97rem}
+.liste{list-style:none;padding:0;margin:0}
+.liste li{padding:8px 0 8px 30px;position:relative;color:var(--text)}
+.liste li::before{content:"";position:absolute;left:4px;top:15px;width:12px;height:7px;border-left:2px solid var(--grun);border-bottom:2px solid var(--grun);transform:rotate(-45deg)}
+.ueber{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start}
+.avatar{width:64px;height:64px;border-radius:50%;background:var(--grun);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.4rem}
+.test{background:var(--grun);color:#fff;border-radius:16px;padding:32px}
+.test h2{color:#fff}
+.test p{color:#d7e6de;margin:0 0 6px}
+.test .liste li{color:#fff}
+.test .liste li::before{border-color:#9fd3b8}
+form{background:var(--weiss);border:1px solid var(--linie);border-radius:16px;padding:26px}
+label{display:block;font-weight:600;font-size:.92rem;margin:14px 0 6px}
+input,textarea{width:100%;padding:12px 14px;border:1px solid #cfc8bb;border-radius:8px;font:inherit;background:#fff}
+input:focus,textarea:focus{outline:2px solid var(--grun2);border-color:transparent}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:.85rem;color:var(--grau)}
+.check input{width:auto;margin-top:3px}
+form .btn{width:100%;margin-top:18px;padding:14px}
+.versteckt{display:none}
+footer{padding:36px 0 48px;font-size:.85rem;color:var(--grau)}
+footer .grid2{gap:28px}
+footer h4{margin:0 0 6px;color:var(--text);font-size:.92rem}
+@media (max-width:820px){
+  .hero .wrap,.grid3,.grid2{grid-template-columns:1fr}
+  h1{font-size:2rem}
+  header.hero{padding:36px 0}
+  section{padding:44px 0}
+  .test{padding:24px}
+}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="logo" href="#"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="#1d4d3c" stroke-width="2.5"/><path d="M16 6 L19.5 16 L16 26 L12.5 16 Z" fill="#1d4d3c"/><path d="M16 16 L19.5 16 L16 26 Z" fill="#d9822b"/></svg>KüchenKompass</a>
+  <a class="btn klein" href="#kontakt">Prova gratis</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <span class="badge">Per ristoranti e pizzerie</span>
+    <h1>Buttare meno. Comprare meglio.</h1>
+    <p class="lead">KüchenKompass pianifica per voi cosa preparare e cosa ordinare per domani, partendo dai vostri dati di vendita. In un minuto a sera.</p>
+    <a class="btn" href="#kontakt">Richiedi la prova gratuita</a>
+    <p class="hinweis">Prova a Lipsia · 4 settimane gratis · senza impegno</p>
+  </div>
+  <div class="mock" aria-label="Esempio">
+    <div class="kopf"><span>Proposta per domani</span><span class="chip">Esempio</span></div>
+    <div class="titel">Venerdì · prevista pioggia</div>
+    <div class="zeile"><span>Palline</span><b>80 pezzi</b></div>
+    <div class="zeile"><span>Mozzarella</span><b>6,0 kg</b></div>
+    <div class="zeile"><span>Salsa di pomodoro</span><b>4,5 kg</b></div>
+    <div class="zeile"><span>Lasagne (porzioni)</span><b>4</b></div>
+    <div class="fuss">Calcolato dagli ultimi venerdì e dalle previsioni del tempo.</div>
+  </div>
+</div></header>
+
+<section class="weiss"><div class="wrap">
+  <h2>Il problema lo conosce ogni cucina</h2>
+  <p class="unter">La merce scade, quello che si è preparato avanza, le palline finiscono nel bidone, oppure qualcosa manca in pieno servizio. In tutti e due i casi si perdono soldi ogni settimana.</p>
+  <div class="grid3">
+    <div class="karte"><h3>Troppo preparato</h3><p>Palline e mise en place avanzate, che il giorno dopo non si possono più usare.</p></div>
+    <div class="karte"><h3>Troppo ordinato</h3><p>La merce fresca scade prima di essere usata.</p></div>
+    <div class="karte"><h3>Troppo poco</h3><p>I piatti finiscono, i clienti aspettano o se ne vanno: si perde incasso.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Come funziona</h2>
+  <p class="unter">Niente gestionale complicato. Uno strumento semplice che funziona dal telefono.</p>
+  <div class="grid3">
+    <div class="karte"><div class="nr">1</div><h3>Chiusura serata in 1 minuto</h3><p>Si inseriscono i piatti venduti, la merce avanzata e quella buttata.</p></div>
+    <div class="karte"><div class="nr">2</div><h3>Proposta per domani</h3><p>In base allo stesso giorno delle settimane passate e al meteo.</p></div>
+    <div class="karte"><div class="nr">3</div><h3>Lista ordini e preparazione</h3><p>Cosa preparare e cosa riordinare: né troppo né troppo poco.</p></div>
+  </div>
+  <div class="karte" style="margin-top:20px"><h3>Ogni lunedì un breve resoconto via email</h3><p>Cosa si è buttato la settimana precedente, in euro e per ingrediente, e se è meno di prima.</p></div>
+</div></section>
+
+<section class="weiss"><div class="wrap">
+  <div class="ueber">
+    <div class="avatar">D</div>
+    <div>
+      <h2>Dalla cucina, per la cucina</h2>
+      <p class="unter" style="margin-bottom:0">Sono Davide, pizzaiolo con oltre 20 anni di esperienza, qui a Lipsia. KüchenKompass nasce da quello che vivo ogni sera: preparare la quantità giusta è esperienza, e l'esperienza si può trasformare in numeri.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="kontakt"><div class="wrap grid2">
+  <div class="test">
+    <h2>Prova gratuita a Lipsia</h2>
+    <p>KüchenKompass è in sviluppo. Cerco 3 pizzerie o ristoranti che lo provino gratis per 4 settimane.</p>
+    <ul class="liste" style="margin-top:14px">
+      <li>Configurazione di persona nel vostro locale</li>
+      <li>Nessun costo, nessun contratto</li>
+      <li>I vostri dati restano vostri</li>
+      <li>Dopo decidete voi</li>
+    </ul>
+  </div>
+  <form name="interesse" method="POST" action="/danke.html" data-netlify="true" netlify-honeypot="bot-feld">
+    <input type="hidden" name="form-name" value="interesse">
+    <p class="versteckt"><label>Non compilare: <input name="bot-feld"></label></p>
+    <h3 style="margin:0">Interessati? Scrivetemi.</h3>
+    <label for="name">Il vostro nome</label>
+    <input id="name" name="name" required autocomplete="name">
+    <label for="betrieb">Nome del locale</label>
+    <input id="betrieb" name="betrieb" required autocomplete="organization">
+    <label for="kontakt-feld">Telefono o email</label>
+    <input id="kontakt-feld" name="kontakt" required>
+    <label for="nachricht">Cosa buttate più spesso? (facoltativo)</label>
+    <textarea id="nachricht" name="nachricht" rows="3"></textarea>
+    <label class="check"><input type="checkbox" name="einwilligung" required> Accetto di essere contattato da Davide per KüchenKompass. I miei dati servono solo a questo e vengono cancellati su richiesta.</label>
+    <button class="btn" type="submit">Richiedi la prova</button>
+  </form>
+</div></section>
+
+<footer><div class="wrap grid2">
+  <div>
+    <h4>Impressum</h4>
+    <p>[NAME NACHNAME]<br>[STRASSE NR.]<br>[PLZ] Leipzig<br>E-Mail: [E-MAIL]</p>
+  </div>
+  <div>
+    <h4>Privacy</h4>
+    <p>I dati del modulo servono solo per contattarvi riguardo a KüchenKompass. Sono conservati dal fornitore di hosting Netlify. Potete chiedere in ogni momento via email di vederli o cancellarli. Questa pagina non usa cookie né servizi di tracciamento.</p>
+  </div>
+</div></footer>
+</body>
+</html>
