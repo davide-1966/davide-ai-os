@@ -13,11 +13,11 @@ Legenda: [ ] da fare · [x] fatto
 ## Quando arriva
 - [ ] Email di Google: app pubblicata → lancio
 - [ ] Risposta di Jacopo sulla teglia → spiegazione + reel
-- [ ] Risposta di Pasquale su KüchenKompass → appunti per l'incontro
+- [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)
 
 ## Tra qualche giorno
 - [ ] Fine promozione DE (~24/10): screenshot finale e decisione su promozione IT
-- [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v1.zip)
+- [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v3.zip) – meglio dopo l'incontro con Pasquale
 
 ## Fatto
 - [x] Carosello "I 4 pilastri" programmato dom 25/10 12:00 (Instagram IT, 6 foto)

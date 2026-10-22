@@ -1,0 +1,83 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><title>KüchenKompass – Concetto</title>
+<style>
+body{margin:0;font-family:system-ui,'Segoe UI',Roboto,Arial,sans-serif;color:#1f2a26;font-size:12.6px;line-height:1.45}
+.top{background:#1d4d3c;color:#fff;padding:24px 40px}.k{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#9fd3b8;font-weight:700}
+h1{margin:4px 0 4px;font-size:28px}.top p{margin:0;color:#d7e6de;font-size:14px}
+.pag{padding:18px 40px}
+.prom{background:#fbefe2;border-left:5px solid #d9822b;padding:12px 16px;border-radius:6px;font-size:15px;font-weight:700;color:#5a3209;margin:4px 0 6px}
+h2{color:#1d4d3c;font-size:15.5px;margin:16px 0 6px;border-bottom:2px solid #e3ded3;padding-bottom:3px;break-after:avoid}
+table{width:100%;border-collapse:collapse;margin:4px 0;break-inside:avoid}th,td{text-align:left;padding:5px 8px;border-bottom:1px solid #e3ded3;vertical-align:top}th{background:#f6f4ef;font-size:11.5px;color:#5d6b65}
+ul{margin:4px 0;padding-left:18px}li{margin:2px 0}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.box{border:1px solid #e3ded3;border-radius:8px;padding:10px 12px;background:#f6f4ef;break-inside:avoid}.box b.t{display:block;color:#1d4d3c;margin-bottom:3px}
+.ok{color:#1d4d3c;font-weight:700}.nota{font-size:11px;color:#5d6b65}
+</style></head><body>
+<div class="top"><div class="k">Concetto di prodotto · bozza da discutere</div><h1>KüchenKompass</h1><p>Il controllo delle perdite in cucina, pratico come una foto. Per pizzerie e ristoranti.</p></div>
+<div class="pag">
+
+<div class="prom">La promessa: “In 4 settimane ti dico quanti euro perde la tua cucina ogni mese, su quali prodotti e perché.”</div>
+<p class="nota">Tutto il resto (proposte per domani, meteo, ordini automatici) viene dopo. Se l'app mantiene questa promessa, si vende da sola.</p>
+
+<h2>1. Il problema</h2>
+<p>Ogni cucina perde soldi senza vederli: porzioni più abbondanti della ricetta, merce scaduta, scarti non segnati, errori negli ordini, ammanchi. Il titolare sente che il food cost è alto, ma non sa <b>quanto</b> e <b>dove</b>. I programmi che lo calcolano esistono, ma sono cari, complicati e pensati per catene e hotel.</p>
+
+<h2>2. Come funziona: confronto teorico/reale su tutti i prodotti</h2>
+<table><tr><th>Dato</th><th>Da dove arriva</th><th>Fatica per il titolare</th></tr>
+<tr><td><b>Ricette</b> (grammi per piatto)</td><td>Le inseriamo noi al primo incontro</td><td class="ok">nessuna</td></tr>
+<tr><td><b>Acquisti</b></td><td>Foto della fattura o bolla: l'app legge prodotti, quantità, prezzi</td><td>10 secondi a consegna</td></tr>
+<tr><td><b>Vendite</b></td><td>Export dalla cassa (o a mano se la cassa non lo permette)</td><td>2 minuti a settimana</td></tr>
+<tr><td><b>Inventario</b></td><td>Ogni lunedì, solo i 15–20 prodotti più costosi, lista pronta sul telefono</td><td>circa 15 minuti</td></tr>
+<tr><td><b>Scarti</b></td><td>Prodotto, quantità, motivo (scaduto, avanzato, bruciato, reso) con 3 tocchi</td><td>10 secondi</td></tr></table>
+<p><b>Calcolo:</b> dovrebbe restare = magazzino iniziale + acquisti − (venduto × ricetta) − scarti registrati. <b>Perdita</b> = dovrebbe restare − contato davvero. L'app tiene conto del <b>calo naturale</b> (es. mozzarella che scola, prosciutto al taglio) con una tolleranza per prodotto, così segnala solo le perdite vere.</p>
+<table><tr><th colspan="2">Esempio: mozzarella, una settimana</th></tr>
+<tr><td>Magazzino lunedì + acquistata</td><td>10 kg + 40 kg</td></tr>
+<tr><td>− venduta (400 margherite × 100 g) − scarti registrati</td><td>− 40 kg − 1 kg</td></tr>
+<tr><td><b>Dovrebbero restare / contati davvero</b></td><td><b>9 kg / 6 kg</b></td></tr>
+<tr><td><b>Perdita non spiegata</b></td><td><b>3 kg · 7 % · 24 € → circa 100 € al mese solo di mozzarella</b></td></tr></table>
+
+<h2>3. Cosa riceve il titolare</h2>
+<div class="g2">
+<div class="box"><b class="t">Ogni lunedì</b>Perdita della settimana per prodotto: kg, %, €. I 3 prodotti peggiori in evidenza.</div>
+<div class="box"><b class="t">Ogni mese, in grande</b>“Questo mese hai perso 420 €”, con le 5 cause principali e un consiglio pratico (es. “Mozzarella −7%: controlla le porzioni della margherita”).</div>
+<div class="box"><b class="t">Bonus: food cost per piatto</b>Con i prezzi delle fatture, l'app calcola quanto costa ogni pizza e piatto, e avvisa quando un fornitore aumenta i prezzi.</div>
+<div class="box"><b class="t">Pratico</b>Tutto dal telefono, grossi pulsanti, in tedesco e italiano. Nessun computer, nessuna tabella.</div>
+</div>
+
+<h2>4. Versione 1 e poi</h2>
+<p><b>Versione 1:</b> ricette · foto fatture · vendite · inventario settimanale · scarti · resoconto € settimanale e mensile · food cost per piatto.<br>
+<b>Dopo:</b> proposta di preparazione per domani (giorno, meteo), lista ordini automatica, collegamento diretto alla cassa, più locali per lo stesso titolare.</p>
+
+<h2>5. Prezzo (ipotesi da verificare)</h2>
+<p>Prova gratuita di 4 settimane con configurazione di persona, poi <b>29–49 € al mese</b> per locale. Argomento di vendita: se l'app mostra 420 € di perdite al mese, basta recuperarne una piccola parte per ripagarla più volte.</p>
+
+<h2>6. Come lo verifichiamo prima di costruire tutto</h2>
+<ul>
+<li><b>Pasquale:</b> cosa chiedono davvero i titolari, quanto pagherebbero, quali casse usano.</li>
+<li><b>3 locali pilota a Lipsia:</b> il primo mese lo facciamo anche “a mano” (foto fatture → calcolo nostro) per dimostrare il numero di € persi.</li>
+<li><b>Decisione:</b> se almeno 2 locali su 3 vogliono continuare pagando, si costruisce l'app completa.</li>
+</ul>
+
+<h2>7. Ruoli (proposta)</h2>
+<p><b>Davide:</b> esperienza di cucina, ricette, configurazione nei locali. · <b>Pasquale:</b> contatti, vendita ai titolari, feedback dal mercato. · <b>Sviluppo:</b> app e calcoli (con Horacle/AI, poi eventuale sviluppatore). Accordi e percentuali da mettere per iscritto dopo la prova.</p>
+
+<h2>8. Rischi e come li affrontiamo</h2>
+<ul>
+<li><b>L'inventario non viene fatto</b> → solo 15–20 prodotti, lista pronta, promemoria il lunedì.</li>
+<li><b>Casse diverse</b> → partire con export (file) o inserimento a mano, collegamenti diretti dopo.</li>
+<li><b>Fatture lette male</b> → il titolare conferma sempre; l'app impara i prodotti di ogni fornitore.</li>
+<li><b>Ricette non rispettate in cucina</b> → è proprio quello che l'app deve far emergere, senza accusare nessuno.</li>
+</ul>
+
+<h2>9. Domande da decidere insieme a Pasquale</h2>
+<ul><li>Il prezzo giusto per i suoi clienti?</li><li>Quali 3 locali per la prova?</li><li>Il nome “KüchenKompass” funziona per il mercato tedesco?</li><li>Come dividiamo lavoro e guadagni?</li></ul>
+
+<h2>10. Altre idee (proposte di Horacle)</h2>
+<ul>
+<li><b>“Check perdite” gratuito come porta d'ingresso:</b> Pasquale offre ai titolari un controllo di 2 settimane senza impegno; alla fine consegniamo il numero “quanto perdi al mese”. È il modo più forte per vendere.</li>
+<li><b>Avviso prezzi fornitori:</b> l'app confronta le fatture e avvisa quando un prodotto aumenta (“Mozzarella +8% da questo mese”).</li>
+<li><b>Confronto tra fornitori:</b> stesso prodotto, prezzi di fornitori diversi, per scegliere il più conveniente.</li>
+<li><b>Scadenze e FIFO:</b> dalle fatture l'app sa cosa è arrivato prima e ricorda cosa usare per primo, prima che scada.</li>
+<li><b>Porzionatura:</b> quando un prodotto supera la tolleranza, l'app suggerisce un controllo pratico (bilancia, dosatore, foto della porzione standard).</li>
+<li><b>Resoconto per il commercialista:</b> acquisti e food cost del mese in un file pronto da inviare.</li>
+</ul>
+<p class="nota" style="margin-top:14px">Stato: idea in sviluppo, nessuna funzione è ancora attiva. Numeri e prezzi sono esempi. · Davide Paba, Lipsia · moveitalia.info@gmail.com</p>
+</div></body></html>
