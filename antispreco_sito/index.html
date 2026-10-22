@@ -3,72 +3,169 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KüchenKompass – weniger wegwerfen</title>
-<meta name="description" content="KüchenKompass hilft Restaurants und Pizzerien, Wareneinsatz und Abfall im Griff zu haben. Testphase in Leipzig.">
+<title>KüchenKompass – Wareneinsatz und Abfall im Griff</title>
+<meta name="description" content="KüchenKompass hilft Restaurants und Pizzerien, Einkauf, Vorbereitung und Abfall zu planen. Kostenlose Testphase in Leipzig.">
 <style>
-:root{--rot:#b5301f;--creme:#f5ede3;--text:#2e241c;--grau:#6b5e52}
+:root{--grun:#1d4d3c;--grun2:#2c6b54;--hell:#f6f4ef;--text:#1f2a26;--grau:#5d6b65;--linie:#e3ded3;--akzent:#d9822b;--weiss:#fff}
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--creme);color:var(--text);line-height:1.5}
-header{background:var(--rot);color:#fff;padding:40px 16px 32px;text-align:center}
-header h1{margin:0 0 8px;font-size:2rem}
-header p{margin:0 auto;max-width:560px;font-size:1.15rem}
-main{max-width:640px;margin:0 auto;padding:24px 16px 40px}
-h2{color:var(--rot);font-size:1.3rem;margin:32px 0 8px}
-.karte{background:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;box-shadow:0 1px 3px rgba(0,0,0,.08)}
-.karte b{display:block;margin-bottom:4px}
-.beispiel{font-size:1.1rem;font-weight:600;border-left:4px solid var(--rot);padding-left:12px}
-form{background:#fff;border-radius:12px;padding:18px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
-label{display:block;font-weight:600;margin:12px 0 4px}
-input,textarea{width:100%;padding:12px;border:1px solid #cdbfb2;border-radius:8px;font:inherit}
-.check{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:.9rem;color:var(--grau)}
-.check input{width:auto;margin-top:4px}
-button{margin-top:16px;width:100%;padding:14px;border:0;border-radius:8px;background:var(--rot);color:#fff;font-size:1.1rem;font-weight:700;cursor:pointer}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--hell);color:var(--text);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{background:var(--weiss);border-bottom:1px solid var(--linie);position:sticky;top:0;z-index:5}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.1rem;color:var(--grun);text-decoration:none}
+.logo svg{width:30px;height:30px}
+.btn{display:inline-block;background:var(--grun);color:#fff;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:8px;border:0;font-size:1rem;cursor:pointer}
+.btn:hover{background:var(--grun2)}
+.btn.klein{padding:9px 14px;font-size:.92rem}
+header.hero{padding:56px 0 48px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.badge{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--grun);background:#e2ece6;padding:5px 10px;border-radius:999px}
+h1{font-size:2.6rem;line-height:1.15;margin:16px 0 14px;letter-spacing:-.02em}
+.lead{font-size:1.15rem;color:var(--grau);margin:0 0 26px}
+.hinweis{font-size:.88rem;color:var(--grau);margin-top:12px}
+.mock{background:var(--weiss);border:1px solid var(--linie);border-radius:16px;box-shadow:0 18px 40px rgba(29,77,60,.12);padding:20px}
+.mock .kopf{display:flex;justify-content:space-between;align-items:center;font-size:.85rem;color:var(--grau);margin-bottom:12px}
+.mock .titel{font-weight:700;font-size:1.05rem;margin-bottom:12px}
+.zeile{display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid var(--linie);font-size:.95rem}
+.zeile b{font-variant-numeric:tabular-nums}
+.chip{font-size:.75rem;background:#fbefe2;color:#9a5410;padding:3px 8px;border-radius:999px}
+.mock .fuss{margin-top:12px;font-size:.8rem;color:var(--grau)}
+section{padding:56px 0}
+section.weiss{background:var(--weiss);border-top:1px solid var(--linie);border-bottom:1px solid var(--linie)}
+h2{font-size:1.8rem;letter-spacing:-.01em;margin:0 0 10px}
+.unter{color:var(--grau);margin:0 0 32px;max-width:640px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.karte{background:var(--weiss);border:1px solid var(--linie);border-radius:12px;padding:22px}
+section.weiss .karte{background:var(--hell)}
+.nr{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:8px;background:var(--grun);color:#fff;font-weight:700;margin-bottom:12px}
+.karte h3{margin:0 0 6px;font-size:1.08rem}
+.karte p{margin:0;color:var(--grau);font-size:.97rem}
+.liste{list-style:none;padding:0;margin:0}
+.liste li{padding:8px 0 8px 30px;position:relative;color:var(--text)}
+.liste li::before{content:"";position:absolute;left:4px;top:15px;width:12px;height:7px;border-left:2px solid var(--grun);border-bottom:2px solid var(--grun);transform:rotate(-45deg)}
+.ueber{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start}
+.avatar{width:64px;height:64px;border-radius:50%;background:var(--grun);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.4rem}
+.test{background:var(--grun);color:#fff;border-radius:16px;padding:32px}
+.test h2{color:#fff}
+.test p{color:#d7e6de;margin:0 0 6px}
+.test .liste li{color:#fff}
+.test .liste li::before{border-color:#9fd3b8}
+form{background:var(--weiss);border:1px solid var(--linie);border-radius:16px;padding:26px}
+label{display:block;font-weight:600;font-size:.92rem;margin:14px 0 6px}
+input,textarea{width:100%;padding:12px 14px;border:1px solid #cfc8bb;border-radius:8px;font:inherit;background:#fff}
+input:focus,textarea:focus{outline:2px solid var(--grun2);border-color:transparent}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:.85rem;color:var(--grau)}
+.check input{width:auto;margin-top:3px}
+form .btn{width:100%;margin-top:18px;padding:14px}
 .versteckt{display:none}
-footer{font-size:.85rem;color:var(--grau);max-width:640px;margin:0 auto;padding:0 16px 40px}
-footer h3{font-size:.95rem;margin:20px 0 4px;color:var(--text)}
+footer{padding:36px 0 48px;font-size:.85rem;color:var(--grau)}
+footer .grid2{gap:28px}
+footer h4{margin:0 0 6px;color:var(--text);font-size:.92rem}
+@media (max-width:820px){
+  .hero .wrap,.grid3,.grid2{grid-template-columns:1fr}
+  h1{font-size:2rem}
+  header.hero{padding:36px 0}
+  section{padding:44px 0}
+  .test{padding:24px}
+}
 </style>
 </head>
 <body>
-<header>
-  <h1>KüchenKompass</h1>
-  <p>Weniger wegwerfen, besser einkaufen. Für Restaurants und Pizzerien.</p>
-</header>
-<main>
-  <p>Ich bin Davide, Pizzaiolo mit über 20 Jahren Erfahrung, hier in Leipzig. Ich kenne das Problem aus der eigenen Küche: Ware läuft ab, Vorbereitetes bleibt übrig, Teiglinge werden weggeworfen – oder etwas fehlt mitten im Service. Das kostet jede Woche Geld.</p>
-  <p>Deshalb entwickle ich <b>KüchenKompass</b>, ein einfaches Programm für Restaurants und Pizzerien: Es behält im Blick, was Sie einkaufen, was Sie verbrauchen und was weggeworfen wird.</p>
+<nav><div class="wrap">
+  <a class="logo" href="#"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="#1d4d3c" stroke-width="2.5"/><path d="M16 6 L19.5 16 L16 26 L12.5 16 Z" fill="#1d4d3c"/><path d="M16 16 L19.5 16 L16 26 Z" fill="#d9822b"/></svg>KüchenKompass</a>
+  <a class="btn klein" href="#kontakt">Kostenlos testen</a>
+</div></nav>
 
-  <h2>So soll es funktionieren</h2>
-  <div class="karte"><b>1. Bestand und Einkauf</b>Alle Zutaten an einem Ort: was da ist, was kommt, was bald abläuft.</div>
-  <div class="karte"><b>2. Abendabschluss in 1 Minute</b>Sie tragen ein, was verkauft wurde und was übrig ist oder weggeworfen wird.</div>
-  <div class="karte"><b>3. Vorschlag für morgen</b>KüchenKompass schaut auf denselben Wochentag der letzten Wochen und auf das Wetter.
-    <p class="beispiel">„Morgen ist Freitag, es regnet: 80 Teiglinge, 6 kg Mozzarella, 4 Portionen Lasagne vorbereiten.“</p></div>
-  <div class="karte"><b>4. Bestellliste</b>Was Sie nachbestellen müssen – nicht zu viel, nicht zu wenig.</div>
-  <div class="karte"><b>Jeden Montag eine kurze E-Mail</b>Was letzte Woche weggeworfen wurde, in Euro und nach Zutat – und ob es weniger war als vorher.</div>
+<header class="hero"><div class="wrap">
+  <div>
+    <span class="badge">Für Restaurants &amp; Pizzerien</span>
+    <h1>Weniger wegwerfen. Gezielter einkaufen.</h1>
+    <p class="lead">KüchenKompass plant für Sie, was morgen vorbereitet und was bestellt werden muss – auf Basis Ihrer eigenen Verkaufszahlen. In einer Minute pro Abend.</p>
+    <a class="btn" href="#kontakt">Kostenlose Testphase anfragen</a>
+    <p class="hinweis">Testphase in Leipzig · 4 Wochen kostenlos · unverbindlich</p>
+  </div>
+  <div class="mock" aria-label="Beispielansicht">
+    <div class="kopf"><span>Vorschlag für morgen</span><span class="chip">Beispiel</span></div>
+    <div class="titel">Freitag · Regen erwartet</div>
+    <div class="zeile"><span>Teiglinge</span><b>80 Stück</b></div>
+    <div class="zeile"><span>Mozzarella</span><b>6,0 kg</b></div>
+    <div class="zeile"><span>Tomatensauce</span><b>4,5 kg</b></div>
+    <div class="zeile"><span>Lasagne (Portionen)</span><b>4</b></div>
+    <div class="fuss">Berechnet aus den letzten Freitagen und der Wettervorhersage.</div>
+  </div>
+</div></header>
 
-  <h2>Testphase in Leipzig</h2>
-  <p>KüchenKompass ist noch in Entwicklung. Ich suche <b>3 Pizzerien oder Restaurants</b>, die es 4 Wochen <b>kostenlos</b> testen. Danach entscheiden Sie selbst, ob Sie es weiter nutzen möchten.</p>
+<section class="weiss"><div class="wrap">
+  <h2>Das Problem kennt jede Küche</h2>
+  <p class="unter">Ware läuft ab, Vorbereitetes bleibt übrig, Teiglinge landen im Müll – oder etwas fehlt mitten im Service. Beides kostet jede Woche Geld.</p>
+  <div class="grid3">
+    <div class="karte"><h3>Zu viel vorbereitet</h3><p>Übrige Teiglinge und Mise en place, die am nächsten Tag nicht mehr verwendet werden können.</p></div>
+    <div class="karte"><h3>Zu viel bestellt</h3><p>Frische Ware läuft ab, bevor sie verbraucht ist.</p></div>
+    <div class="karte"><h3>Zu wenig da</h3><p>Gerichte sind aus, Gäste warten oder gehen – Umsatz geht verloren.</p></div>
+  </div>
+</div></section>
 
-  <h2>Interesse? Schreiben Sie mir</h2>
+<section><div class="wrap">
+  <h2>So funktioniert es</h2>
+  <p class="unter">Kein kompliziertes Warenwirtschaftssystem. Ein einfaches Werkzeug, das auf dem Handy funktioniert.</p>
+  <div class="grid3">
+    <div class="karte"><div class="nr">1</div><h3>Abendabschluss in 1 Minute</h3><p>Verkaufte Gerichte, übrige und weggeworfene Ware eintragen.</p></div>
+    <div class="karte"><div class="nr">2</div><h3>Vorschlag für morgen</h3><p>Auf Basis desselben Wochentags der letzten Wochen und des Wetters.</p></div>
+    <div class="karte"><div class="nr">3</div><h3>Bestell- und Vorbereitungsliste</h3><p>Was vorbereitet und was nachbestellt werden muss – nicht zu viel, nicht zu wenig.</p></div>
+  </div>
+  <div class="karte" style="margin-top:20px"><h3>Jeden Montag ein kurzer Bericht per E-Mail</h3><p>Was in der Vorwoche weggeworfen wurde – in Euro und nach Zutat – und ob es weniger war als vorher.</p></div>
+</div></section>
+
+<section class="weiss"><div class="wrap">
+  <div class="ueber">
+    <div class="avatar">D</div>
+    <div>
+      <h2>Aus der Küche, für die Küche</h2>
+      <p class="unter" style="margin-bottom:0">Ich bin Davide, Pizzaiolo mit über 20 Jahren Erfahrung, hier in Leipzig. KüchenKompass entsteht aus dem, was ich jeden Abend selbst erlebe: Die richtige Menge vorzubereiten ist Erfahrung – und die lässt sich in Zahlen fassen.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="kontakt"><div class="wrap grid2">
+  <div class="test">
+    <h2>Kostenlose Testphase in Leipzig</h2>
+    <p>KüchenKompass ist in Entwicklung. Ich suche 3 Pizzerien oder Restaurants, die es 4 Wochen kostenlos testen.</p>
+    <ul class="liste" style="margin-top:14px">
+      <li>Persönliche Einrichtung vor Ort</li>
+      <li>Keine Kosten, keine Vertragsbindung</li>
+      <li>Ihre Daten bleiben Ihre Daten</li>
+      <li>Danach entscheiden Sie selbst</li>
+    </ul>
+  </div>
   <form name="interesse" method="POST" action="/danke.html" data-netlify="true" netlify-honeypot="bot-feld">
     <input type="hidden" name="form-name" value="interesse">
     <p class="versteckt"><label>Nicht ausfüllen: <input name="bot-feld"></label></p>
+    <h3 style="margin:0">Interesse? Schreiben Sie mir.</h3>
     <label for="name">Ihr Name</label>
     <input id="name" name="name" required autocomplete="name">
     <label for="betrieb">Name des Betriebs</label>
-    <input id="betrieb" name="betrieb" required>
-    <label for="kontakt">Telefon oder E-Mail</label>
-    <input id="kontakt" name="kontakt" required>
-    <label for="nachricht">Was werfen Sie am häufigsten weg? (optional)</label>
+    <input id="betrieb" name="betrieb" required autocomplete="organization">
+    <label for="kontakt-feld">Telefon oder E-Mail</label>
+    <input id="kontakt-feld" name="kontakt" required>
+    <label for="nachricht">Was wird bei Ihnen am häufigsten weggeworfen? (optional)</label>
     <textarea id="nachricht" name="nachricht" rows="3"></textarea>
     <label class="check"><input type="checkbox" name="einwilligung" required> Ich bin einverstanden, dass Davide mich zu KüchenKompass kontaktiert. Meine Daten werden nur dafür verwendet und auf Wunsch gelöscht.</label>
-    <button type="submit">Ja, ich habe Interesse</button>
+    <button class="btn" type="submit">Testphase anfragen</button>
   </form>
-</main>
-<footer>
-  <h3>Impressum</h3>
-  <p>[NAME NACHNAME]<br>[STRASSE NR.]<br>[PLZ] Leipzig<br>E-Mail: [E-MAIL]</p>
-  <h3>Datenschutz</h3>
-  <p>Die Angaben aus dem Formular werden nur genutzt, um Sie zu KüchenKompass zu kontaktieren. Gespeichert werden sie beim Hosting-Anbieter Netlify. Sie können jederzeit per E-Mail Auskunft oder Löschung verlangen.</p>
-</footer>
+</div></section>
+
+<footer><div class="wrap grid2">
+  <div>
+    <h4>Impressum</h4>
+    <p>[NAME NACHNAME]<br>[STRASSE NR.]<br>[PLZ] Leipzig<br>E-Mail: [E-MAIL]</p>
+  </div>
+  <div>
+    <h4>Datenschutz</h4>
+    <p>Die Angaben aus dem Formular werden nur genutzt, um Sie zu KüchenKompass zu kontaktieren. Gespeichert werden sie beim Hosting-Anbieter Netlify. Sie können jederzeit per E-Mail Auskunft oder Löschung verlangen. Diese Seite verwendet keine Cookies und keine Tracking-Dienste.</p>
+  </div>
+</div></footer>
 </body>
 </html>
