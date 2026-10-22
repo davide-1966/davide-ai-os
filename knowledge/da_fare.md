@@ -2,8 +2,6 @@
 
 Legenda: [ ] da fare · [x] fatto
 
-## Subito
-- [ ] Ascoltare l'avatar tedesco dell'annuncio (sec. 13–14): si sente "TEIG"? (reel DE 22/10 ore 12:30)
 
 ## Da decidere (Davide)
 - [ ] Carosello "I 4 pilastri" (media/caroselli/4_pilastri): ok per dom 25/10 12:00?
@@ -23,6 +21,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v1.zip)
 
 ## Fatto
+- [x] Avatar tedesco annuncio: "TEIG" si sente bene (confermato da Davide 22/10)
 - [x] Lezione 1 Scuola di Pizza fatta da Davide su HeyGen, programmata sab 24/10 12:00 (IG + TikTok + YouTube Short)
 - [x] Reel programmati fino al 28/10 (IT + DE + YouTube)
 - [x] Parte 2 pallina PUBBLICATA 21/10 19:30 (Instagram, TikTok, YouTube)
