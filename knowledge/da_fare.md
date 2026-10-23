@@ -7,7 +7,6 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
 ## Giorno libero
-- [ ] Lezione 2 Scuola di Pizza: fare il video su HeyGen (testo pronto in knowledge/scuola_pizza/lezione_2.md)
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
 ## Quando arriva
@@ -22,6 +21,8 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] Lezione 2 (idratazione) fatta da Davide su HeyGen, programmata sab 31/10 12:00 (IG + TikTok id 403939007, YouTube id 403939034)
+- [x] CTA YouTube corretta in tutti gli Shorts programmati: "Vai su Instagram @pizza_perfetta_a_casa e commenta IMPASTO sotto questo video" (23/10)
 - [x] Carosello "I 4 pilastri" programmato dom 25/10 12:00 (Instagram IT, 6 foto)
 - [x] Carosello "La mia biga in 5 passi" (Canva DAHYz8Ps6QM, foto vere) programmato gio 29/10 12:00 (Instagram IT, id 403922564; spostato per non ripetere i reel del 23–26/10)
 - [x] Avatar tedesco annuncio: "TEIG" si sente bene (confermato da Davide 22/10)
