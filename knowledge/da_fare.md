@@ -25,4 +25,4 @@ Legenda: [ ] da fare · [x] fatto
 - [x] Lezione 1 Scuola di Pizza fatta da Davide su HeyGen, programmata sab 24/10 12:00 (IG + TikTok + YouTube Short)
 - [x] Reel programmati fino al 28/10 (IT + DE + YouTube)
 - [x] Parte 2 pallina PUBBLICATA 21/10 19:30 (Instagram, TikTok, YouTube)
-- [x] Annuncio app programmato 22/10 (IT 12:00, DE 12:30)
+- [x] Annuncio app PUBBLICATO 22/10 (IT 12:00 IG+TikTok+YouTube, DE 12:30) + reel serali 22/10 pubblicati
