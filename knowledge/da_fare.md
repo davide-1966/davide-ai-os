@@ -19,6 +19,8 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Fine promozione DE (~24/10): screenshot finale e decisione su promozione IT
 - [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v3.zip) – meglio dopo l'incontro con Pasquale
 
+- [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
+
 ## Fatto
 - [x] Carosello "I 4 pilastri" programmato dom 25/10 12:00 (Instagram IT, 6 foto)
 - [x] Carosello "La mia biga in 5 passi" (Canva DAHYz8Ps6QM, foto vere) programmato gio 29/10 12:00 (Instagram IT, id 403922564; spostato per non ripetere i reel del 23–26/10)
