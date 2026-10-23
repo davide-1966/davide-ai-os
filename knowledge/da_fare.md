@@ -7,7 +7,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
 ## Giorno libero
-- [ ] Testo Lezione 2 Scuola di Pizza (idratazione) → da preparare
+- [ ] Lezione 2 Scuola di Pizza: fare il video su HeyGen (testo pronto in knowledge/scuola_pizza/lezione_2.md)
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
 ## Quando arriva
