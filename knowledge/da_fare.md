@@ -21,7 +21,7 @@ Legenda: [ ] da fare · [x] fatto
 
 ## Fatto
 - [x] Carosello "I 4 pilastri" programmato dom 25/10 12:00 (Instagram IT, 6 foto)
-- [x] Carosello "La mia biga in 5 passi" (Canva DAHYz8Ps6QM, foto vere) programmato lun 26/10 12:00 (Instagram IT, id 403921404)
+- [x] Carosello "La mia biga in 5 passi" (Canva DAHYz8Ps6QM, foto vere) programmato gio 29/10 12:00 (Instagram IT, id 403922564; spostato per non ripetere i reel del 23–26/10)
 - [x] Avatar tedesco annuncio: "TEIG" si sente bene (confermato da Davide 22/10)
 - [x] Lezione 1 Scuola di Pizza fatta da Davide su HeyGen, programmata sab 24/10 12:00 (IG + TikTok + YouTube Short)
 - [x] Reel programmati fino al 28/10 (IT + DE + YouTube)
