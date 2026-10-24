@@ -6,6 +6,9 @@ Legenda: [ ] da fare · [x] fatto
 ## Da decidere (Davide)
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
+## Video
+- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → reel IT dal 29/10 sera e DE dal 29/10 (dopo non c'è niente programmato)
+
 ## Giorno libero
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
@@ -15,12 +18,13 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)
 
 ## Tra qualche giorno
-- [ ] Fine promozione DE (~24/10): screenshot finale e decisione su promozione IT
+- [ ] **OGGI 24/10** Fine promozione DE: screenshot finale e decisione su promozione IT
 - [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v3.zip) – meglio dopo l'incontro con Pasquale
 
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 23/10 pubblicati: reel DE Temperatur 18:00, reel IT "Biga pronta" 19:30 (IG + TikTok + YouTube)
 - [x] Lezione 2 (idratazione) fatta da Davide su HeyGen, programmata sab 31/10 12:00 (IG + TikTok id 403939007, YouTube id 403939034)
 - [x] CTA YouTube corretta in tutti gli Shorts programmati: "Vai su Instagram @pizza_perfetta_a_casa e commenta IMPASTO sotto questo video" (23/10)
 - [x] Carosello "I 4 pilastri" programmato dom 25/10 12:00 (Instagram IT, 6 foto)
