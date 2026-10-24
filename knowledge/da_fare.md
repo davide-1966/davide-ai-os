@@ -2,7 +2,6 @@
 
 Legenda: [ ] da fare · [x] fatto
 
-
 ## Da decidere (Davide)
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
@@ -13,6 +12,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
 ## Quando arriva
+- [ ] Verificare che l'app sia pubblica su Google Play (link in incognito o Play Console → Panoramica della pubblicazione): Davide la vede come beta tester
 - [ ] Lancio mar 27/10 18:30: link Play in bio, reel lancio con Davide vero, storie, email ai contatti
 - [ ] Risposta di Jacopo sulla teglia → spiegazione + reel
 - [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)
@@ -24,7 +24,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
-- [x] 24/10: app scaricabile da Google Play (comunicato da Davide)
+
 - [x] 23/10 pubblicati: reel DE Temperatur 18:00, reel IT "Biga pronta" 19:30 (IG + TikTok + YouTube)
 - [x] Lezione 2 (idratazione) fatta da Davide su HeyGen, programmata sab 31/10 12:00 (IG + TikTok id 403939007, YouTube id 403939034)
 - [x] CTA YouTube corretta in tutti gli Shorts programmati: "Vai su Instagram @pizza_perfetta_a_casa e commenta IMPASTO sotto questo video" (23/10)
