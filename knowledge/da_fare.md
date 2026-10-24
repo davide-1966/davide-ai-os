@@ -12,7 +12,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
 ## Quando arriva
-- [ ] Verificare che l'app sia pubblica su Google Play (link in incognito o Play Console → Panoramica della pubblicazione): Davide la vede come beta tester
+- [x] App in produzione su Google Play (Play Console 24/10: Produzione 1 app, 0 invii in revisione)
 - [ ] Lancio mar 27/10 18:30: link Play in bio, reel lancio con Davide vero, storie, email ai contatti
 - [ ] Risposta di Jacopo sulla teglia → spiegazione + reel
 - [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)

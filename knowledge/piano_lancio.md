@@ -133,4 +133,4 @@ Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va ben
 - 20/10 sera: spesi 3,09 € → 47 visite al profilo, 18 follow, 8 salvataggi = ~0,17 € per follower (sotto la soglia di 0,50 €). Lasciarla andare; controllo finale a fine promozione.
 - 21/10 mattina: spesi 4,47 € → 69 visite, 26 follow, 11 salvataggi = ~0,17 € per follower (stabile).
 - 21/10: reel annuncio 'Presto su Google Play' (media/reel_settimana/annuncio_app_IT.mp4). Apertura con video AI di Google fornito da Davide: usato su sua richiesta esplicita, eccezione alla regola, segnare come contenuto AI.
-- 24/10: Davide vede l'app su Google Play, ma come beta tester ("Pizza Perfetta a Casa (beta)", ultimo aggiornamento 8/10): da verificare se la versione di produzione è pubblica (link in incognito o Play Console) prima di annunciare il lancio.
+- 24/10: Davide vede l'app su Google Play, ma come beta tester ("Pizza Perfetta a Casa (beta)", ultimo aggiornamento 8/10): Play Console (24/10): Produzione 1 app, Invii di pubblicazione 0 → app in produzione, nessuna revisione in corso. Davide vede "(beta)" solo perché è tester.
