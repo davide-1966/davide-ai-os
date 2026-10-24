@@ -29,7 +29,7 @@ Se Google approva più tardi, la data slitta al primo martedì dopo l'approvazio
 - **Codice FONDATORE: -50% per i primi 3 mesi** (2,49 €/mese), valido dal 27/10 al 3/11.
   Solo per la lista email e per chi segue l'account: premia chi c'è dall'inizio.
 - Si crea come «offer code» su Gumroad (sconto 50%, durata 3 mesi, scadenza 3/11).
-- Il libro «Pizza Perfetta a casa» si cita nell'email 3 come alternativa per chi preferisce la carta.
+- Il libro «Pizza Perfetta a casa» si cita nell'email 3 (solo ebook Kindle, niente cartaceo – confermato da Davide 24/10).
 
 ## Strumento per le email
 ManyChat raccoglie le email; per inviarle serve un servizio di newsletter.
@@ -85,7 +85,7 @@ in queste settimane mi avete scritto tanto. Le domande più frequenti: quanto li
 Ti ricordo che il codice **FONDATORE** (metà prezzo per 3 mesi) scade martedì 3 novembre.
 👉 https://pizza-perfetta-a-casa.netlify.app
 
-E se preferisci la carta allo schermo, c'è anche il mio libro **«Pizza Perfetta a casa»**. [link]
+E se vuoi tutto il mio metodo in un unico posto, c'è anche il mio libro **«Pizza Perfetta a casa»** su Kindle. [link]
 
 Buon impasto!
 Davide

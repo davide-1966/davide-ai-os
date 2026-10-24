@@ -207,3 +207,4 @@ pochi iscritti: serve un invito a iscriversi.
   colorbalance=rs=0.08:gs=0.02:bs=-0.05:rh=0.06:gh=0.02:bh=-0.04,curves=all='0/0.03 0.25/0.22 0.5/0.50 0.75/0.78 1/0.97',eq=contrast=1.05:saturation=1.1
   Uscita sempre in yuv420p (compatibile con telefoni e Instagram).
 - OpenMontage provato il 21/10: funziona solo con taglio/unione/colori; nessun vantaggio rispetto al nostro montaggio. Non usare le sue parti di stock/AI.
+- 24/10: vendite del libro Kindle ferme. Libro solo ebook (niente cartaceo). Idee: citarlo nel messaggio del 30/10, post mensile con foto vera, eventuale cartaceo KDP, promo gratis KDP Select se iscritto.
