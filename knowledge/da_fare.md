@@ -13,7 +13,7 @@ Legenda: [ ] da fare · [x] fatto
 
 ## Quando arriva
 - [x] App in produzione su Google Play (Play Console 24/10: Produzione 1 app, 0 invii in revisione)
-- [ ] **LANCIO mar 27/10 18:30** (confermato): 1) ✅ link Play in bio IT+DE 2) video vero di Davide per il reel 3) storie conto alla rovescia 4) messaggio ai contatti – link Play in bio, reel lancio con Davide vero, storie, email ai contatti
+- [ ] **LANCIO mar 27/10 18:30** (confermato): 1) ✅ link Play in bio IT+DE 2) ✅ reel lancio IT+DE programmati 27/10 18:30 (IT IG+TikTok 405806686, YouTube 405806717, DE 405806783) 3) storie conto alla rovescia 4) messaggio ai contatti – link Play in bio, reel lancio con Davide vero, storie, email ai contatti
 - [ ] Risposta di Jacopo sulla teglia → spiegazione + reel
 - [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)
 
@@ -24,6 +24,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 25/10: reel normali del 27/10 spostati al 30/10 (IT 19:30 cornicione + YouTube, DE 18:00 Kühlschrank) per lasciare la serata al lancio
 - [x] 25/10: link Google Play nella bio di @pizza_perfetta_a_casa e @pizza_perfetta_a_casa2 (fatto da Davide)
 - [x] 24/10 pubblicati: Lezione 1 (IG + TikTok + YouTube), reel DE Nudelholz, reel IT temperatura (IG + TikTok + YouTube)
 - [x] Promo DE finita: 14,85 € → 105 follower (~0,14 € a follower), 249 visite al profilo
