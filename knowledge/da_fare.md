@@ -24,6 +24,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 24/10 pubblicati: Lezione 1 (IG + TikTok + YouTube), reel DE Nudelholz, reel IT temperatura (IG + TikTok + YouTube)
 - [x] Promo DE finita: 14,85 € → 105 follower (~0,14 € a follower), 249 visite al profilo
 
 - [x] 23/10 pubblicati: reel DE Temperatur 18:00, reel IT "Biga pronta" 19:30 (IG + TikTok + YouTube)
