@@ -18,7 +18,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)
 
 ## Tra qualche giorno
-- [ ] Decidere promozione IT (15 €, 5 giorni) dopo il lancio del 27/10
+- [ ] Dopo il lancio: prima promozione del budget mensile (30–50 €/mese, deciso 25/10) – scegliere il reel con Davide (si avvia solo con il suo sì)
 - [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v3.zip) – meglio dopo l'incontro con Pasquale
 
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.

@@ -136,3 +136,9 @@ Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va ben
 - 24/10: Davide vede l'app su Google Play, ma come beta tester ("Pizza Perfetta a Casa (beta)", ultimo aggiornamento 8/10): Play Console (24/10): Produzione 1 app, Invii di pubblicazione 0 → app in produzione, nessuna revisione in corso. Davide vede "(beta)" solo perché è tester.
 - 24/10: Davide conferma il LANCIO martedì 27/10 alle 18:30. Nota: nell'app Play l'abbonamento Play Billing non c'è ancora → al lancio l'offerta è app gratis + 1 mese Premium gratis con IMPASTO/TEIG (attivazione a mano); codice FONDATORE/Gumroad da rivedere.
 - 25/10 RISULTATO FINALE promo DE (completata): spesi 14,85 € in 5 giorni → 3.228 visualizzazioni, copertura 2.545, 249 visite al profilo, 105 follow dall'inserzione (~0,14 € per follower, sotto la soglia di 0,50 €), 34 salvataggi, 8 condivisioni, 0 conversazioni. Reel totale (organico + promo): 10.051 visualizzazioni, 295 follow, 95 salvataggi. Proposta: stessa prova (15 €, 5 giorni) sul profilo IT dopo il lancio, con il reel IT migliore – da decidere con Davide.
+
+## Budget pubblicità (deciso da Davide il 25/10)
+- **30–50 € al mese** dopo il lancio del 27/10, per crescere in follower (Davide: "più follower = più acquisti").
+- Proposta: circa 10 € a settimana, alternando IT e DE, sul reel con Davide vero che va meglio in quella settimana.
+- Regola: si continua solo se il follower costa meno di 0,50 €; guardare anche email (IMPASTO/TEIG) e scaricamenti dell'app.
+- Ogni promozione si avvia solo con il sì di Davide.
