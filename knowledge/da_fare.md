@@ -18,12 +18,13 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)
 
 ## Tra qualche giorno
-- [ ] **OGGI 24/10** Fine promozione DE: screenshot finale e decisione su promozione IT
+- [ ] Decidere promozione IT (15 €, 5 giorni) dopo il lancio del 27/10
 - [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v3.zip) – meglio dopo l'incontro con Pasquale
 
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] Promo DE finita: 14,85 € → 105 follower (~0,14 € a follower), 249 visite al profilo
 
 - [x] 23/10 pubblicati: reel DE Temperatur 18:00, reel IT "Biga pronta" 19:30 (IG + TikTok + YouTube)
 - [x] Lezione 2 (idratazione) fatta da Davide su HeyGen, programmata sab 31/10 12:00 (IG + TikTok id 403939007, YouTube id 403939034)
