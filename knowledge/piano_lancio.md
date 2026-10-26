@@ -143,3 +143,4 @@ Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va ben
 - Regola: si continua solo se il follower costa meno di 0,50 €; guardare anche email (IMPASTO/TEIG) e scaricamenti dell'app.
 - Ogni promozione si avvia solo con il sì di Davide.
 - 25/10: reel di lancio (media/lancio/) = schermate vere dell'app (Playwright) + avatar HeyGen nel cerchio, programmati mar 27/10 18:30 IT (IG+TikTok+YouTube) e DE (IG). Reel normali del 27/10 spostati al 30/10.
+- 26/10: Davide decide di provare i reel IT alle 13:00 per una settimana (dal 2/11). Confronto: media 19–25/10 a 19:30 = ~305 visualizzazioni per reel. DE resta alle 18:00.
