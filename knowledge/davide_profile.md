@@ -210,3 +210,4 @@ pochi iscritti: serve un invito a iscriversi.
 - 24/10: vendite del libro Kindle ferme. Libro solo ebook (niente cartaceo). Idee: citarlo nel messaggio del 30/10, post mensile con foto vera, eventuale cartaceo KDP, promo gratis KDP Select se iscritto.
 - 26/10: Davide in passato teneva corsi di pizza (ha foto/video dei corsi). Nelle foto d'archivio togliere sempre le persone (corsisti, clienti, bambini).
 - 26/10: foto d'archivio da pizzerie in Italia (2019), Dresda (2023) e Lipsia (2024); abbinamento foto→luogo non fornito (Davide: "fai tu"): nei contenuti NON assegnare un luogo a una singola foto, solo frase generale "Italia, Dresda, Lipsia".
+- 26/10: tempo d'impasto con la sua spirale: massimo 15 minuti ("le macchine non sono tutte uguali").
