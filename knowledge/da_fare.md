@@ -8,6 +8,8 @@ Legenda: [ ] da fare · [x] fatto
 ## Video
 - [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → dal 31/10 sera (IT) e dal 31/10 (DE) non c'è niente programmato; servono pizze finite e Davide che parla in camera
 
+- [ ] Idea reel DE (dal commento di un follower di Lipsia, 26/10): "Teig wird in der Spirale zu warm?" → Reibung, max 15 Min. bei Davide, kaltes Wasser, am Ende messen (21 °C Pizzeria / 24 °C zu Hause). Serve Davide in camera.
+
 ## Giorno libero
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
