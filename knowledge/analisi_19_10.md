@@ -26,3 +26,10 @@
 36.990 visualizzazioni · 26.651 account · tempo medio 10 s · 41 follow · 32 salvataggi · 71 like · 13 commenti · 5 repost.
 → 1,1 nuovi follower ogni 1.000 visualizzazioni (fine settembre ~5,5; obiettivo >10).
 Lettura: il reel ha raggiunto tanti non follower ma pochi hanno seguito. Proposte: "Parte 2" con la soluzione (chiusura corretta della pallina, mani vere), fissare il reel in cima al profilo, chiusura con motivo per seguire (serie).
+
+## Controllo lunedì 26/10 (dati Metricool + insight Instagram)
+- Media visualizzazioni reel IT: settembre ~80 · 12–18/10 ~780 (6 reel; Condimento 1.675, Bilancia 1.624) · 19–25/10 ~305 (10 reel).
+- Migliore 19–25/10: "Gamberi crudi? ERRORE" (20/10) 725 visualizzazioni, 603 account, tempo medio 6 s, 2 follow, 0 salvataggi → ~2,8 follower ogni 1.000 visualizzazioni (obiettivo >10; fine settembre ~5,5).
+- Peggiore: annuncio app 22/10 → 181.
+- Confronto DE: reel "Type 405 = Tipo 00? Falsch." (Davide che parla in camera) 10.051 visualizzazioni, 295 follow (~29 ogni 1.000, con promo).
+- Lezione: pizza vera + "ERRORE" porta visualizzazioni; Davide che parla in camera porta follower. Aggiungere un motivo per seguire ("Seguimi: ogni giorno un errore che…").
