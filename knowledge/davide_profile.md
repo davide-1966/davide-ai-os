@@ -208,3 +208,4 @@ pochi iscritti: serve un invito a iscriversi.
   Uscita sempre in yuv420p (compatibile con telefoni e Instagram).
 - OpenMontage provato il 21/10: funziona solo con taglio/unione/colori; nessun vantaggio rispetto al nostro montaggio. Non usare le sue parti di stock/AI.
 - 24/10: vendite del libro Kindle ferme. Libro solo ebook (niente cartaceo). Idee: citarlo nel messaggio del 30/10, post mensile con foto vera, eventuale cartaceo KDP, promo gratis KDP Select se iscritto.
+- 26/10: Davide in passato teneva corsi di pizza (ha foto/video dei corsi). Nelle foto d'archivio togliere sempre le persone (corsisti, clienti, bambini).
