@@ -13,7 +13,7 @@ Legenda: [ ] da fare · [x] fatto
 
 ## Quando arriva
 - [x] App in produzione su Google Play (Play Console 24/10: Produzione 1 app, 0 invii in revisione)
-- [ ] **LANCIO mar 27/10 18:30** (confermato): 1) ✅ link Play in bio IT+DE 2) ✅ reel lancio IT+DE programmati 27/10 18:30 (IT IG+TikTok 405806686, YouTube 405806717, DE 405806783) 3) storie conto alla rovescia 4) messaggio ai contatti – link Play in bio, reel lancio con Davide vero, storie, email ai contatti
+- [ ] **LANCIO mar 27/10 18:30** (confermato): 1) ✅ link Play in bio IT+DE 2) ✅ reel lancio IT+DE programmati 27/10 18:30 (IT IG+TikTok 405806686, YouTube 405806717, DE 405806783) 3) storie conto alla rovescia (✅ storia 1 IT+DE 26/10; mar mattina storia 2; 18:30 storia 3 con link) 4) messaggio ai contatti – link Play in bio, reel lancio con Davide vero, storie, email ai contatti
 - [ ] Risposta di Jacopo sulla teglia → spiegazione + reel
 - [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)
 
