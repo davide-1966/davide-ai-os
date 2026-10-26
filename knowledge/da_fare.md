@@ -6,7 +6,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
 ## Video
-- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → reel IT dal 29/10 sera e DE dal 29/10 (dopo non c'è niente programmato)
+- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → dal 31/10 sera (IT) e dal 31/10 (DE) non c'è niente programmato; servono pizze finite e Davide che parla in camera
 
 ## Giorno libero
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
@@ -24,6 +24,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 26/10: reel pallina 250 g (video vero 25/10) programmato gio 29/10: DE 18:00 (406334565), IT 19:30 IG+TikTok (406334488) + YouTube (406334511)
 - [x] 25/10: reel normali del 27/10 spostati al 30/10 (IT 19:30 cornicione + YouTube, DE 18:00 Kühlschrank) per lasciare la serata al lancio
 - [x] 25/10: link Google Play nella bio di @pizza_perfetta_a_casa e @pizza_perfetta_a_casa2 (fatto da Davide)
 - [x] 24/10 pubblicati: Lezione 1 (IG + TikTok + YouTube), reel DE Nudelholz, reel IT temperatura (IG + TikTok + YouTube)
