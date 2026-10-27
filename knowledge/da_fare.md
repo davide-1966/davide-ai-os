@@ -26,6 +26,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 26/10 pubblicati: reel DE "zu kurz geknetet" 18:00, reel IT impastatrice 19:30 (IG + TikTok + YouTube). 27/10: reel di lancio IT/DE in attesa per le 18:30
 - [x] 26/10: carosello "20 anni di pizze" (foto d'archivio) programmato dom 1/11 12:00 IT (407157998) e DE (407157811)
 - [x] 25/10 pubblicati: carosello "4 pilastri" 12:00, reel DE spinaci 18:00, reel IT righe blu 19:30 (IG + TikTok + YouTube)
 - [x] 26/10: reel pallina 250 g (video vero 25/10) programmato gio 29/10: DE 18:00 (406334565), IT 19:30 IG+TikTok (406334488) + YouTube (406334511)
