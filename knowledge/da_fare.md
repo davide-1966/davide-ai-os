@@ -14,6 +14,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
 ## Quando arriva
+- [ ] Risultati del lancio (28–30/10): insight reel di lancio IT/DE + installazioni in Play Console; attivare Premium a chi ha commentato IMPASTO/TEIG
 - [x] App in produzione su Google Play (Play Console 24/10: Produzione 1 app, 0 invii in revisione)
 - [ ] **LANCIO mar 27/10 18:30** (confermato): 1) ✅ link Play in bio IT+DE 2) ✅ reel lancio IT+DE programmati 27/10 18:30 (IT IG+TikTok 405806686, YouTube 405806717, DE 405806783) 3) storie conto alla rovescia (✅ storia 1 IT+DE 26/10; mar mattina storia 2; 18:30 storia 3 con link) 4) messaggio ai contatti – link Play in bio, reel lancio con Davide vero, storie, email ai contatti
 - [ ] Risposta di Jacopo sulla teglia → spiegazione + reel
@@ -26,6 +27,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 27/10 LANCIO: reel di lancio pubblicati alle 18:30 (IG IT + TikTok + YouTube, IG DE). Storie 2 e 3: da confermare con Davide
 - [x] 26/10 pubblicati: reel DE "zu kurz geknetet" 18:00, reel IT impastatrice 19:30 (IG + TikTok + YouTube). 27/10: reel di lancio IT/DE in attesa per le 18:30
 - [x] 26/10: carosello "20 anni di pizze" (foto d'archivio) programmato dom 1/11 12:00 IT (407157998) e DE (407157811)
 - [x] 25/10 pubblicati: carosello "4 pilastri" 12:00, reel DE spinaci 18:00, reel IT righe blu 19:30 (IG + TikTok + YouTube)
