@@ -33,3 +33,11 @@ Lettura: il reel ha raggiunto tanti non follower ma pochi hanno seguito. Propost
 - Peggiore: annuncio app 22/10 → 181.
 - Confronto DE: reel "Type 405 = Tipo 00? Falsch." (Davide che parla in camera) 10.051 visualizzazioni, 295 follow (~29 ogni 1.000, con promo).
 - Lezione: pizza vera + "ERRORE" porta visualizzazioni; Davide che parla in camera porta follower. Aggiungere un motivo per seguire ("Seguimi: ogni giorno un errore che…").
+
+## Regole prese dalle skill ig-* (installate 28/10, .claude/skills)
+- Le skill scrivono contenuti, non gestiscono l'account: niente pubblicazione, niente DM automatici. Pubblicazione = Metricool col sì di Davide.
+- Testo a schermo: max 6 parole per scheda, leggibile in 1 secondo, dentro la zona sicura (non sopra y=230, non sotto y=1440, lasciare libera la destra 230 px su 1080x1920).
+- Niente saluti/presentazioni all'inizio: si parte dalla frase forte.
+- Una sola richiesta finale per reel.
+- beats.py (tempi) va bene in ogni lingua; hookscore.py capisce solo l'inglese → non usarlo per IT/DE.
+- Le regole di CLAUDE.md (video veri, metodo vero, IMPASTO/TEIG, avatar solo nel cerchio) hanno sempre la precedenza.
