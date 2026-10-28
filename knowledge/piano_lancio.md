@@ -144,3 +144,8 @@ Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va ben
 - Ogni promozione si avvia solo con il sì di Davide.
 - 25/10: reel di lancio (media/lancio/) = schermate vere dell'app (Playwright) + avatar HeyGen nel cerchio, programmati mar 27/10 18:30 IT (IG+TikTok+YouTube) e DE (IG). Reel normali del 27/10 spostati al 30/10.
 - 26/10: Davide decide di provare i reel IT alle 13:00 per una settimana (dal 2/11). Confronto: media 19–25/10 a 19:30 = ~305 visualizzazioni per reel. DE resta alle 18:00.
+
+## Bot personale al posto di ManyChat (28/10)
+- Costo attuale: ManyChat 42 € per un solo account (con due account ~84 €/mese, ~1.000 €/anno).
+- Idea di Davide: un "ManyChat personale" (commento IMPASTO/TEIG → messaggio automatico), poi forse da vendere in abbonamento.
+- Piano: 1) account sviluppatore Meta (Davide fa l'accesso da solo, mai password in chat) 2) app Meta in modalità sviluppo per i suoi 2 profili (da verificare cosa permette) 3) server ~5 €/mese 4) un mese in parallelo con ManyChat 5) solo dopo, valutare la vendita con Pasquale (revisione Meta, verifica azienda, DSGVO, assistenza).
