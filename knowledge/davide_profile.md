@@ -212,3 +212,4 @@ pochi iscritti: serve un invito a iscriversi.
 - 26/10: foto d'archivio da pizzerie in Italia (2019), Dresda (2023) e Lipsia (2024); abbinamento foto→luogo non fornito (Davide: "fai tu"): nei contenuti NON assegnare un luogo a una singola foto, solo frase generale "Italia, Dresda, Lipsia".
 - 26/10: tempo d'impasto con la sua spirale: massimo 15 minuti ("le macchine non sono tutte uguali").
 - 27/10 (opinione di Davide sul metodo 'senza impastare'): come la biga, si impasta poco e si lascia riposare; ma è un discorso di tecnica, bisogna vedere cosa e come si crea l'impasto, non è così facile.
+- 28/10: Davide dichiara suoi anche i video ripresi da schermo: capricciosa (carciofi/olive) e pizza al salame piccante nel forno Gozney (girato da lui). Musica originale tolta dal video migliorato.
