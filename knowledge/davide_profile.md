@@ -213,3 +213,4 @@ pochi iscritti: serve un invito a iscriversi.
 - 26/10: tempo d'impasto con la sua spirale: massimo 15 minuti ("le macchine non sono tutte uguali").
 - 27/10 (opinione di Davide sul metodo 'senza impastare'): come la biga, si impasta poco e si lascia riposare; ma è un discorso di tecnica, bisogna vedere cosa e come si crea l'impasto, non è così facile.
 - 28/10: Davide dichiara suoi anche i video ripresi da schermo: capricciosa (carciofi/olive) e pizza al salame piccante (girato da lui) in un forno a gas da esterno a casa di un cliente, marca non ricordata: 380 °C per circa 3 minuti. Non citare la marca né il cliente. Musica originale tolta dal video migliorato.
+- 29/10: Davide lavora sia con biga sia con impasto diretto ("lavoro con tutto, biga e non"). La ricetta base nel DM ManyChat DE (600 g Tipo 00, 390 ml acqua fredda, 18 g sale, 2 g lievito fresco, 2 h a temperatura ambiente + 24 h in frigo) è accettata come ricetta per casa.
