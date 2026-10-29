@@ -6,6 +6,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
 ## Video
+- [ ] **PROVA ORARIO**: dal lun 2/11 per una settimana i reel IT escono alle 13:00 (non 19:30); DE resta alle 18:00. Lun 9/11: confronto con la media ~305 visualizzazioni delle 19:30 e decisione. Servono i video nuovi per riempire la settimana.
 - [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → dal 31/10 sera (IT) e dal 31/10 (DE) non c'è niente programmato; servono pizze finite e Davide che parla in camera
 
 - [ ] Idea reel DE (dal commento di un follower di Lipsia, 26/10): "Teig wird in der Spirale zu warm?" → Reibung, max 15 Min. bei Davide, kaltes Wasser, am Ende messen (21 °C Pizzeria / 24 °C zu Hause). Serve Davide in camera.
