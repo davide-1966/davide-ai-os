@@ -41,3 +41,10 @@ Lettura: il reel ha raggiunto tanti non follower ma pochi hanno seguito. Propost
 - Una sola richiesta finale per reel.
 - beats.py (tempi) va bene in ogni lingua; hookscore.py capisce solo l'inglese → non usarlo per IT/DE.
 - Le regole di CLAUDE.md (video veri, metodo vero, IMPASTO/TEIG, avatar solo nel cerchio) hanno sempre la precedenza.
+
+## Regole audio (dalla guida "Il montatore sordo", approvate da Davide 29/10)
+- Suono vero della pizzeria e voce di Davide prima di tutto: niente effetti finti.
+- Musica/suoni solo senza diritti (Openverse, licenza CC0/senza vincoli); annotare fonte e licenza in media/suoni_usati.md.
+- Pochi suoni (max 3–4 per reel), mai lo stesso ripetuto; la voce non va mai coperta.
+- Davide fa l'ultimo controllo dell'anteprima con l'altoparlante del telefono.
+- earshot non installato (troppo pesante per l'uso che ne facciamo).
