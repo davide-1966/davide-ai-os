@@ -14,6 +14,8 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
 ## Quando arriva
+- [ ] Attivare Premium (Netlify Identity) a chi ha lasciato l'email con TEIG/IMPASTO (es. la prima del 29/10)
+- [ ] ManyChat IT: stesso cambio del DE (subito la tabella + 1 mese Premium), se Davide vuole
 - [ ] Controllare che non ci siano promozioni attive (saldo Meta 7,40 € in addebito il 9/11)
 - [ ] Domani dal computer: finire app Meta "Kommentio" (developers.facebook.com/apps): caso d'uso = messaggi e contenuti Instagram (NON API Marketing), creare SENZA portfolio business (collegarlo dopo)
 - [ ] Risultati del lancio (28–30/10): insight reel di lancio IT/DE + installazioni in Play Console; attivare Premium a chi ha commentato IMPASTO/TEIG
@@ -29,6 +31,8 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 28/10 pubblicati: reel DE Lochschieber 18:00, reel IT panetti 19:30 (IG + TikTok + YouTube)
+- [x] 29/10: ManyChat DE TEIG controllato (funziona, con promemoria automatico); testo cambiato: subito Teig-Tabelle + 1 Monat Premium
 - [x] 27/10 LANCIO: reel di lancio pubblicati alle 18:30 (IG IT + TikTok + YouTube, IG DE). Storie 2 e 3: da confermare con Davide
 - [x] 26/10 pubblicati: reel DE "zu kurz geknetet" 18:00, reel IT impastatrice 19:30 (IG + TikTok + YouTube). 27/10: reel di lancio IT/DE in attesa per le 18:30
 - [x] 26/10: carosello "20 anni di pizze" (foto d'archivio) programmato dom 1/11 12:00 IT (407157998) e DE (407157811)
