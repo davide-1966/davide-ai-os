@@ -6,7 +6,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
 ## Video
-- [ ] **PROVA ORARIO**: dal lun 2/11 per una settimana i reel IT escono alle 13:00 (non 19:30); DE resta alle 18:00. Lun 9/11: confronto con la media ~305 visualizzazioni delle 19:30 e decisione. Programmati 2–4/11 (verdure, forno, funghi); servono altri video dal 5/11.
+- [ ] **PROVA ORARIO**: dal lun 2/11 per una settimana i reel IT escono alle 13:00 (non 19:30); DE resta alle 18:00. Lun 9/11: confronto con la media ~305 visualizzazioni delle 19:30 e decisione. Programmati 2–5/11 (verdure, forno, funghi, salsiccia); servono altri video dal 6/11.
 - [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → dal 31/10 sera (IT) e dal 31/10 (DE) non c'è niente programmato; servono pizze finite e Davide che parla in camera
 
 - [ ] Idea reel DE (dal commento di un follower di Lipsia, 26/10): "Teig wird in der Spirale zu warm?" → Reibung, max 15 Min. bei Davide, kaltes Wasser, am Ende messen (21 °C Pizzeria / 24 °C zu Hause). Serve Davide in camera.
@@ -33,7 +33,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
-- [x] 30/10: programmati i reel della prova delle 13:00 (Metricool). Lun 2/11 verdure: IT IG+TT 411708264, YT 411708455, DE 18:00 411708596. Mar 3/11 forno: IT 411708631, YT 411708678, DE 411708726. Mer 4/11 funghi: IT 411708766, YT 411708825, DE 411708865.
+- [x] 30/10: programmati i reel della prova delle 13:00 (Metricool). Lun 2/11 verdure: IT IG+TT 411708264, YT 411708455, DE 18:00 411708596. Mar 3/11 forno: IT 411708631, YT 411708678, DE 411708726. Mer 4/11 funghi: IT 411708766, YT 411708825, DE 411708865. Gio 5/11 salsiccia: IT 411737327, YT 411737372, DE 411737408.
 - [x] 29/10 pubblicati: carosello biga 12:00, reel pallina DE 18:00 e IT 19:30 (IG + TikTok + YouTube), tutti con video/foto veri
 - [x] 28/10 pubblicati: reel DE Lochschieber 18:00, reel IT panetti 19:30 (IG + TikTok + YouTube)
 - [x] 29/10: ManyChat DE TEIG controllato (funziona, con promemoria automatico); testo cambiato: subito Teig-Tabelle + 1 Monat Premium
