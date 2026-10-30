@@ -15,6 +15,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
 ## Quando arriva
+- [ ] Hashtag: Instagram ne accetta max 5 per post (regola da dic. 2025). Il post IT cornicione del 30/10 è stato ridotto a 5; i caroselli del 1/11 ne hanno 6 (IT) e 7 (DE): ridurli con il sì di Davide
 - [ ] Attivare Premium (Netlify Identity) a chi ha lasciato l'email con TEIG/IMPASTO (es. la prima del 29/10)
 - [ ] ManyChat IT: stesso cambio del DE (subito la tabella + 1 mese Premium), se Davide vuole
 - [ ] Controllare che non ci siano promozioni attive (saldo Meta 7,40 € in addebito il 9/11)
@@ -32,6 +33,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 29/10 pubblicati: carosello biga 12:00, reel pallina DE 18:00 e IT 19:30 (IG + TikTok + YouTube), tutti con video/foto veri
 - [x] 28/10 pubblicati: reel DE Lochschieber 18:00, reel IT panetti 19:30 (IG + TikTok + YouTube)
 - [x] 29/10: ManyChat DE TEIG controllato (funziona, con promemoria automatico); testo cambiato: subito Teig-Tabelle + 1 Monat Premium
 - [x] 27/10 LANCIO: reel di lancio pubblicati alle 18:30 (IG IT + TikTok + YouTube, IG DE). Storie 2 e 3: da confermare con Davide
