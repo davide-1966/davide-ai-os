@@ -18,6 +18,7 @@ Prima di agire leggi `knowledge/davide_profile.md` e `knowledge/piano_lancio.md`
 - Non pubblicare prezzi della cella di lievitazione o simili se Davide non lo chiede.
 - Orari (prova dal 22/10): reel IT alle **19:30** (dal 2/11 per una settimana PROVA alle **13:00**, deciso da Davide 26/10; poi confrontare con la media ~305 visualizzazioni a 19:30) (Instagram + TikTok + YouTube Shorts, dal 20/10; su YouTube CTA "Vai su Instagram @pizza_perfetta_a_casa e commenta IMPASTO sotto questo video" – IMPASTO si commenta solo su Instagram), reel DE alle **18:00**. IT: CTA "Commenta IMPASTO" → tabella + 1 mese gratis dell'app (ManyChat). DE: "Kommentiere TEIG" → Teig-Tabelle + 1 Monat App gratis (ManyChat DE); l'avatar DE chiude con "Folge mir für mehr Geheimnisse aus der Pizzeria". Il mese gratis si attiva a mano (vedi `knowledge/piano_lancio.md`).
 - Nei post con avatar segnare `isAiGenerated` / `isAigc` = true.
+- **Massimo 5 hashtag** in ogni post, su tutti i canali (regola di Instagram da dic. 2025; deciso da Davide il 30/10 per tutti i post, sempre). Su YouTube #shorts conta fra i 5.
 
 ## Sicurezza e consenso
 - **Mai** in chat o su GitHub: `signing.keystore`, `signing-key-info.txt`, IBAN, Steuer-ID, password.

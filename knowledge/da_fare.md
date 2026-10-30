@@ -15,7 +15,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Primo episodio "Il pizzaiolo giudica la tua pizza" con le pizze di Carla (20–30 s di commento)
 
 ## Quando arriva
-- [ ] Hashtag: Instagram ne accetta max 5 per post (regola da dic. 2025). Il post IT cornicione del 30/10 è stato ridotto a 5; i caroselli del 1/11 ne hanno 6 (IT) e 7 (DE): ridurli con il sì di Davide
+- [x] 30/10: hashtag ridotti a 5 in tutti i post programmati (IT, DE, YouTube); regola fissa in CLAUDE.md
 - [ ] Attivare Premium (Netlify Identity) a chi ha lasciato l'email con TEIG/IMPASTO (es. la prima del 29/10)
 - [ ] ManyChat IT: stesso cambio del DE (subito la tabella + 1 mese Premium), se Davide vuole
 - [ ] Controllare che non ci siano promozioni attive (saldo Meta 7,40 € in addebito il 9/11)
