@@ -17,8 +17,7 @@ Legenda: [ ] da fare · [x] fatto
 ## Quando arriva
 - [x] 30/10: hashtag ridotti a 5 in tutti i post programmati (IT, DE, YouTube); regola fissa in CLAUDE.md
 - [ ] Attivare Premium (Netlify Identity) a chi ha lasciato l'email con TEIG/IMPASTO (es. la prima del 29/10)
-- [ ] ManyChat DE: controllare che anche lì "opening DM" e "DM asking for their email" siano spenti (screenshot)
-- [ ] Prova IMPASTO da un altro profilo (screenshot del messaggio)
+- [ ] Prova IMPASTO e TEIG da un altro profilo (screenshot del messaggio)
 - [ ] Rispondere sotto il commento IMPASTO del 29/10 rimasto senza tabella: "Ti ho scritto in DM… guarda nelle Richieste di messaggi"
 - [ ] Controllare che non ci siano promozioni attive (saldo Meta 7,40 € in addebito il 9/11)
 - [ ] Domani dal computer: finire app Meta "Kommentio" (developers.facebook.com/apps): caso d'uso = messaggi e contenuti Instagram (NON API Marketing), creare SENZA portfolio business (collegarlo dopo)
@@ -35,6 +34,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 31/10: ManyChat DE TEIG: spenti "opening DM" (Rezept senden) e "DM asking for their email"; aggiunta riga "Schreib mir hier deine E-Mail und ich aktiviere dir den Premium-Monat"
 - [x] 31/10: ManyChat IT IMPASTO: spenti "opening DM" (Mandamela) e "DM asking for their email"; la tabella arriva subito con i pulsanti tabella/Android/iPhone; aggiunta riga "1 mese di Premium gratis? Scrivimi qui la tua email"
 - [x] 30/10: programmati i reel della prova delle 13:00 (Metricool). Lun 2/11 verdure: IT IG+TT 411708264, YT 411708455, DE 18:00 411708596. Mar 3/11 forno: IT 411708631, YT 411708678, DE 411708726. Mer 4/11 funghi: IT 411708766, YT 411708825, DE 411708865. Gio 5/11 salsiccia: IT 411737327, YT 411737372, DE 411737408.
 - [x] 29/10 pubblicati: carosello biga 12:00, reel pallina DE 18:00 e IT 19:30 (IG + TikTok + YouTube), tutti con video/foto veri
