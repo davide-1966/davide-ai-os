@@ -149,3 +149,7 @@ Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va ben
 - Costo attuale: ManyChat IT 42 €/mese; ManyChat DE in prova, poi 23 €/mese → totale ~65 €/mese, ~780 €/anno. Controllare la data di fine prova DE.
 - Idea di Davide: un "ManyChat personale" (commento IMPASTO/TEIG → messaggio automatico), poi forse da vendere in abbonamento.
 - Piano: 1) account sviluppatore Meta (Davide fa l'accesso da solo, mai password in chat) 2) app Meta in modalità sviluppo per i suoi 2 profili (da verificare cosa permette) 3) server ~5 €/mese 4) un mese in parallelo con ManyChat 5) solo dopo, valutare la vendita con Pasquale (revisione Meta, verifica azienda, DSGVO, assistenza).
+
+## Pagamento nell'app Play (31/10)
+- Decisione di Davide: abbonamento Google Play "premium_mensile" 4,99 €/mese con **prova gratuita automatica di 1 mese** (offerta Play). Sul sito resta Gumroad.
+- Passi: 1) Davide crea l'abbonamento in Play Console (Monetizza con Play → Prodotti → Abbonamenti) 2) Horacle: Digital Goods API + Payment Request nell'app (solo IS_PLAY_APP), listPurchases all'avvio, acknowledge 3) PWABuilder con opzione Google Play Billing, stessa chiave di firma (la fa Davide) 4) prova con account tester licenze 5) pubblicazione.
