@@ -7,7 +7,7 @@ Legenda: [ ] da fare · [x] fatto
 
 ## Video
 - [ ] **PROVA ORARIO**: dal lun 2/11 per una settimana i reel IT escono alle 13:00 (non 19:30); DE resta alle 18:00. Lun 9/11: confronto con la media ~305 visualizzazioni delle 19:30 e decisione. Programmati 2–5/11 (verdure, forno, funghi, salsiccia); servono altri video dal 6/11.
-- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → dal 31/10 sera (IT) e dal 31/10 (DE) non c'è niente programmato; servono pizze finite e Davide che parla in camera
+- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → buchi: DE sab 31/10; IT e DE ven 6 – dom 8/11 (Davide manda 3 video il 31/10); servono pizze finite e Davide che parla in camera
 
 - [ ] Idea reel DE (dal commento di un follower di Lipsia, 26/10): "Teig wird in der Spirale zu warm?" → Reibung, max 15 Min. bei Davide, kaltes Wasser, am Ende messen (21 °C Pizzeria / 24 °C zu Hause). Serve Davide in camera.
 
@@ -17,7 +17,8 @@ Legenda: [ ] da fare · [x] fatto
 ## Quando arriva
 - [x] 30/10: hashtag ridotti a 5 in tutti i post programmati (IT, DE, YouTube); regola fissa in CLAUDE.md
 - [ ] Attivare Premium (Netlify Identity) a chi ha lasciato l'email con TEIG/IMPASTO (es. la prima del 29/10)
-- [ ] ManyChat IT: stesso cambio del DE (subito la tabella + 1 mese Premium), se Davide vuole
+- [ ] ManyChat IT: togliere il passaggio "MANDAMELA" (chi non tocca il pulsante non riceve nulla) e mandare subito tabella + 1 mese Premium. Davide ha detto sì il 31/10; aspetto lo screenshot dell'automazione IMPASTO (io non ho accesso a ManyChat)
+- [ ] Rispondere sotto il commento IMPASTO del 29/10 rimasto senza tabella: "Ti ho scritto in DM… guarda nelle Richieste di messaggi"
 - [ ] Controllare che non ci siano promozioni attive (saldo Meta 7,40 € in addebito il 9/11)
 - [ ] Domani dal computer: finire app Meta "Kommentio" (developers.facebook.com/apps): caso d'uso = messaggi e contenuti Instagram (NON API Marketing), creare SENZA portfolio business (collegarlo dopo)
 - [ ] Risultati del lancio (28–30/10): insight reel di lancio IT/DE + installazioni in Play Console; attivare Premium a chi ha commentato IMPASTO/TEIG
