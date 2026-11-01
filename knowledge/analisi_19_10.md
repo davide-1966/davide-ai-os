@@ -48,3 +48,7 @@ Lettura: il reel ha raggiunto tanti non follower ma pochi hanno seguito. Propost
 - Pochi suoni (max 3–4 per reel), mai lo stesso ripetuto; la voce non va mai coperta.
 - Davide fa l'ultimo controllo dell'anteprima con l'altoparlante del telefono.
 - earshot non installato (troppo pesante per l'uso che ne facciamo).
+
+## Reel di prova IT (pizza nel forno, visto il 1/11)
+- 579 + 174 visualizzazioni (probabilmente Instagram + Facebook), 10 like, 3 commenti, 0 salvataggi, 0 follow, tempo di visione 4 s, percentuale di salti 59,8 % ("superiore" = peggio della media).
+- Lezione: arriva a molte persone nuove, ma le perde nei primi 2-3 secondi. Serve un gancio scritto subito (stile "…? ERRORE.") e la pizza vista bene dal primo fotogramma.
