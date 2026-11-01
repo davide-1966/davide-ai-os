@@ -7,7 +7,7 @@ Legenda: [ ] da fare · [x] fatto
 
 ## Video
 - [ ] **PROVA ORARIO**: dal lun 2/11 per una settimana i reel IT escono alle 13:00 (non 19:30); DE resta alle 18:00. Lun 9/11: confronto con la media ~305 visualizzazioni delle 19:30 e decisione. Programmati 2–6/11 (verdure, forno, funghi, salsiccia, 21 °C); servono video per sab 7 e dom 8/11.
-- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → buchi: DE sab 31/10; IT e DE ven 6 – dom 8/11 (Davide manda 3 video il 31/10); servono pizze finite e Davide che parla in camera
+- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → buchi: IT e DE sab 7 – dom 8/11 (servono 2 video); servono pizze finite e Davide che parla in camera
 
 - [ ] Idea reel DE (dal commento di un follower di Lipsia, 26/10): "Teig wird in der Spirale zu warm?" → Reibung, max 15 Min. bei Davide, kaltes Wasser, am Ende messen (21 °C Pizzeria / 24 °C zu Hause). Serve Davide in camera.
 
