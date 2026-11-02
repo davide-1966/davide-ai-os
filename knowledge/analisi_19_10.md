@@ -52,3 +52,21 @@ Lettura: il reel ha raggiunto tanti non follower ma pochi hanno seguito. Propost
 ## Reel di prova IT (pizza nel forno, visto il 1/11)
 - 579 + 174 visualizzazioni (probabilmente Instagram + Facebook), 10 like, 3 commenti, 0 salvataggi, 0 follow, tempo di visione 4 s, percentuale di salti 59,8 % ("superiore" = peggio della media).
 - Lezione: arriva a molte persone nuove, ma le perde nei primi 2-3 secondi. Serve un gancio scritto subito (stile "…? ERRORE.") e la pizza vista bene dal primo fotogramma.
+
+## Controllo del lunedì 2/11 (fonte: analitiche Metricool, reel 26/10–1/11; Chrome non collegato)
+IT (brand 6891914), visualizzazioni / like / salvataggi:
+- 26/10 impastatrice spirale 228 / 2 / 0
+- 27/10 lancio app (avatar) 86 / 0 / 0  ← peggiore
+- 28/10 panetti nel contenitore 1.471 / 1 / 1  ← migliore
+- 28/10 reel senza testo (forse reel di prova o storia) 210 / 4 / 0
+- 29/10 pallina 250 g 317 / 2 / 1
+- 30/10 cornicione/biga 283 / 1 / 0
+- 31/10 Lezione 2 idratazione (avatar, 12:00) 198 / 4 / 0
+Media IT: ~399 (con il migliore) – sopra la media 19:30 (~305) e molto sopra settembre (~80). Reel di prova (pizza nel forno): 579 visualizzazioni, salti 59,8 %, 0 follow (screenshot di Davide 1/11).
+DE (brand 7285585):
+- 26/10 «Zu kurz geknetet» 4.410 / 15 / 7  ← migliore
+- 27/10 lancio app 76 / 0 / 0  ← peggiore
+- 28/10 Lochschieber 265 / 2 / 0
+- 29/10 Teigkugel 357 / 0 / 0
+- 30/10 Kühlschrank 4–5 °C 343 / 4 / 2
+Lezioni: funzionano i reel con un errore concreto o un problema pratico (impasto corto, dove riposano i panetti) e le mani vere di Davide; i reel promozionali dell'app (lancio) vanno molto male su entrambi i profili. Dal 2/11 prova IT alle 13:00: confronto lun 9/11.
