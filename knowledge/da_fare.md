@@ -20,7 +20,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Prova IMPASTO e TEIG da un altro profilo (screenshot del messaggio)
 - [ ] Rispondere sotto il commento IMPASTO del 29/10 rimasto senza tabella: "Ti ho scritto in DM… guarda nelle Richieste di messaggi"
 - [ ] Controllare che non ci siano promozioni attive (saldo Meta 7,40 € in addebito il 9/11)
-- [ ] Domani dal computer: finire app Meta "Kommentio" (developers.facebook.com/apps): caso d'uso = messaggi e contenuti Instagram (NON API Marketing), creare SENZA portfolio business (collegarlo dopo)
+- [ ] KOMMENTIO (deciso 2/11, sostituisce ManyChat): dal computer finire app Meta "Kommentio" (developers.facebook.com/apps): caso d'uso = messaggi e contenuti Instagram (NON API Marketing), creare SENZA portfolio business (collegarlo dopo)
 - [ ] Risultati del lancio (28–30/10): insight reel di lancio IT/DE + installazioni in Play Console; attivare Premium a chi ha commentato IMPASTO/TEIG
 - [x] App in produzione su Google Play (Play Console 24/10: Produzione 1 app, 0 invii in revisione)
 - [ ] **LANCIO mar 27/10 18:30** (confermato): 1) ✅ link Play in bio IT+DE 2) ✅ reel lancio IT+DE programmati 27/10 18:30 (IT IG+TikTok 405806686, YouTube 405806717, DE 405806783) 3) storie conto alla rovescia (✅ storia 1 IT+DE 26/10; mar mattina storia 2; 18:30 storia 3 con link) 4) messaggio ai contatti – link Play in bio, reel lancio con Davide vero, storie, email ai contatti

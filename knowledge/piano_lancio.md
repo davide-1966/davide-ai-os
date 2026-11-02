@@ -153,3 +153,9 @@ Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va ben
 ## Pagamento nell'app Play (31/10)
 - Decisione di Davide: abbonamento Google Play "premium_mensile" 4,99 €/mese con **prova gratuita automatica di 1 mese** (offerta Play). Sul sito resta Gumroad.
 - Passi: 1) Davide crea l'abbonamento in Play Console (Monetizza con Play → Prodotti → Abbonamenti) 2) Horacle: Digital Goods API + Payment Request nell'app (solo IS_PLAY_APP), listPurchases all'avvio, acknowledge 3) PWABuilder con opzione Google Play Billing, stessa chiave di firma (la fa Davide) 4) prova con account tester licenze 5) pubblicazione.
+
+## Kommentio – decisione 2/11
+- Davide: "voglio Kommentio". Primo obiettivo: commento IMPASTO/TEIG → messaggio automatico (sostituire ManyChat, ~65 €/mese). Pubblicazione reel: dopo (IG/FB sì; YouTube con API Google; TikTok solo dopo approvazione TikTok). Metricool resta finché Kommentio non è provata.
+- Idea tecnica: niente server a pagamento, uso delle Netlify Functions (già sul suo account) per ricevere i webhook dei commenti e rispondere con l'API Instagram.
+- Da verificare prima di costruire: per ricevere i commenti di persone qualsiasi l'app Meta deve essere "Live" con accesso avanzato (instagram_business_manage_comments / messages) → serve informativa privacy e forse verifica aziendale o revisione Meta.
+- Passo 1 (dal computer): developers.facebook.com/apps → Crea app → caso d'uso "Gestire messaggi e contenuti su Instagram" (NON Marketing), senza portfolio business.
