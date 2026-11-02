@@ -70,3 +70,5 @@ DE (brand 7285585):
 - 29/10 Teigkugel 357 / 0 / 0
 - 30/10 Kühlschrank 4–5 °C 343 / 4 / 2
 Lezioni: funzionano i reel con un errore concreto o un problema pratico (impasto corto, dove riposano i panetti) e le mani vere di Davide; i reel promozionali dell'app (lancio) vanno molto male su entrambi i profili. Dal 2/11 prova IT alle 13:00: confronto lun 9/11.
+- Insight IG reel «panetti non nel piatto» (screenshot Davide 2/11): 1.472 visualizzazioni, di cui ~1.254 da non follower; tempo di visione 6 s; salti 48,1 % (migliore della media); 1 like, 1 salvataggio, 1 nuovo follower → ~0,7 follower ogni 1.000 visualizzazioni (obiettivo >10; gamberi 26/10 ~2,8).
+- Lezione: il gancio funziona (arriva a tanti nuovi), ma manca il motivo per seguire. Proposta: serie numerata ("Errore n. X della pizza fatta in casa") + frase finale a schermo "Seguimi per il prossimo errore".
