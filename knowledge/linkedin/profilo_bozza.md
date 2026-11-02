@@ -18,3 +18,6 @@ Außerdem gibt es meine App „Pizza Perfetta a Casa" bei Google Play und mein E
 Schreiben Sie mir gern eine Nachricht.
 
 ## Esperienza: DA COMPLETARE con i posti veri (chiesto a Davide)
+Davide (2/11): nessun nome dei locali, solo "Pizzeria in Leipzig".
+1) Pizzaiolo – Pizzeria in Leipzig – dal 2024 (attuale) – "Pizzaiolo mit über 20 Jahren Erfahrung in Italien und Deutschland. Teig, Ofen und Abendservice, jeden Tag."
+2) Gründer – KüchenKompass – da 11/2026 (attuale) – descrizione progetto in sviluppo + 3 Pilotbetriebe.
