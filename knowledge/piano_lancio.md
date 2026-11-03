@@ -159,3 +159,5 @@ Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va ben
 - Idea tecnica: niente server a pagamento, uso delle Netlify Functions (già sul suo account) per ricevere i webhook dei commenti e rispondere con l'API Instagram.
 - Da verificare prima di costruire: per ricevere i commenti di persone qualsiasi l'app Meta deve essere "Live" con accesso avanzato (instagram_business_manage_comments / messages) → serve informativa privacy e forse verifica aziendale o revisione Meta.
 - Passo 1 (dal computer): developers.facebook.com/apps → Crea app → caso d'uso "Gestire messaggi e contenuti su Instagram" (NON Marketing), senza portfolio business.
+
+- 3/11: ManyChat IT ridotto da Pro (fino a 2.500 contatti, ~39 €) a Essential, 17 $/mese (scelta di Davide). Da verificare che Essential basti per il funnel (email, richiesta email, messaggi di seguito).

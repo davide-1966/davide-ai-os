@@ -9,7 +9,8 @@ Decisione 3/11: per ora si resta su ManyChat e il funnel si costruisce lì; Komm
 
 ## Settimana 4–8/11
 - [ ] Davide: 3 video per gli errori n. 6, 7, 8 (idee: pizza stesa appena tolta dal frigo; dosi a occhio; …)
-- [ ] Davide: screenshot ManyChat ⚙️ Settings (canale Email? + Billing: perché 39 €)
+- [x] 3/11 ManyChat IT: Davide è passato da Pro (2.500 contatti, 39 €) a Essential, 17 $/mese
+- [ ] Davide: screenshot ManyChat ⚙️ Settings → canale Email; verificare che Essential includa email e flussi del funnel
 - [ ] Davide (computer): trovare signing.keystore + signing-key-info.txt (NON mandarli) e dirmi il Codice versione (Play Console → Esplora app bundle)
 - [ ] Horacle: testi del funnel (messaggio tabella + pulsante, richiesta email, messaggio entro 23 h, email giorno 3 e giorno 7) IT e DE
 
