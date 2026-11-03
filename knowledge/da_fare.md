@@ -2,6 +2,8 @@
 
 Legenda: [ ] da fare · [x] fatto
 
+**Programma completo di novembre: `knowledge/programma_novembre.md`** (priorità: contenuti → pagamenti app → funnel ManyChat → LinkedIn/KüchenKompass → Kommentio).
+
 ## Da decidere (Davide)
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
