@@ -36,6 +36,8 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 3/11: trasformati in reel di prova anche forno IT 3/11 18:30 (415391517), forno DE 4/11 (415391588), 21 °C IT 6/11 18:30 (415392258), 21 °C DE 7/11 (415391755). Ora tutti i reel IG della settimana sono di prova.
+- [ ] Ogni giorno: controllare i reel di prova di 3 giorni prima (criterio proposto: >1.000 visualizzazioni e salti <50 %) e proporre a Davide quando condividerli (solo giorno libero)
 - [x] 3/11: DE spostato di un giorno (perché il reel di prova errore n. 1 è stato condiviso con i follower il 3/11): forno 4/11 (415383750), funghi 5/11 (415383610), salsiccia 6/11 (415383486), 21 °C 7/11 (415383391), cassetta 8/11 (415383254), chiusura lun 9/11 (415382902), sempre 18:00. IT invariato.
 - [x] 3/11 DECISO: dal 10/11 3 reel a settimana fatti bene, mai due reel nello stesso giorno (regola in CLAUDE.md)
 - [x] 3/11: errori n. 2 e 3 aggiornati con "Guarda come faccio io" (IT 415361787/415361966, YT 415361843/415362078, DE 415361894/415362173). Programmati errore n. 4 cassetta sab 7/11 (IT 415362447, YT 415362512, DE 415362617) ed errore n. 5 chiusura dom 8/11 (IT 415362678, YT 415362745, DE 415362818); IG come reel di prova, YT 13:00, DE 18:00, IT 18:30
