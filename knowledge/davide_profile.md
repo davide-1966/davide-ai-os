@@ -217,3 +217,4 @@ pochi iscritti: serve un invito a iscriversi.
 - 30/10: Davide conferma suoi 4 video (margherita dall'alto, salame piccante+salsiccia, pizza alle verdure condita sulla pala, funghi e pomodorini), già passati da un programma che toglie scritte e volti (fascia sfocata in basso, musica da togliere).
 - 30/10 metodo condimenti: pizza alle verdure con peperoni e zucchine GRIGLIATI prima; pioppini SALTATI prima; salsiccia COTTA PRIMA (correzione di Davide 30/10: prima aveva scritto cruda).
 - 31/10: impasto pronto da stendere quando la superficie è liscia e gonfia e il panetto ha raggiunto 21 °C (temperatura ottima per stendere). Il video HeyGen "forno, impasto, pizza" del 31/10 NON si usa: B-roll non suoi e avatar a tutto schermo.
+- 3/11: foto panetti in cassetta + video pallina 240 g sulla bilancia (voce di Davide: "Ecco qua la pallina 240 grammi per l'impasto di oggi"). Da confermare che sono suoi.
