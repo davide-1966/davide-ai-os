@@ -219,3 +219,4 @@ pochi iscritti: serve un invito a iscriversi.
 - 31/10: impasto pronto da stendere quando la superficie è liscia e gonfia e il panetto ha raggiunto 21 °C (temperatura ottima per stendere). Il video HeyGen "forno, impasto, pizza" del 31/10 NON si usa: B-roll non suoi e avatar a tutto schermo.
 - 3/11: foto panetti in cassetta + video pallina 240 g sulla bilancia (voce di Davide: "Ecco qua la pallina 240 grammi per l'impasto di oggi"). Da confermare che sono suoi.
 - 3/11 metodo: pesa tutto con la bilancia (farina, acqua, sale, olio, lievito) e ogni panetto (oggi 240 g) "così escono tutte uguali"; massa a riposo 3–4 ore, poi in frigo a 4–5 °C per 24–36 ore, 2 ore fuori prima di stendere. Spazio giusto tra i panetti in cassetta "così quando lievitano non si attaccano troppo". Foto e video del 3/11 confermati suoi, fatti in pizzeria.
+- 3/11: lo spazio tra i panetti serve anche "per fare in modo che il freddo del frigo raggiunga tutti gli angoli del panetto".
