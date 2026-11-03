@@ -28,6 +28,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Incontro con Pasquale: valutare il PDF "KüchenKompass – Concetto" (prezzo, 3 locali pilota, nome, ruoli)
 
 ## Tra qualche giorno
+- [ ] LINKEDIN (obiettivo KüchenKompass, 3 locali pilota): Davide crea il profilo con i testi di knowledge/linkedin/profilo_bozza.md, poi screenshot → /li-profile → primo post
 - [ ] PAGAMENTO APP PLAY: passo 1 dal computer – Play Console → Monetizza con Play → Prodotti → Abbonamenti (screenshot); premium_mensile 4,99 € + prova gratuita 1 mese
 - [ ] Dopo il lancio: prima promozione del budget mensile (30–50 €/mese, deciso 25/10) – scegliere il reel con Davide (si avvia solo con il suo sì)
 - [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v3.zip) – meglio dopo l'incontro con Pasquale
