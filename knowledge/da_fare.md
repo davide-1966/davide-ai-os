@@ -6,8 +6,8 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Aggiungere alla didascalia del reel Parte 1 (pallina): "La soluzione nella Parte 2 👉 sul mio profilo" (a mano, su Instagram)
 
 ## Video
-- [ ] **PROVA ORARIO** (cambiata la sera del 1/11 in un'altra sessione, confermata da Davide 2/11): IG+TikTok IT alle 18:30, YouTube alle 13:00, DE alle 18:00; verdure/funghi/salsiccia come REEL DI PROVA (solo non follower). Lun 9/11: confronto con la media ~305 delle 19:30. Programmati 2–6/11 (verdure, forno, funghi, salsiccia, 21 °C); servono video per sab 7 e dom 8/11.
-- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → buchi: IT e DE sab 7 – dom 8/11 (servono 2 video); servono pizze finite e Davide che parla in camera
+- [ ] **PROVA ORARIO** (cambiata la sera del 1/11 in un'altra sessione, confermata da Davide 2/11): IG+TikTok IT alle 18:30, YouTube alle 13:00, DE alle 18:00; verdure/funghi/salsiccia come REEL DI PROVA (solo non follower). Lun 9/11: confronto con la media ~305 delle 19:30. Programmati 2–6/11 (verdure, forno, funghi, salsiccia, 21 °C); sab 7 e dom 8/11 programmati (errori n. 4 e 5).
+- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → settimana 2–8/11 completa; dal 9/11 servono video nuovi (errore n. 6 promesso: es. stendere la pizza appena tolta dal frigo / dosi a occhio); servono pizze finite e Davide che parla in camera
 
 - [ ] Idea reel DE (dal commento di un follower di Lipsia, 26/10): "Teig wird in der Spirale zu warm?" → Reibung, max 15 Min. bei Davide, kaltes Wasser, am Ende messen (21 °C Pizzeria / 24 °C zu Hause). Serve Davide in camera.
 
@@ -36,6 +36,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 3/11: errori n. 2 e 3 aggiornati con "Guarda come faccio io" (IT 415361787/415361966, YT 415361843/415362078, DE 415361894/415362173). Programmati errore n. 4 cassetta sab 7/11 (IT 415362447, YT 415362512, DE 415362617) ed errore n. 5 chiusura dom 8/11 (IT 415362678, YT 415362745, DE 415362818); IG come reel di prova, YT 13:00, DE 18:00, IT 18:30
 - [x] 2/11: serie numerata "Errore n. 1-3" / "Fehler Nr. 1-3" (video *_s.mp4 + testi "Seguimi per l'errore n. X") su verdure 2/11, funghi 4/11, salsiccia 5/11, IT+YT+DE. Nuovi id: IT 413718234/413718299/413718344, YT 413718401/413718442/413718484, DE 413718531/413718586/413718635
 - [x] 31/10: ManyChat DE TEIG: spenti "opening DM" (Rezept senden) e "DM asking for their email"; aggiunta riga "Schreib mir hier deine E-Mail und ich aktiviere dir den Premium-Monat"
 - [x] 31/10: ManyChat IT IMPASTO: spenti "opening DM" (Mandamela) e "DM asking for their email"; la tabella arriva subito con i pulsanti tabella/Android/iPhone; aggiunta riga "1 mese di Premium gratis? Scrivimi qui la tua email"
