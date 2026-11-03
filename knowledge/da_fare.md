@@ -37,7 +37,7 @@ Legenda: [ ] da fare · [x] fatto
 
 ## Fatto
 - [x] 3/11: DE spostato di un giorno (perché il reel di prova errore n. 1 è stato condiviso con i follower il 3/11): forno 4/11 (415383750), funghi 5/11 (415383610), salsiccia 6/11 (415383486), 21 °C 7/11 (415383391), cassetta 8/11 (415383254), chiusura lun 9/11 (415382902), sempre 18:00. IT invariato.
-- [ ] DA DECIDERE con Davide: frequenza. Lui ricorda "massimo 2–3 reel a settimana ma fatti bene": non trovato negli appunti (qui c'era "mai giorni senza post").
+- [x] 3/11 DECISO: dal 10/11 3 reel a settimana fatti bene, mai due reel nello stesso giorno (regola in CLAUDE.md)
 - [x] 3/11: errori n. 2 e 3 aggiornati con "Guarda come faccio io" (IT 415361787/415361966, YT 415361843/415362078, DE 415361894/415362173). Programmati errore n. 4 cassetta sab 7/11 (IT 415362447, YT 415362512, DE 415362617) ed errore n. 5 chiusura dom 8/11 (IT 415362678, YT 415362745, DE 415362818); IG come reel di prova, YT 13:00, DE 18:00, IT 18:30
 - [x] 2/11: serie numerata "Errore n. 1-3" / "Fehler Nr. 1-3" (video *_s.mp4 + testi "Seguimi per l'errore n. X") su verdure 2/11, funghi 4/11, salsiccia 5/11, IT+YT+DE. Nuovi id: IT 413718234/413718299/413718344, YT 413718401/413718442/413718484, DE 413718531/413718586/413718635
 - [x] 31/10: ManyChat DE TEIG: spenti "opening DM" (Rezept senden) e "DM asking for their email"; aggiunta riga "Schreib mir hier deine E-Mail und ich aktiviere dir den Premium-Monat"
