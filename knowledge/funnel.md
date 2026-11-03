@@ -8,3 +8,8 @@
 6. LIBRO: solo fuori dall'app Play (regole Google: niente link di acquisto esterni nella versione Play): bio Linktree, email n. 3, storie in evidenza, messaggio ManyChat.
 
 Misure (controllo del lunedì): commenti IMPASTO/TEIG per reel, email raccolte, download Play, abbonati, vendite libro (KDP).
+
+## Su ManyChat (Davide 3/11: "il funnel va programmato su ManyChat")
+- Limite Instagram: messaggi solo entro 24 h dall'ultima interazione; la finestra si apre solo se la persona risponde o tocca un pulsante (la sola risposta privata al commento non basta). Quindi i passi "dopo 3 e 7 giorni" in DM non sono possibili: servono le EMAIL (canale Email di ManyChat, da verificare nel suo piano) o una nuova interazione.
+- Flusso proposto in ManyChat: commento IMPASTO → DM con tabella + pulsante "Voglio 1 mese Premium" (apre la finestra) → richiesta email (blocco User Input, salva il campo Email) → entro 23 h DM con link app → Email giorno 3 (consiglio + app) → Email giorno 7 (libro).
+- Conflitto da decidere: più cose costruiamo su ManyChat, più è difficile passare a Kommentio.
