@@ -40,6 +40,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 6/11 (modifiche fatte alle 10:23 in un'ALTRA sessione, viste la sera): errore n. 4 bilancia pubblicato oggi come reel di prova (IT 12:00, DE 13:00, + TikTok); 21 °C pubblicato oggi come REEL NORMALE (non di prova) IT 18:30 e DE 18:00. Sab 7/11 su Instagram non esce niente (resta solo YouTube errore n. 4 alle 13:00). Dom 8/11 errore n. 5 reel di prova DE 18:00, IT 18:30.
 - [x] 3/11 pubblicati: forno YouTube 13:00, forno IT reel di prova 18:30 (+TikTok), forno DE reel di prova 20:30; errore n. 1 DE condiviso con tutti da Davide
 - [ ] 6–7/11: ricontrollare DE funghi (871 dopo 15 h) e IT forno (550): se >1.000 e salti <50 % → condividere con tutti lun 9/11 (giorno libero su IT e DE)
 - [x] 3/11 sera: DE riportato al calendario originale (Davide: i reel di prova escono sempre): forno stasera 20:30 (415680190), funghi 4/11 (415680285), salsiccia 5/11 (415680333), 21 °C 6/11 (415680417), cassetta 7/11 (415680516), chiusura 8/11 (415680604), tutti reel di prova alle 18:00
