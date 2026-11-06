@@ -2,6 +2,8 @@
 
 Legenda: [ ] da fare · [x] fatto
 
+- [ ] **LUN 9/11 verso le 18:00: Davide condivide con tutti il reel di prova DE "Fehler Nr. 2" funghi** (deciso 6/11; 1.789 visualizzazioni). Giorno libero sul DE: ricordarlo nel promemoria del mattino.
+
 **Programma completo di novembre: `knowledge/programma_novembre.md`** (priorità: contenuti → pagamenti app → funnel ManyChat → LinkedIn/KüchenKompass → Kommentio).
 
 ## Da decidere (Davide)
