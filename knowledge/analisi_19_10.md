@@ -79,3 +79,4 @@ Lezioni: funzionano i reel con un errore concreto o un problema pratico (impasto
 - Metricool 6/11 mattina: DE Fehler 2 funghi 1.789 (7 like, 5 salv.) ✅ candidato da condividere lun 9/11; DE salsiccia 165 (da ieri sera); DE forno 119; DE Fehler 1 3.055. IT: salsiccia 154, funghi 120, forno 570, verdure 136 → nessun IT sopra 1.000.
 - 6/11 sera (Davide): reel di prova IT errore n. 4 bilancia già a ~3.000 visualizzazioni in poche ore: il migliore IT finora. Proposta: condividerlo con tutti sab 7/11 (giorno libero su IG IT).
 - 6/11 sera: stesso reel errore n. 4 sul DE (reel di prova alle 13:00) solo 122 visualizzazioni. Per la prima volta l'IT va molto meglio del DE.
+- Insight IT errore n. 4 (6/11 23:59): 2.936 visualizzazioni (2.384 seconda voce), salti 32,6 % (il migliore finora), tempo 7 s su 15, 1 follow, 1 like, 1 salvataggio. ✅ Condividere con tutti sab 7/11 ~18:30. Punto debole: pochi follow e like → la frase finale va rinforzata.
