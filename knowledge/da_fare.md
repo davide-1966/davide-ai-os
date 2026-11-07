@@ -78,3 +78,4 @@ Legenda: [ ] da fare · [x] fatto
 - [x] Reel programmati fino al 28/10 (IT + DE + YouTube)
 - [x] Parte 2 pallina PUBBLICATA 21/10 19:30 (Instagram, TikTok, YouTube)
 - [x] Annuncio app PUBBLICATO 22/10 (IT 12:00 IG+TikTok+YouTube, DE 12:30) + reel serali 22/10 pubblicati
+- 7/11 promemoria: oggi condividere IT errore n. 4 (18:30); dom 8/11 errore n. 5 reel di prova; lun 9/11 condividere DE funghi + controllo settimana.
