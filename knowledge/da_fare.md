@@ -4,7 +4,7 @@ Legenda: [ ] da fare · [x] fatto
 
 - [ ] **SAB 7/11 verso le 18:30: Davide condivide con tutti il reel di prova IT "Errore n. 4" bilancia** (2.936 visualizzazioni, salti 32,6 %). Ricordarlo.
 
-- [ ] **LUN 9/11 verso le 18:00: Davide condivide con tutti il reel di prova DE "Fehler Nr. 2" funghi** (deciso 6/11; 1.789 visualizzazioni). Giorno libero sul DE: ricordarlo nel promemoria del mattino.
+- [x] 7/11: Davide condivide OGGI con tutti il reel DE "Fehler Nr. 2" funghi (anticipato da lun 9/11; giorno libero sul DE). Lun 9/11 DE resta libero.
 
 **Programma completo di novembre: `knowledge/programma_novembre.md`** (priorità: contenuti → pagamenti app → funnel ManyChat → LinkedIn/KüchenKompass → Kommentio).
 
