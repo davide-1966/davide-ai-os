@@ -31,6 +31,7 @@ Prima di agire leggi `knowledge/davide_profile.md` e `knowledge/piano_lancio.md`
 
 ## App e sito
 - App = `app_sito/index.html` (sito Netlify + TWA su Google Play). Davide carica lo zip trascinandolo su Netlify → Deploys.
+- **Dall'8/11 il sito ha anche funzioni Netlify** (`app_netlify/`: pagamento Google Play, pannello /admin). Uno zip trascinato su Netlify le toglierebbe: pubblicare da `app_netlify/` (vedi `app_netlify/LEGGIMI.md`).
 - Nella versione Play (`IS_PLAY_APP`) i link di acquisto esterni restano nascosti (regole di pagamento Google).
 - Dopo ogni modifica: aumentare la versione della cache in `service-worker.js`, testare con Playwright a 390 px (nessuno scroll orizzontale, nessun errore in console), preparare lo zip in `scratchpad/consegna/`.
 

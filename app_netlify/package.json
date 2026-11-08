@@ -1,0 +1,14 @@
+{
+  "name": "pizza-perfetta-a-casa-funzioni",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.8",
+    "@netlify/functions": "^6.1.1",
+    "@netlify/identity": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
