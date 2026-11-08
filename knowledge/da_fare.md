@@ -2,6 +2,8 @@
 
 Legenda: [ ] da fare · [x] fatto
 
+- [ ] **LUN 9/11 (chiesto da Davide): verificare che il funnel funzioni con ManyChat Essential** → screenshot Billing del ManyChat DE (nome del piano) + prova TEIG da un altro profilo. Il piano IT passa a Essential il 25/11.
+
 - [ ] **SAB 7/11 verso le 18:30: Davide condivide con tutti il reel di prova IT "Errore n. 4" bilancia** (2.936 visualizzazioni, salti 32,6 %). Ricordarlo.
 
 - [x] 7/11: Davide condivide OGGI con tutti il reel DE "Fehler Nr. 2" funghi (anticipato da lun 9/11; giorno libero sul DE). Lun 9/11 DE resta libero.
