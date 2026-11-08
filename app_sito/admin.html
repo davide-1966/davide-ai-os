@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Pannello admin – Pizza Perfetta</title>
+<link rel="icon" href="icon-192.png">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<style>
+  :root{
+    --rosso:#c62828; --verde:#3d8b45; --arancio:#e8862c; --blu:#2b6690;
+    --sfondo:#181310; --superficie:#251e19; --superficie2:#2f2620;
+    --bordo:rgba(245,239,228,0.09); --testo-chiaro:#f5efe4; --testo-muto:#a89a87;
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--sfondo); color:var(--testo-chiaro); font-family:'Helvetica Neue', Arial, sans-serif; font-size:14px; }
+  header{ position:sticky; top:0; z-index:5; background:rgba(24,19,16,.95); backdrop-filter:blur(6px); border-bottom:1px solid var(--bordo); padding:12px 16px; display:flex; align-items:center; gap:10px; }
+  header h1{ font-size:16px; margin:0; flex:1; }
+  header img{ width:28px; height:28px; border-radius:7px; }
+  main{ max-width:960px; margin:0 auto; padding:16px; }
+  button, .btn{ font:inherit; border:1px solid var(--bordo); background:var(--superficie2); color:var(--testo-chiaro); border-radius:9px; padding:8px 12px; cursor:pointer; text-decoration:none; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; }
+  button:hover, .btn:hover{ border-color:rgba(232,134,44,.6); }
+  button.primary{ background:var(--arancio); border-color:var(--arancio); color:#1c1c1c; font-weight:700; }
+  button.danger{ color:#f5b5b5; }
+  button:disabled{ opacity:.5; cursor:wait; }
+  input, select{ font:inherit; background:var(--superficie2); color:var(--testo-chiaro); border:1px solid var(--bordo); border-radius:9px; padding:9px 11px; min-width:0; }
+  .muted{ color:var(--testo-muto); }
+  .cards{ display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:10px; margin-bottom:16px; }
+  .card{ background:var(--superficie); border:1px solid var(--bordo); border-radius:12px; padding:12px; }
+  .card b{ display:block; font-size:24px; margin-top:4px; }
+  .tabs{ display:flex; gap:6px; margin-bottom:14px; }
+  .tabs button.on{ background:var(--arancio); color:#1c1c1c; border-color:var(--arancio); font-weight:700; }
+  .toolbar{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+  .toolbar input[type=search]{ flex:1 1 200px; }
+  .list{ display:flex; flex-direction:column; gap:8px; }
+  .row{ background:var(--superficie); border:1px solid var(--bordo); border-radius:12px; padding:12px; }
+  .row-top{ display:flex; flex-wrap:wrap; gap:6px 10px; align-items:center; }
+  .row-top .who{ font-weight:700; word-break:break-all; flex:1 1 220px; }
+  .meta{ margin-top:6px; color:var(--testo-muto); font-size:12.5px; display:flex; flex-wrap:wrap; gap:4px 14px; }
+  .actions{ margin-top:10px; display:flex; flex-wrap:wrap; gap:6px; }
+  .badge{ font-size:11px; font-weight:700; border-radius:20px; padding:3px 8px; background:var(--superficie2); color:var(--testo-muto); }
+  .badge.prem{ background:rgba(232,134,44,.18); color:var(--arancio); }
+  .badge.block{ background:rgba(198,40,40,.2); color:#f5b5b5; }
+  .badge.adm{ background:rgba(43,102,144,.3); color:#bcdcf2; }
+  .post-text{ margin-top:8px; white-space:pre-wrap; line-height:1.45; }
+  .post img{ margin-top:8px; max-width:220px; max-height:220px; border-radius:10px; display:block; }
+  .comments{ margin-top:10px; border-left:2px solid var(--bordo); padding-left:10px; display:flex; flex-direction:column; gap:8px; }
+  .comment{ font-size:13px; }
+  .comment .actions{ margin-top:4px; }
+  .comment button{ padding:4px 8px; font-size:12px; }
+  .notice{ background:rgba(232,134,44,.12); border:1px solid rgba(232,134,44,.4); border-radius:12px; padding:12px; margin-bottom:14px; line-height:1.45; }
+  .center{ text-align:center; padding:60px 16px; }
+  #toast{ position:fixed; left:50%; bottom:20px; transform:translateX(-50%); background:var(--superficie2); border:1px solid var(--bordo); padding:10px 16px; border-radius:10px; display:none; z-index:20; max-width:90vw; }
+  @media (max-width:560px){ main{ padding:12px; } .card b{ font-size:20px; } }
+</style>
+</head>
+<body>
+<header>
+  <img src="icon-192.png" alt="">
+  <h1>Pannello admin</h1>
+  <span class="muted" id="me"></span>
+  <button id="logoutBtn" style="display:none" onclick="netlifyIdentity.logout()">Esci</button>
+</header>
+
+<main>
+  <div id="loginView" class="center" style="display:none">
+    <p style="font-size:16px; font-weight:700">Accesso riservato all'amministratore</p>
+    <p class="muted">Accedi con l'account che usi nell'app.</p>
+    <button class="primary" onclick="netlifyIdentity.open('login')">Accedi</button>
+  </div>
+  <div id="denyView" class="center" style="display:none">
+    <p style="font-size:16px; font-weight:700">Questo account non è amministratore</p>
+    <p class="muted" id="denyText"></p>
+    <button onclick="netlifyIdentity.logout()">Esci e cambia account</button>
+  </div>
+  <div id="loadingView" class="center muted">Caricamento…</div>
+
+  <div id="app" style="display:none">
+    <div id="fsNotice" class="notice" style="display:none"></div>
+    <div class="cards" id="cards"></div>
+
+    <div class="tabs">
+      <button id="tabUsers" class="on" onclick="showTab('users')">👥 Utenti</button>
+      <button id="tabCommunity" onclick="showTab('community')">💬 Community</button>
+      <button onclick="load()" title="Aggiorna">↻</button>
+    </div>
+
+    <section id="usersView">
+      <div class="toolbar">
+        <input type="search" id="q" placeholder="Cerca email o nome" oninput="renderUsers()">
+        <select id="filter" onchange="renderUsers()">
+          <option value="all">Tutti</option>
+          <option value="premium">Premium</option>
+          <option value="free">Gratis</option>
+          <option value="recent">Attivi ultimi 7 giorni</option>
+          <option value="blocked">Bloccati</option>
+          <option value="invited">Invitati (non ancora entrati)</option>
+        </select>
+      </div>
+      <div class="toolbar">
+        <button onclick="writeToList()">✉️ Scrivi a questa lista</button>
+        <button onclick="copyEmails()">📋 Copia le email</button>
+        <input type="email" id="inviteEmail" placeholder="email da invitare" style="flex:1 1 180px">
+        <button onclick="invite()">➕ Invita</button>
+      </div>
+      <p class="muted" id="usersCount" style="margin:0 0 8px"></p>
+      <div class="list" id="users"></div>
+    </section>
+
+    <section id="communityView" style="display:none">
+      <p class="muted" style="margin-top:0">Gli autori dei messaggi scritti da oggi in poi sono collegati al loro account: puoi bloccarli e scrivergli. Per i messaggi vecchi c'è solo il nome che hanno scritto.</p>
+      <div class="list" id="posts"></div>
+    </section>
+  </div>
+</main>
+<div id="toast"></div>
+
+<script>
+  const API = '/.netlify/functions/admin-api';
+  let data = { users: [], posts: [], blocked: [] };
+  let me = null;
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+  const fmt = (iso) => {
+    if (!iso) return '—';
+    const d = new Date(iso);
+    if (isNaN(d)) return '—';
+    return d.toLocaleDateString('it-IT', { day:'2-digit', month:'2-digit', year:'numeric' }) + ' ' + d.toLocaleTimeString('it-IT', { hour:'2-digit', minute:'2-digit' });
+  };
+  const daysAgo = (iso) => iso ? (Date.now() - new Date(iso).getTime()) / 86400000 : Infinity;
+  const lastSeen = (u) => [u.lastActivity, u.lastSignInAt].filter(Boolean).sort().pop() || null;
+  function toast(msg){ const t = $('toast'); t.textContent = msg; t.style.display = 'block'; clearTimeout(toast._t); toast._t = setTimeout(() => t.style.display = 'none', 3200); }
+  function view(name){ ['loginView','denyView','loadingView','app'].forEach((v) => $(v).style.display = v === name ? (v === 'app' ? 'block' : 'block') : 'none'); }
+
+  async function api(method, body){
+    const u = netlifyIdentity.currentUser();
+    if (!u) throw new Error('login');
+    const jwt = await u.jwt();
+    const r = await fetch(API, { method, headers: { 'Content-Type':'application/json', Authorization:'Bearer ' + jwt }, body: body ? JSON.stringify(body) : undefined });
+    const j = await r.json().catch(() => ({}));
+    if (r.status === 403) { const e = new Error('forbidden'); e.forbidden = true; throw e; }
+    if (!r.ok) throw new Error(j.error || ('Errore ' + r.status));
+    return j;
+  }
+
+  async function load(){
+    try {
+      data = await api('GET');
+      view('app');
+      const n = $('fsNotice');
+      if (data.firestoreError) {
+        n.style.display = 'block';
+        n.innerHTML = '<b>Community non raggiungibile dal pannello.</b> Gli utenti si vedono, ma post, commenti, visite e blocchi no. Serve il permesso Firestore all\'account <code>play-verifica</code> in Google Cloud.<br><span class="muted">Dettaglio: ' + esc(data.firestoreError) + '</span>';
+      } else n.style.display = 'none';
+      renderCards(); renderUsers(); renderPosts();
+    } catch (e) {
+      if (e.forbidden) { view('denyView'); $('denyText').textContent = (me && me.email ? me.email + ' ' : '') + 'non ha i permessi di amministratore.'; }
+      else if (e.message === 'login') view('loginView');
+      else { view('app'); toast('Errore: ' + e.message); }
+    }
+  }
+
+  function renderCards(){
+    const u = data.users;
+    const cards = [
+      ['Iscritti', u.length],
+      ['Premium', u.filter((x) => x.premium).length],
+      ['Attivi 7 giorni', u.filter((x) => daysAgo(lastSeen(x)) <= 7).length],
+      ['Nuovi 7 giorni', u.filter((x) => daysAgo(x.createdAt) <= 7).length],
+      ['Post community', data.posts.length],
+    ];
+    $('cards').innerHTML = cards.map((c) => '<div class="card"><span class="muted">' + c[0] + '</span><b>' + c[1] + '</b></div>').join('');
+  }
+
+  function filteredUsers(){
+    const q = $('q').value.trim().toLowerCase();
+    const f = $('filter').value;
+    return data.users
+      .filter((u) => !q || (u.email + ' ' + u.name).toLowerCase().includes(q))
+      .filter((u) => f === 'all' || (f === 'premium' && u.premium) || (f === 'free' && !u.premium) ||
+        (f === 'recent' && daysAgo(lastSeen(u)) <= 7) || (f === 'blocked' && u.blocked) || (f === 'invited' && u.invited))
+      .sort((a, b) => String(b.createdAt || '').localeCompare(String(a.createdAt || '')));
+  }
+
+  function gmailLink(to, bcc){
+    const p = new URLSearchParams({ view:'cm', fs:'1', su:'Pizza Perfetta a Casa' });
+    if (to) p.set('to', to);
+    if (bcc) p.set('bcc', bcc);
+    return 'https://mail.google.com/mail/?' + p.toString();
+  }
+
+  function renderUsers(){
+    const list = filteredUsers();
+    $('usersCount').textContent = list.length + ' su ' + data.users.length + ' utenti';
+    $('users').innerHTML = list.map((u) => {
+      const isMe = me && u.id === me.id;
+      const badges = [
+        u.premium ? '<span class="badge prem">⭐ Premium' + (u.premiumSource ? ' · ' + esc(u.premiumSource) : '') + '</span>' : '<span class="badge">Gratis</span>',
+        u.blocked ? '<span class="badge block">Bloccato</span>' : '',
+        u.admin || isMe ? '<span class="badge adm">Admin</span>' : '',
+        u.invited ? '<span class="badge">Invitato</span>' : (!u.confirmed ? '<span class="badge">Email da confermare</span>' : ''),
+      ].join(' ');
+      return '<div class="row">' +
+        '<div class="row-top"><span class="who">' + esc(u.email) + (u.name ? ' <span class="muted" style="font-weight:400">· ' + esc(u.name) + '</span>' : '') + '</span>' + badges + '</div>' +
+        '<div class="meta"><span>Iscritto: ' + fmt(u.createdAt) + '</span><span>Ultimo accesso: ' + fmt(lastSeen(u)) + '</span><span>Visite: ' + (u.visits || 0) + '</span>' +
+          (u.playExpiry ? '<span>Scadenza Google Play: ' + fmt(u.playExpiry) + '</span>' : '') + '</div>' +
+        '<div class="actions">' +
+          '<a class="btn" target="_blank" rel="noopener" href="' + esc(gmailLink(u.email)) + '">✉️ Scrivi</a>' +
+          (isMe ? '' :
+            '<button onclick="togglePremium(\'' + u.id + '\',' + !u.premium + ')">' + (u.premium ? 'Togli Premium' : '⭐ Dai Premium') + '</button>' +
+            '<button onclick="toggleBlock(\'' + u.id + '\',' + !u.blocked + ')">' + (u.blocked ? 'Sblocca' : '🚫 Blocca nella community') + '</button>' +
+            '<button class="danger" onclick="deleteUser(\'' + u.id + '\')">🗑 Elimina account</button>') +
+        '</div></div>';
+    }).join('') || '<p class="muted">Nessun utente.</p>';
+  }
+
+  function renderPosts(){
+    $('posts').innerHTML = data.posts.map((p) => {
+      const blocked = p.authorId && data.blocked.includes(p.authorId);
+      const comments = (p.comments || []).map((c) => {
+        const cb = c.authorId && data.blocked.includes(c.authorId);
+        return '<div class="comment"><b>' + esc(c.author || 'Anonimo') + '</b>' + (c.authorEmail ? ' <span class="muted">(' + esc(c.authorEmail) + ')</span>' : '') +
+          ' <span class="muted">· ' + fmt(c.createdAt) + '</span>' + (cb ? ' <span class="badge block">Bloccato</span>' : '') + '<div>' + esc(c.text) + '</div>' +
+          '<div class="actions"><button class="danger" onclick="deleteComment(\'' + p.id + '\',\'' + c.id + '\')">🗑 Elimina</button>' +
+          (c.authorId ? '<button onclick="toggleBlock(\'' + c.authorId + '\',' + !cb + ')">' + (cb ? 'Sblocca' : '🚫 Blocca autore') + '</button>' : '') +
+          (c.authorEmail ? '<a class="btn" target="_blank" rel="noopener" href="' + esc(gmailLink(c.authorEmail)) + '" style="padding:4px 8px;font-size:12px">✉️ Scrivi</a>' : '') +
+          '</div></div>';
+      }).join('');
+      return '<div class="row post">' +
+        '<div class="row-top"><span class="who">' + esc(p.author || 'Anonimo') + (p.authorEmail ? ' <span class="muted" style="font-weight:400">· ' + esc(p.authorEmail) + '</span>' : '') + '</span>' +
+          (blocked ? '<span class="badge block">Bloccato</span>' : '') + '<span class="muted">' + fmt(p.createdAt) + '</span></div>' +
+        '<div class="post-text">' + esc(p.text) + '</div>' +
+        (p.photoURL ? '<a href="' + esc(p.photoURL) + '" target="_blank" rel="noopener"><img src="' + esc(p.photoURL) + '" alt="" loading="lazy"></a>' : '') +
+        '<div class="actions"><button class="danger" onclick="deletePost(\'' + p.id + '\')">🗑 Elimina post</button>' +
+          (p.authorId ? '<button onclick="toggleBlock(\'' + p.authorId + '\',' + !blocked + ')">' + (blocked ? 'Sblocca' : '🚫 Blocca autore') + '</button>' : '') +
+          (p.authorEmail ? '<a class="btn" target="_blank" rel="noopener" href="' + esc(gmailLink(p.authorEmail)) + '">✉️ Scrivi</a>' : '') +
+        '</div>' +
+        (comments ? '<div class="comments">' + comments + '</div>' : '') +
+      '</div>';
+    }).join('') || '<p class="muted">Nessun post.</p>';
+  }
+
+  function showTab(t){
+    $('usersView').style.display = t === 'users' ? 'block' : 'none';
+    $('communityView').style.display = t === 'community' ? 'block' : 'none';
+    $('tabUsers').classList.toggle('on', t === 'users');
+    $('tabCommunity').classList.toggle('on', t === 'community');
+  }
+
+  async function act(body, okMsg){
+    try { await api('POST', body); toast(okMsg); await load(); }
+    catch (e) { toast('Errore: ' + e.message); }
+  }
+  function userEmail(id){ const u = data.users.find((x) => x.id === id); return u ? u.email : 'questo utente'; }
+  function togglePremium(id, on){
+    if (!confirm((on ? 'Dare il Premium a ' : 'Togliere il Premium a ') + userEmail(id) + '?')) return;
+    act({ action:'premium', id, on }, on ? 'Premium attivato (vale dal suo prossimo accesso)' : 'Premium tolto');
+  }
+  function toggleBlock(id, on){
+    if (!confirm((on ? 'Bloccare nella community ' : 'Sbloccare ') + userEmail(id) + '?')) return;
+    act({ action: on ? 'block' : 'unblock', id }, on ? 'Utente bloccato nella community' : 'Utente sbloccato');
+  }
+  function deleteUser(id){
+    if (!confirm('Eliminare DEFINITIVAMENTE l\'account ' + userEmail(id) + '?\nNon si può annullare.')) return;
+    act({ action:'deleteUser', id }, 'Account eliminato');
+  }
+  function deletePost(id){
+    if (!confirm('Eliminare questo post e tutti i suoi commenti? Non si può annullare.')) return;
+    act({ action:'deletePost', id }, 'Post eliminato');
+  }
+  function deleteComment(postId, id){
+    if (!confirm('Eliminare questo commento?')) return;
+    act({ action:'deleteComment', postId, id }, 'Commento eliminato');
+  }
+  async function invite(){
+    const email = $('inviteEmail').value.trim();
+    if (!email) return toast('Scrivi un\'email da invitare');
+    await act({ action:'invite', email }, 'Invito inviato a ' + email);
+    $('inviteEmail').value = '';
+  }
+  function emailsOfList(){ return filteredUsers().map((u) => u.email).filter(Boolean); }
+  async function copyEmails(){
+    const e = emailsOfList();
+    try { await navigator.clipboard.writeText(e.join(', ')); toast(e.length + ' email copiate'); }
+    catch (err) { prompt('Copia le email:', e.join(', ')); }
+  }
+  function writeToList(){
+    const e = emailsOfList();
+    if (!e.length) return toast('Nessuna email nella lista');
+    if (!confirm('Aprire Gmail con ' + e.length + ' destinatari in copia nascosta (Ccn)?')) return;
+    window.open(gmailLink('', e.join(',')), '_blank', 'noopener');
+  }
+
+  netlifyIdentity.on('init', (u) => { me = u; onUser(); });
+  netlifyIdentity.on('login', (u) => { me = u; netlifyIdentity.close(); onUser(); });
+  netlifyIdentity.on('logout', () => { me = null; onUser(); });
+  function onUser(){
+    $('me').textContent = me ? me.email : '';
+    $('logoutBtn').style.display = me ? '' : 'none';
+    if (!me) return view('loginView');
+    view('loadingView');
+    load();
+  }
+  netlifyIdentity.init();
+</script>
+</body>
+</html>
