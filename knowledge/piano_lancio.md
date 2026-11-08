@@ -161,3 +161,4 @@ Regola concordata: controllo giovedì 22/10; se follower costa < 0,50 € va ben
 - Passo 1 (dal computer): developers.facebook.com/apps → Crea app → caso d'uso "Gestire messaggi e contenuti su Instagram" (NON Marketing), senza portfolio business.
 
 - 3/11: ManyChat IT ridotto da Pro (fino a 2.500 contatti, ~39 €) a Essential, 17 $/mese (scelta di Davide). Da verificare che Essential basti per il funnel (email, richiesta email, messaggi di seguito).
+- 8/11: su Netlify è online un deploy nuovo (8/11 15:42 ora di Berlino, id 6af08a3de3d7dcff9923b627) fatto fuori da questa sessione: nuova pagina consigli.html, 7 regole di redirect, 3 funzioni Netlify (admin-api, play-sync con cron alle 4:00, play-verify → forse verifica dei pagamenti Play). Il codice NON è nel repository: chiesto a Davide lo zip per aggiornare app_sito.
