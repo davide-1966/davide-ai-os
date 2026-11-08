@@ -42,6 +42,9 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Dal computer (claude.ai/code → Default → Modifica → Accesso alla rete): aggiungere *.heygen.com e *.heygen.ai ai domini consentiti, così Horacle scarica i video HeyGen dal link. Intanto esportare da HeyGen in 720p.
 
 ## Fatto
+- [x] 8/11: funnel IT provato: commento IMPASTO → DM → email in MailerLite (gruppo Impasto IT) → prima email arrivata ✅
+- [ ] Ogni lunedì e giovedì: Davide copia le email nuove da ManyChat in MailerLite, SEMPRE con il gruppo (Impasto IT / Teig DE)
+- [ ] Frase del consenso nel DM ManyChat IT; prova TEIG sul DE
 - [x] 7/11: Davide: niente più TikTok, incentivare YouTube. Tolto TikTok dall'errore n. 5 IT di dom 8/11 (nuovo id 419808181). Nessun altro post futuro aveva TikTok.
 - [ ] Proporre a Davide come far crescere YouTube (Short di ogni reel, titoli cercabili, playlist "Errori della pizza fatta in casa", video lunghi?)
 - [x] 6/11 (modifiche fatte alle 10:23 in un'ALTRA sessione, viste la sera): errore n. 4 bilancia pubblicato oggi come reel di prova (IT 12:00, DE 13:00, + TikTok); 21 °C pubblicato oggi come REEL NORMALE (non di prova) IT 18:30 e DE 18:00. Sab 7/11 su Instagram non esce niente (resta solo YouTube errore n. 4 alle 13:00). Dom 8/11 errore n. 5 reel di prova DE 18:00, IT 18:30.
