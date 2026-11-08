@@ -2,9 +2,6 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<!-- This site is hosted on Netlify. Anyone can build and deploy a site
-     like this one for free: https://netlify.new/?utm_campaign=ai-legible&utm_source=comment&utm_medium=referral&utm_id=4d04a3b5-c5be-42ad-9677-763a42ee7e78
-     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
 <meta name="hosting-provider" content="Netlify">
 <meta name="netlify-deploy" content="https://netlify.new/?utm_campaign=ai-legible&amp;utm_source=meta&amp;utm_medium=referral&amp;utm_id=4d04a3b5-c5be-42ad-9677-763a42ee7e78">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
@@ -1316,6 +1313,20 @@
   </div>
 </div>
 
+<!-- BENVENUTO AI NUOVI ISCRITTI -->
+<div class="ob-overlay" id="welcomeOverlay" role="dialog" aria-modal="true">
+  <div class="ob-card">
+    <img src="icon-192.png" alt="" style="width:72px; height:72px; border-radius:50%; object-fit:cover; margin-bottom:12px;">
+    <h2 class="ob-title" id="welcomeTitle"></h2>
+    <p class="ob-text" id="welcomeText" style="min-height:0;"></p>
+    <div style="display:flex; flex-direction:column; gap:10px;">
+      <a class="ob-next" id="welcomeIg" target="_blank" rel="noopener" style="text-decoration:none; display:block;"></a>
+      <a id="welcomeMail" style="color:var(--arancio); font-weight:700; text-decoration:underline; padding:6px;"></a>
+      <button type="button" class="ob-skip" id="welcomeClose" onclick="closeWelcome()"></button>
+    </div>
+  </div>
+</div>
+
 <!-- PAYWALL -->
 <div class="calc-modal" id="paywallModal">
   <div class="calc-sheet">
@@ -1329,6 +1340,12 @@
       <p class="calc-hint" style="margin-bottom:20px;">Con l'abbonamento Premium sblocchi la Biga, tutte le ricette gourmet, il Calcolatore completo, i video curati e la Community — nuovi contenuti ogni mese.</p>
       <button type="button" id="paywallSubscribeBtn" class="calc-submit" onclick="goToSubscribe()">Abbonati — €4,99/mese</button>
       <p class="calc-hint" id="paywallPlayNote" style="display:none; margin-top:10px;">L'abbonamento Premium arriverà a breve direttamente su Google Play.</p>
+      <div id="paywallPlayBox" style="display:none;">
+        <button type="button" id="paywallPlayBtn" class="calc-submit" onclick="buyWithPlay()"></button>
+        <p class="calc-hint" id="paywallPlayPrice" style="margin-top:8px;"></p>
+        <p class="calc-hint" id="paywallPlayMsg" style="display:none; margin-top:10px; color:var(--testo-chiaro); font-weight:700;"></p>
+        <p class="calc-hint" style="margin-top:12px;"><span id="paywallPlayRestore" style="color:var(--arancio); text-decoration:underline; cursor:pointer;" onclick="restorePlayPurchase(true)"></span></p>
+      </div>
       <p class="calc-hint" id="paywallLoginHint" style="margin-top:14px; display:none;">Hai già un abbonamento? <span style="color:var(--arancio); text-decoration:underline; cursor:pointer;" onclick="closePaywall(); openProfilo(); netlifyIdentity.open('login');">Accedi qui</span></p>
     </div>
   </div>
@@ -2446,7 +2463,8 @@
     const btn = document.getElementById('paywallSubscribeBtn');
     const note = document.getElementById('paywallPlayNote');
     if (btn) btn.style.display = IS_PLAY_APP ? 'none' : '';
-    if (note) note.style.display = IS_PLAY_APP ? 'block' : 'none';
+    if (note) note.style.display = (IS_PLAY_APP && !playBillingReady) ? 'block' : 'none';
+    renderPlayPaywall();
     document.getElementById('paywallModal').classList.add('show');
   }
   function closePaywall(){
@@ -2455,7 +2473,7 @@
   // Libro: edizione tedesca per chi usa l'app in tedesco, italiana per tutti gli altri
   const LIBRO_URL = { it:'https://amzn.eu/d/0iLHZB8v', de:'https://amzn.eu/d/0dAbGhOs' };
   function openLibro(){
-    if (IS_PLAY_APP) return;
+    if (IS_PLAY_APP || playBillingReady) return;
     window.open(currentLang === 'de' ? LIBRO_URL.de : LIBRO_URL.it, '_blank');
   }
   document.body.classList.toggle('play-app', IS_PLAY_APP);
@@ -2517,16 +2535,179 @@
   })();
 
   function goToSubscribe(){
-    if (IS_PLAY_APP) return;
+    if (IS_PLAY_APP || playBillingReady) return;
     window.open(GUMROAD_URL, '_blank');
   }
 
+  // ===== BENVENUTO AI NUOVI ISCRITTI: un saluto di Davide al primo accesso =====
+  const WELCOME_EMAIL = 'davidepaba66@gmail.com';
+  const WELCOME_SINCE = Date.parse('2026-10-25T00:00:00Z'); // agli iscritti più vecchi non compare
+  const WELCOME_TEXT = {
+    it:{ title:'Benvenuto, {n}! 👋', text:'Sono Davide, pizzaiolo da oltre 20 anni. Grazie per esserti iscritto! Se hai un dubbio sull\'impasto, sulla cottura o sull\'app, scrivimi: rispondo io, di persona.', ig:'Scrivimi su Instagram', mail:'oppure mandami un\'email', close:'Inizia', subject:'Domanda dall\'app Pizza Perfetta' },
+    de:{ title:'Willkommen, {n}! 👋', text:'Ich bin Davide, seit über 20 Jahren Pizzaiolo. Danke für deine Anmeldung! Hast du eine Frage zum Teig, zum Backen oder zur App? Schreib mir – ich antworte persönlich.', ig:'Schreib mir auf Instagram', mail:'oder schick mir eine E-Mail', close:'Los geht\'s', subject:'Frage aus der App Pizza Perfetta' },
+    en:{ title:'Welcome, {n}! 👋', text:'I\'m Davide, a pizzaiolo for over 20 years. Thanks for signing up! If you have a question about the dough, baking or the app, write to me: I answer personally.', ig:'Message me on Instagram', mail:'or send me an email', close:'Let\'s start', subject:'Question from the Pizza Perfetta app' },
+    es:{ title:'¡Bienvenido, {n}! 👋', text:'Soy Davide, pizzero desde hace más de 20 años. ¡Gracias por registrarte! Si tienes una duda sobre la masa, la cocción o la app, escríbeme: respondo yo personalmente.', ig:'Escríbeme en Instagram', mail:'o envíame un email', close:'Empezar', subject:'Pregunta desde la app Pizza Perfetta' },
+    fr:{ title:'Bienvenue, {n} ! 👋', text:'Je suis Davide, pizzaiolo depuis plus de 20 ans. Merci de votre inscription ! Une question sur la pâte, la cuisson ou l\'app ? Écrivez-moi : je réponds personnellement.', ig:'Écrivez-moi sur Instagram', mail:'ou envoyez-moi un e-mail', close:'Commencer', subject:'Question depuis l\'app Pizza Perfetta' }
+  };
+  function maybeShowWelcome(user){
+    if (!user || !user.id) return;
+    const key = 'ppac_welcome_' + user.id;
+    try { if (localStorage.getItem(key) === '1') return; } catch (e) { return; }
+    const created = Date.parse(user.created_at || user.confirmed_at || '');
+    if (!created || created < WELCOME_SINCE) return;
+    const onb = document.getElementById('obOverlay');
+    if (onb && onb.classList.contains('show')) { setTimeout(function(){ maybeShowWelcome(user); }, 1500); return; }
+    const t = WELCOME_TEXT[currentLang] || WELCOME_TEXT.it;
+    const nome = (user.user_metadata && user.user_metadata.full_name) || (user.email || '').split('@')[0];
+    document.getElementById('welcomeTitle').textContent = t.title.replace('{n}', nome);
+    document.getElementById('welcomeText').textContent = t.text;
+    const ig = document.getElementById('welcomeIg');
+    ig.textContent = t.ig;
+    ig.href = 'https://ig.me/m/' + (currentLang === 'de' ? 'pizza_perfetta_a_casa2' : 'pizza_perfetta_a_casa');
+    const mail = document.getElementById('welcomeMail');
+    mail.textContent = t.mail;
+    mail.href = 'mailto:' + WELCOME_EMAIL + '?subject=' + encodeURIComponent(t.subject);
+    document.getElementById('welcomeClose').textContent = t.close;
+    document.getElementById('welcomeOverlay').classList.add('show');
+    try { localStorage.setItem(key, '1'); } catch (e) {}
+  }
+  function closeWelcome(){ document.getElementById('welcomeOverlay').classList.remove('show'); }
+
+  // ===== ABBONAMENTO GOOGLE PLAY (solo nell'app Android) =====
+  const PLAY_BILLING = 'https://play.google.com/billing';
+  const PLAY_SKU = 'premium_mensile';
+  let playService = null;
+  let playBillingReady = false;
+  let playPriceText = '';
+  let playBusy = false;
+  const PLAY_TEXT = {
+    it:{ buy:'Abbonati con Google Play', trial:'1 mese gratis, poi {p} al mese. Disdici quando vuoi da Google Play.', restore:'Hai già un abbonamento su Google Play? Ripristina', login:'Prima crea un account gratuito o accedi: il Premium resta collegato al tuo account.', wait:'Attendi…', ok:'⭐ Premium attivo! Grazie per il supporto.', none:'Nessun abbonamento attivo trovato su questo account Google Play.', other:'Questo abbonamento è già collegato a un altro account dell\'app. Accedi con quello.', err:'Qualcosa non ha funzionato. Riprova tra poco: se hai pagato, il Premium si attiva al prossimo avvio.' },
+    de:{ buy:'Mit Google Play abonnieren', trial:'1 Monat gratis, danach {p} pro Monat. Jederzeit über Google Play kündbar.', restore:'Schon ein Abo bei Google Play? Wiederherstellen', login:'Erstelle zuerst ein kostenloses Konto oder melde dich an: Premium bleibt mit deinem Konto verbunden.', wait:'Bitte warten…', ok:'⭐ Premium ist aktiv! Danke für deine Unterstützung.', none:'Kein aktives Abo für dieses Google-Play-Konto gefunden.', other:'Dieses Abo ist bereits mit einem anderen App-Konto verbunden. Melde dich damit an.', err:'Etwas hat nicht funktioniert. Versuch es gleich noch einmal: Wenn du bezahlt hast, wird Premium beim nächsten Start aktiviert.' },
+    en:{ buy:'Subscribe with Google Play', trial:'1 month free, then {p} per month. Cancel anytime in Google Play.', restore:'Already subscribed on Google Play? Restore', login:'First create a free account or log in: Premium stays linked to your account.', wait:'Please wait…', ok:'⭐ Premium is active! Thanks for your support.', none:'No active subscription found for this Google Play account.', other:'This subscription is already linked to another app account. Log in with that one.', err:'Something went wrong. Try again shortly: if you paid, Premium activates on the next launch.' },
+    es:{ buy:'Suscríbete con Google Play', trial:'1 mes gratis, luego {p} al mes. Cancela cuando quieras en Google Play.', restore:'¿Ya tienes una suscripción en Google Play? Restaurar', login:'Primero crea una cuenta gratuita o inicia sesión: Premium queda vinculado a tu cuenta.', wait:'Espera…', ok:'⭐ ¡Premium activo! Gracias por tu apoyo.', none:'No se encontró ninguna suscripción activa en esta cuenta de Google Play.', other:'Esta suscripción ya está vinculada a otra cuenta de la app. Inicia sesión con esa.', err:'Algo no ha funcionado. Inténtalo de nuevo en un momento: si pagaste, Premium se activa al próximo inicio.' },
+    fr:{ buy:'S\'abonner avec Google Play', trial:'1 mois gratuit, puis {p} par mois. Résiliable à tout moment dans Google Play.', restore:'Déjà abonné sur Google Play ? Restaurer', login:'Créez d\'abord un compte gratuit ou connectez-vous : Premium reste lié à votre compte.', wait:'Patientez…', ok:'⭐ Premium activé ! Merci pour votre soutien.', none:'Aucun abonnement actif trouvé pour ce compte Google Play.', other:'Cet abonnement est déjà lié à un autre compte de l\'app. Connectez-vous avec celui-ci.', err:'Un problème est survenu. Réessayez dans un instant : si vous avez payé, Premium s\'active au prochain lancement.' }
+  };
+  function playT(k){ const t = PLAY_TEXT[currentLang] || PLAY_TEXT.it; return t[k]; }
+
+  async function getPlayService(){
+    if (playService) return playService;
+    if (!('getDigitalGoodsService' in window)) return null;
+    try { playService = await window.getDigitalGoodsService(PLAY_BILLING); } catch (e) { playService = null; }
+    return playService;
+  }
+
+  function renderPlayPaywall(){
+    const box = document.getElementById('paywallPlayBox');
+    if (!box) return;
+    box.style.display = playBillingReady ? 'block' : 'none';
+    if (!playBillingReady) return;
+    // Nell'app di Google Play niente pagamenti esterni (regole dello store).
+    const gum = document.getElementById('paywallSubscribeBtn');
+    if (gum) gum.style.display = 'none';
+    const btn = document.getElementById('paywallPlayBtn');
+    btn.textContent = playBusy ? playT('wait') : playT('buy');
+    btn.disabled = playBusy;
+    document.getElementById('paywallPlayPrice').textContent = playT('trial').replace('{p}', playPriceText || '4,99 €');
+    document.getElementById('paywallPlayRestore').textContent = playT('restore');
+  }
+  function showPlayMsg(key){
+    const el = document.getElementById('paywallPlayMsg');
+    if (!el) return;
+    el.textContent = key ? playT(key) : '';
+    el.style.display = key ? 'block' : 'none';
+  }
+
+  // Manda il token d'acquisto al server, che lo verifica con Google e attiva il Premium.
+  async function sendPlayToken(purchaseToken){
+    const u = window.netlifyIdentity && netlifyIdentity.currentUser();
+    if (!u) return 'login';
+    const jwt = await u.jwt(true);
+    const r = await fetch('/.netlify/functions/play-verify', {
+      method:'POST',
+      headers:{ 'Content-Type':'application/json', 'Authorization':'Bearer ' + jwt },
+      body: JSON.stringify({ purchaseToken: purchaseToken })
+    });
+    const data = await r.json().catch(function(){ return {}; });
+    if (r.status === 409) return 'other';
+    if (!r.ok) return data.error === 'not_found' ? 'none' : 'err';
+    if (!data.premium) return 'none';
+    // Il ruolo nuovo arriva con il token aggiornato.
+    try { await u.getUserData(); await u.jwt(true); } catch (e) {}
+    updateAuthView(netlifyIdentity.currentUser());
+    return 'ok';
+  }
+
+  async function buyWithPlay(){
+    if (playBusy) return;
+    showPlayMsg('');
+    if (!currentUser) {
+      showPlayMsg('login');
+      closePaywall(); openProfilo(); netlifyIdentity.open('signup');
+      return;
+    }
+    const service = await getPlayService();
+    if (!service) { showPlayMsg('err'); return; }
+    playBusy = true; renderPlayPaywall();
+    try {
+      const request = new PaymentRequest(
+        [{ supportedMethods: PLAY_BILLING, data: { sku: PLAY_SKU } }],
+        { total: { label: 'Total', amount: { currency: 'EUR', value: '0' } } }
+      );
+      const response = await request.show();
+      const result = await sendPlayToken(response.details.purchaseToken);
+      await response.complete(result === 'ok' ? 'success' : 'fail');
+      showPlayMsg(result);
+      if (result === 'ok') setTimeout(closePaywall, 1500);
+    } catch (e) {
+      // Chiuso dall'utente: nessun messaggio.
+      if (!e || e.name !== 'AbortError') showPlayMsg('err');
+    } finally {
+      playBusy = false; renderPlayPaywall();
+    }
+  }
+
+  // Ritrova un abbonamento già pagato su questo telefono (es. dopo una reinstallazione).
+  async function restorePlayPurchase(manual){
+    if (!currentUser) { if (manual) showPlayMsg('login'); return; }
+    if (isPremium && !manual) return;
+    const service = await getPlayService();
+    if (!service) return;
+    try {
+      const purchases = await service.listPurchases();
+      const p = (purchases || []).find(function(x){ return x.itemId === PLAY_SKU; });
+      if (!p) { if (manual) showPlayMsg('none'); return; }
+      const result = await sendPlayToken(p.purchaseToken);
+      if (manual || result === 'ok') showPlayMsg(result);
+    } catch (e) {
+      if (manual) showPlayMsg('err');
+    }
+  }
+
+  (async function initPlayBilling(){
+    const service = await getPlayService();
+    if (!service) return;
+    playBillingReady = true;
+    document.body.classList.add('play-app');
+    try { localStorage.setItem('ppac_play_app', '1'); } catch (e) {}
+    try {
+      const details = await service.getDetails([PLAY_SKU]);
+      const d = details && details[0];
+      if (d && d.price) {
+        playPriceText = new Intl.NumberFormat(navigator.language || 'it', { style:'currency', currency:d.price.currency }).format(Number(d.price.value));
+      }
+    } catch (e) {}
+    renderPlayPaywall();
+    restorePlayPurchase(false);
+  })();
+
   if (window.netlifyIdentity) {
-    netlifyIdentity.on('init', function(user){ updateAuthView(user); trackActivity(user); });
+    netlifyIdentity.on('init', function(user){ updateAuthView(user); trackActivity(user); restorePlayPurchase(false); maybeShowWelcome(user); });
     netlifyIdentity.on('login', function(user){
       updateAuthView(user);
       trackActivity(user);
       netlifyIdentity.close();
+      restorePlayPurchase(false);
+      maybeShowWelcome(user);
     });
     netlifyIdentity.on('logout', function(){ updateAuthView(null); });
     netlifyIdentity.init();
@@ -2656,8 +2837,32 @@
     });
   }
 
+  // ===== MODERAZIONE: autore dei messaggi e utenti bloccati dal pannello admin =====
+  let utentiBloccati = [];
+  function idAutore(){
+    const u = window.netlifyIdentity && netlifyIdentity.currentUser();
+    return u ? u.id : null;
+  }
+  function autoreBloccato(){
+    const id = idAutore();
+    if (id && utentiBloccati.indexOf(id) !== -1) {
+      alert('Il tuo account non può più scrivere nella community. Per informazioni scrivi a Davide.');
+      return true;
+    }
+    return false;
+  }
+  if (firebaseOk) {
+    try {
+      onSnapshot(doc(db, 'config', 'moderazione'), function(snap){
+        const d = snap.exists() ? snap.data() : {};
+        utentiBloccati = Array.isArray(d.bloccati) ? d.bloccati : [];
+      }, function(){});
+    } catch (e) {}
+  }
+
   window.pubblicaPost = async function(){
     if (!firebaseOk) { alert('Community non ancora configurata: manca la connessione a Firebase.'); return; }
+    if (autoreBloccato()) return;
     const nome = document.getElementById('cmNome').value.trim() || 'Anonimo';
     const testo = document.getElementById('cmTesto').value.trim();
     const errorEl = document.getElementById('cmError');
@@ -2677,6 +2882,7 @@
       }
       await addDoc(collection(db, 'posts'), {
         author: nome,
+        authorId: idAutore(),
         text: testo,
         photoURL: photoURL,
         createdAt: serverTimestamp()
@@ -2780,11 +2986,13 @@
     const input = document.getElementById('comment-input-' + postId);
     const text = input.value.trim();
     if (!text) return;
+    if (autoreBloccato()) return;
     const nome = document.getElementById('cmNome').value.trim() || 'Anonimo';
     input.value = '';
     try {
       await addDoc(collection(db, 'posts', postId, 'comments'), {
         author: nome,
+        authorId: idAutore(),
         text: text,
         createdAt: serverTimestamp()
       });

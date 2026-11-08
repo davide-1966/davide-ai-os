@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I consigli di Davide – Pizza Perfetta a Casa</title>
+<meta name="description" content="I consigli di un pizzaiolo con 20 anni di esperienza, gratis nella tua email.">
+<link rel="icon" href="icon-192.png">
+<style>
+  :root{ --arancio:#e8862c; --sfondo:#181310; --superficie:#251e19; --bordo:rgba(245,239,228,0.12); --testo:#f5efe4; --muto:#a89a87; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--sfondo); color:var(--testo); font-family:'Helvetica Neue', Arial, sans-serif; line-height:1.5; }
+  .hero{ position:relative; height:240px; background:url('hero.jpg') center/cover; }
+  .hero::after{ content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(24,19,16,.15), var(--sfondo)); }
+  main{ max-width:460px; margin:-70px auto 0; padding:0 16px 40px; position:relative; z-index:1; }
+  .card{ background:var(--superficie); border:1px solid var(--bordo); border-radius:20px; padding:24px 20px; }
+  .who{ display:flex; align-items:center; gap:12px; margin-bottom:14px; }
+  .who img{ width:52px; height:52px; border-radius:50%; object-fit:cover; }
+  .who b{ display:block; }
+  .who span{ color:var(--muto); font-size:13px; }
+  h1{ font-size:24px; line-height:1.25; margin:0 0 12px; }
+  ul{ padding:0; margin:0 0 20px; list-style:none; }
+  li{ padding:6px 0 6px 30px; position:relative; }
+  li::before{ content:"🍕"; position:absolute; left:0; top:5px; }
+  label.field{ display:block; font-size:13px; color:var(--muto); margin-bottom:6px; }
+  input[type=email]{ width:100%; font:inherit; font-size:16px; padding:13px 14px; border-radius:12px; border:1px solid var(--bordo); background:#1c1612; color:var(--testo); }
+  .consent{ display:flex; gap:10px; align-items:flex-start; font-size:13px; color:#d9cfc1; margin:14px 0 18px; }
+  .consent input{ margin-top:3px; width:18px; height:18px; accent-color:var(--arancio); flex-shrink:0; }
+  button{ width:100%; font:inherit; font-size:17px; font-weight:800; padding:14px; border:none; border-radius:30px; background:var(--arancio); color:#fff; cursor:pointer; }
+  button:disabled{ opacity:.6; cursor:wait; }
+  .err{ color:#f5b5b5; font-size:14px; margin-top:10px; display:none; }
+  .note{ color:var(--muto); font-size:12.5px; margin-top:14px; }
+  .note a{ color:var(--muto); }
+  .done{ display:none; text-align:center; padding:10px 0; }
+  .done .big{ font-size:46px; }
+  .done h2{ margin:8px 0; }
+  .hp{ position:absolute; left:-9999px; }
+</style>
+</head>
+<body>
+<div class="hero" role="img" aria-label="Pizza"></div>
+<main>
+  <div class="card">
+    <div class="who">
+      <img src="icon-192.png" alt="">
+      <div><b>Davide</b><span id="t_role"></span></div>
+    </div>
+
+    <form id="form" novalidate>
+      <h1 id="t_title"></h1>
+      <ul id="t_list"></ul>
+      <label class="field" for="email" id="t_label"></label>
+      <input type="email" id="email" name="email" autocomplete="email" required>
+      <input class="hp" type="text" id="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label class="consent"><input type="checkbox" id="consent"><span id="t_consent"></span></label>
+      <button type="submit" id="btn"></button>
+      <div class="err" id="err"></div>
+      <p class="note" id="t_note"></p>
+    </form>
+
+    <div class="done" id="done">
+      <div class="big">📩</div>
+      <h2 id="t_done_title"></h2>
+      <p id="t_done_text"></p>
+    </div>
+  </div>
+</main>
+
+<script>
+  const ACCOUNT = '2765792';
+  const FORMS = { it: '203579579119436897', de: '203579736694195875' };
+  const PRIVACY = 'https://warm-kheer-be8b74.netlify.app';
+  const T = {
+    it: {
+      role: 'Pizzaiolo da oltre 20 anni',
+      title: 'I miei consigli da pizzeria, gratis nella tua email',
+      list: ['La mia tabella degli impasti, sempre a portata di mano', 'Gli errori che vedo fare più spesso a casa, e come li correggo', 'Le novità della mia app e del mio libro'],
+      label: 'La tua email',
+      consent: 'Voglio ricevere le email di Davide con consigli sulla pizza e novità sull\'app e sul libro. Posso cancellarmi quando voglio con un clic.',
+      btn: 'Iscrivimi',
+      wait: 'Un attimo…',
+      note: 'Dopo l\'iscrizione ti arriva un\'email di conferma (in inglese, "Confirm subscription"): basta un clic. Niente spam, solo pizza. <a href="' + PRIVACY + '" target="_blank" rel="noopener">Privacy</a>',
+      errEmail: 'Scrivi un indirizzo email valido.',
+      errConsent: 'Spunta la casella per dare il consenso.',
+      errSend: 'Non è andata: riprova tra un attimo.',
+      doneTitle: 'Quasi fatto!',
+      doneText: 'Apri la tua email e clicca su "Confirm subscription" (guarda anche nello spam). Poi ti arriva subito la mia tabella degli impasti.'
+    },
+    de: {
+      role: 'Seit über 20 Jahren Pizzaiolo',
+      title: 'Meine Tipps aus der Pizzeria, gratis per E-Mail',
+      list: ['Meine Teig-Tabelle, immer griffbereit', 'Die häufigsten Fehler zu Hause – und wie ich sie korrigiere', 'Neuigkeiten zu meiner App und meinem Buch'],
+      label: 'Deine E-Mail',
+      consent: 'Ich möchte Davides E-Mails mit Pizza-Tipps und Neuigkeiten zur App und zum Buch erhalten. Abmelden ist jederzeit mit einem Klick möglich.',
+      btn: 'Jetzt anmelden',
+      wait: 'Einen Moment…',
+      note: 'Nach der Anmeldung bekommst du eine Bestätigungs-E-Mail (auf Englisch, „Confirm subscription"): ein Klick genügt. Kein Spam, nur Pizza. <a href="' + PRIVACY + '" target="_blank" rel="noopener">Datenschutz</a>',
+      errEmail: 'Bitte gib eine gültige E-Mail-Adresse ein.',
+      errConsent: 'Bitte setze den Haken für deine Einwilligung.',
+      errSend: 'Das hat nicht geklappt – versuch es gleich noch einmal.',
+      doneTitle: 'Fast geschafft!',
+      doneText: 'Öffne deine E-Mails und klick auf „Confirm subscription" (schau auch im Spam-Ordner nach). Danach bekommst du sofort meine Teig-Tabelle.'
+    }
+  };
+  const params = new URLSearchParams(location.search);
+  const lang = params.get('lang') === 'de' || /\/tipps/.test(location.pathname) ? 'de' : 'it';
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  if (lang === 'de') document.title = 'Davides Tipps – Pizza Perfetta a Casa';
+  const $ = (id) => document.getElementById(id);
+  $('t_role').textContent = t.role;
+  $('t_title').textContent = t.title;
+  $('t_list').innerHTML = t.list.map((x) => '<li>' + x + '</li>').join('');
+  $('t_label').textContent = t.label;
+  $('t_consent').textContent = t.consent;
+  $('btn').textContent = t.btn;
+  $('t_note').innerHTML = t.note;
+  $('t_done_title').textContent = t.doneTitle;
+  $('t_done_text').textContent = t.doneText;
+
+  function showErr(msg){ const e = $('err'); e.textContent = msg; e.style.display = msg ? 'block' : 'none'; }
+
+  $('form').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    showErr('');
+    const email = $('email').value.trim();
+    if ($('website').value) return; // trappola anti-bot
+    if (!/^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(email)) return showErr(t.errEmail);
+    if (!$('consent').checked) return showErr(t.errConsent);
+    const btn = $('btn');
+    btn.disabled = true; btn.textContent = t.wait;
+    try {
+      const fd = new FormData();
+      fd.append('fields[email]', email);
+      fd.append('ml-submit', '1');
+      fd.append('anticsrf', 'true');
+      const r = await fetch('https://assets.mailerlite.com/jsonp/' + ACCOUNT + '/forms/' + FORMS[lang] + '/subscribe', { method: 'POST', body: fd });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok || !j.success) throw new Error('fail');
+      $('form').style.display = 'none';
+      $('done').style.display = 'block';
+    } catch (e) {
+      showErr(t.errSend);
+      btn.disabled = false; btn.textContent = t.btn;
+    }
+  });
+</script>
+</body>
+</html>
