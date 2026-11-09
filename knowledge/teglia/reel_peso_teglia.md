@@ -1,6 +1,7 @@
 # Reel teglia 1 – "Quanto impasto per la teglia?" (IT, bozza 9/11)
 
 Metodo di Davide (9/11): peso = lato × lato ÷ 2 → teglia 40×60 = 1.200 g; più grammi se vuoi la pizza più alta.
+Teglia del forno di casa 30×40 → 600 g (confermato da Davide 9/11).
 Formato: reel di prova, 12–15 s, gancio rosso dal primo fotogramma. Numero errore da assegnare (n. 6 = bilancia, sab 14/11).
 
 ## Video da girare (Davide, telefono in verticale, 3–4 s ciascuno)
