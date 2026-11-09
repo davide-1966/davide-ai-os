@@ -91,3 +91,11 @@ Legenda: [ ] da fare · [x] fatto
 
 - 9/11: reel di prova DE "Fehler Nr. 4" bilancia con voce tedesca di Davide (cassetta_de_v3.mp4) programmato oggi 11:10 (Metricool id 421584052). Davide: se va bene, domani 10/11 si condivide con tutti (guardare gli insight prima).
 - 9/11: programmate (Metricool IT) Lezione 3 "Impasto diretto o biga?" mar 10/11 19:30 (IG reel di prova id 421842380 + YouTube Short id 421842550) e Lezione 4 "Cosa fai dopo la biga?" gio 12/11 19:30 (IG prova id 421842824 + YouTube id 421842981). CTA: Commenta BIGA (automazione ManyChat BIGA attiva IT e DE). Avatar → isAiGenerated true. Da fare: lezioni 3-4 DE quando tornano i crediti HeyGen (10/11).
+
+## Riciclare i reel vincenti (deciso da Davide 9/11)
+Ripetere i reel andati bene CON MODIFICHE (gancio nuovo, primo fotogramma diverso, altro montaggio/musica, didascalia nuova), mai lo stesso file; almeno 3–4 settimane dopo l'originale. Conta per i 3 reel a settimana.
+Classifica Metricool 10/10–9/11 (visualizzazioni · % che supera i 3 s):
+- IT: pallina chiusa male 10/10 37.790 · 58,5 % (già rifatta 29/10 con 349 e 8/11 errore n. 5) · errore n. 4 cassetta 6/11 3.588 · 67,1 % (troppo recente) · condimento 17/10 1.690 · 48,5 % · bilancia "vai a occhio" 16/10 1.642 · 45 % · contenitore panetti 28/10 1.519 · 51,7 % · gamberi 20/10 749
+- DE: zu kurz geknetet 26/10 4.601 · 59,9 % · Fehler Nr. 1 Gemüse 2/11 3.102 (recente) · Hefewürfel 12/10 2.131 · 53,4 % · Pilze 4/11 1.882 (recente) · Biga 22/10 1.390 · Backofen 250 Grad 16/10 785
+- Attenzione: i reel recenti sono di prova (solo non follower), quelli di ottobre andavano ai follower: il confronto è indicativo.
+- Proposta per sab 14/11 IT: errore n. 6 "vai a occhio con l'impasto?" rifatto dal reel bilancia del 16/10 (serve il video originale di Davide).
