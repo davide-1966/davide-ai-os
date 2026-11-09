@@ -90,3 +90,4 @@ Legenda: [ ] da fare · [x] fatto
 - 9/11 promemoria: settimana 10–14/11 senza reel programmati; servono voce DE bilancia (mar), Lezione 3, video errore n. 6. Oggi: prova funnel DE con Essential.
 
 - 9/11: reel di prova DE "Fehler Nr. 4" bilancia con voce tedesca di Davide (cassetta_de_v3.mp4) programmato oggi 11:10 (Metricool id 421584052). Davide: se va bene, domani 10/11 si condivide con tutti (guardare gli insight prima).
+- 9/11: programmate (Metricool IT) Lezione 3 "Impasto diretto o biga?" mar 10/11 19:30 (IG reel di prova id 421842380 + YouTube Short id 421842550) e Lezione 4 "Cosa fai dopo la biga?" gio 12/11 19:30 (IG prova id 421842824 + YouTube id 421842981). CTA: Commenta BIGA (automazione ManyChat BIGA attiva IT e DE). Avatar → isAiGenerated true. Da fare: lezioni 3-4 DE quando tornano i crediti HeyGen (10/11).
