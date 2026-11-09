@@ -222,3 +222,19 @@ pochi iscritti: serve un invito a iscriversi.
 - 3/11: lo spazio tra i panetti serve anche "per fare in modo che il freddo del frigo raggiunga tutti gli angoli del panetto".
 - 3/11: se la pallina è chiusa male "perde di consistenza, si rilassa troppo e diventa ingestibile" (errore n. 5).
 - 6/11: creata in Google Drive la cartella "Pizza Perfetta" (id 15bodJf-ouxtr8UIuROxpXk4d33aqOhpb) con 1 Video da montare (1dUmTs8VYiBL5j90uxwi-SwcW--ROGv1c), 2 Foto archivio, 3 App e Google Play, 4 Libro, 5 KüchenKompass, 6 Documenti personali. Esistono anche le vecchie "pizza perfetta a casa" e "Reel Pizza Perfetta" (non toccate). Mai chiave di firma/password/IBAN in Drive condiviso.
+
+## Biga: il metodo di Davide (detto da Davide il 9/11/2026, vocale)
+Impasto indiretto in due tempi: preimpasto (biga) + secondo impasto (rinfresco). La biga si impasta pochissimo,
+deve restare grezza; contenitore grande; matura 16–24 ore, "rimaniamo sempre sulle 18", a 18 °C ("la cosa importante").
+Il giorno dopo la biga va nella macchina con il resto degli ingredienti. Esempi su 1 kg di farina totale:
+- **Biga 50%** (il compromesso più diffuso: profumi, impasto facile da gestire, buona spinta in cottura):
+  500 g farina forte 350–380 W, acqua 45–50% (225–250 g), lievito di birra fresco 4–5 g (oppure secco 1,5–2 g).
+  Rinfresco: 500 g farina, acqua restante fino all'idratazione totale (es. 70% = 700 g meno quella della biga),
+  sale 20–22 g (2%), malto o zucchero 5 g facoltativo, olio EVO 20 g facoltativo.
+- **Biga 70%**: 700 g farina forte, acqua 45–50% (315–350 g), lievito fresco 6–7 g. Rinfresco: 300 g farina,
+  acqua restante, sale 2%, malto 0,5%, eventuali grassi. Più aroma, alveolatura più pronunciata, crosta più croccante;
+  più attenzione nella chiusura del secondo impasto.
+- **Biga 100%**: 1 kg farina molto forte 380–420 W, acqua 45–50% (450–500 g), lievito fresco 8–10 g; riposo 16–18 ore.
+  Rinfresco: acqua aggiunta poco alla volta fino all'idratazione finale (es. 70%), sale 20–22 g, malto 5 g, olio EVO 20 g.
+  Il massimo di fragranza e gusto; richiede una forte incordatura e l'acqua a piccoli flussi per non "annegare" la biga.
+- Da chiedere: cosa succede dopo il secondo impasto (riposo, panetti, frigo) con la biga.
