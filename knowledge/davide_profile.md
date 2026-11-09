@@ -248,4 +248,4 @@ Il giorno dopo la biga va nella macchina con il resto degli ingredienti. Esempi 
   Idea (9/11, da decidere): rubrica teglia ~1 reel su 3 ogni due settimane, prima come reel di prova.
 - Pizza in teglia di casa (Davide 9/11): teglia 30×40, idratazione 70%, metodo con la biga, forno di casa; la taglia con le forbici ("più comodo per me"). Video: media/video_davide/9nov/teglia_casa_30x40.mp4.
 - Pinsa (Davide 9/11): fatta a casa, stesso impasto (70% con biga), forno di casa. Video: media/video_davide/9nov/pinsa_alveoli_controluce.mp4.
-- Pinsa stesura (Davide 9/11): sulla semola, con le dita; olio prima di infornare; forno di casa. Video: media/video_davide/9nov/pinsa_stesura_forno.mp4 (59 s). Temperatura/minuti non detti.
+- Pinsa stesura (Davide 9/11): sulla semola, con le dita; olio prima di infornare; forno di casa. Video: media/video_davide/9nov/pinsa_stesura_forno.mp4 (59 s). Panetto 280 g. Si può condire anche prima di infornare, ma la mozzarella sempre alla fine. Temperatura/minuti non detti.
