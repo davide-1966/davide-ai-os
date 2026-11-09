@@ -240,3 +240,9 @@ Il giorno dopo la biga va nella macchina con il resto degli ingredienti. Esempi 
 - Dopo il secondo impasto (Davide 9/11): riposo in massa sul banco o in un contenitore coperto, da 30 minuti a poche ore
   secondo temperatura e prodotto; staglio (porzioni: panetti per la pizza, pagnotte per il pane); i panetti lievitano
   fino al raddoppio prima di stendere e infornare.
+- Pizza in teglia a casa (metodo di Davide, 9/11): idratazione alta 70–75–80 %, farine sempre di forza, procedimento
+  uguale alla tonda. Cambiano il metodo in teglia e la forma dei panetti: ALLUNGATI, a lievitare nei contenitori,
+  massimo 3 per contenitore. Peso: lato × lato ÷ 2 (teglia 40×60 = 1.200 g); si aggiungono grammi per una pizza più
+  alta. Pizza ripiena: base 1.200 g + coperchio 900 g, olio nel mezzo perché non si attacchi. In cottura anche a
+  250 °C cuoce più dolcemente. Mozzarella quasi alla fine della cottura, altrimenti brucia.
+  Idea (9/11, da decidere): rubrica teglia ~1 reel su 3 ogni due settimane, prima come reel di prova.
