@@ -247,3 +247,4 @@ Il giorno dopo la biga va nella macchina con il resto degli ingredienti. Esempi 
   250 °C cuoce più dolcemente. Mozzarella quasi alla fine della cottura, altrimenti brucia.
   Idea (9/11, da decidere): rubrica teglia ~1 reel su 3 ogni due settimane, prima come reel di prova.
 - Pizza in teglia di casa (Davide 9/11): teglia 30×40, idratazione 70%, metodo con la biga, forno di casa; la taglia con le forbici ("più comodo per me"). Video: media/video_davide/9nov/teglia_casa_30x40.mp4.
+- Pinsa (Davide 9/11): fatta a casa, stesso impasto (70% con biga), forno di casa. Video: media/video_davide/9nov/pinsa_alveoli_controluce.mp4.
