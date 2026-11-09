@@ -80,3 +80,9 @@ Lezioni: funzionano i reel con un errore concreto o un problema pratico (impasto
 - 6/11 sera (Davide): reel di prova IT errore n. 4 bilancia già a ~3.000 visualizzazioni in poche ore: il migliore IT finora. Proposta: condividerlo con tutti sab 7/11 (giorno libero su IG IT).
 - 6/11 sera: stesso reel errore n. 4 sul DE (reel di prova alle 13:00) solo 122 visualizzazioni. Per la prima volta l'IT va molto meglio del DE.
 - Insight IT errore n. 4 (6/11 23:59): 2.936 visualizzazioni (2.384 seconda voce), salti 32,6 % (il migliore finora), tempo 7 s su 15, 1 follow, 1 like, 1 salvataggio. ✅ Condividere con tutti sab 7/11 ~18:30. Punto debole: pochi follow e like → la frase finale va rinforzata.
+
+## Controllo del lunedì 9/11 (fonte: Metricool, reel 2–8/11, quasi tutti reel di prova; Chrome non collegato)
+IT: verdure 136 · forno 572 · funghi 120 · salsiccia 155 · ERRORE 4 BILANCIA 3.588 (condiviso con tutti 7/11) · 21 °C 289 (reel normale) · errore 5 chiusura 134 (da ieri sera). Media 713 (senza la bilancia 234).
+DE: Fehler 1 verdure 3.102 (condiviso) · forno 119 · Fehler 2 funghi 1.882 (condiviso 7/11) · salsiccia 187 · Fehler 4 bilancia 128 (voce italiana, 13:00) · 21 °C 1.110 · Fehler 5 chiusura 576 (da ieri sera). Media 1.015.
+Settimana precedente (26/10–1/11): IT media ~399, DE ~1.090 (con il 4.410). Settembre ~80.
+Lezioni: (1) vince il gesto da pizzeria che a casa non si vede (bilancia 240 g, cassette) e l'errore concreto; (2) lo stesso video va bene in una lingua e male nell'altra: voce italiana nel reel tedesco = male; (3) i condimenti (funghi, salsiccia) vanno bene sul DE, male sull'IT. Orario: la prova IT delle 13:00 non c'è stata davvero (spostato alle 18:30 il 1/11), confronto con 19:30 non valido.
