@@ -91,6 +91,8 @@ Legenda: [ ] da fare · [x] fatto
 
 - 9/11: reel di prova DE "Fehler Nr. 4" bilancia con voce tedesca di Davide (cassetta_de_v3.mp4) programmato oggi 11:10 (Metricool id 421584052). Davide: se va bene, domani 10/11 si condivide con tutti (guardare gli insight prima).
 - 9/11: programmate (Metricool IT) Lezione 3 "Impasto diretto o biga?" mar 10/11 19:30 (IG reel di prova id 421842380 + YouTube Short id 421842550) e Lezione 4 "Cosa fai dopo la biga?" gio 12/11 19:30 (IG prova id 421842824 + YouTube id 421842981). CTA: Commenta BIGA (automazione ManyChat BIGA attiva IT e DE). Avatar → isAiGenerated true. Da fare: lezioni 3-4 DE quando tornano i crediti HeyGen (10/11).
+- 9/11 sera: Horacle ora lavora anche in LOCALE sul computer di Davide (app Claude → Code → "Questo computer", cartella Documents\GitHub\davide-ai-os, branch claude/aggiungi-horacle-6xek57, clonato con GitHub Desktop). Chrome collegato (ManyChat letto senza modifiche). Prima di lavorare: git pull; dopo: commit + push sullo stesso branch, così cloud e locale restano allineati.
+- Da fare subito dopo: Errore n. 6 (deciso poi con Davide = bilancia, vedi sotto; idee per i prossimi errori: stesura a mano, panetto pronto sotto il dito, cornicione tagliato), lezioni 3-4 DE con HeyGen (crediti dal 10/11), prova BIGA dal telefono, insight Fehler 4 DE e Errore 5 l'11/11.
 
 ## Riciclare i reel vincenti (deciso da Davide 9/11)
 Ripetere i reel andati bene CON MODIFICHE (gancio nuovo, primo fotogramma diverso, altro montaggio/musica, didascalia nuova), mai lo stesso file; almeno 3–4 settimane dopo l'originale. Conta per i 3 reel a settimana.
