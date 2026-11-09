@@ -237,4 +237,6 @@ Il giorno dopo la biga va nella macchina con il resto degli ingredienti. Esempi 
 - **Biga 100%**: 1 kg farina molto forte 380–420 W, acqua 45–50% (450–500 g), lievito fresco 8–10 g; riposo 16–18 ore.
   Rinfresco: acqua aggiunta poco alla volta fino all'idratazione finale (es. 70%), sale 20–22 g, malto 5 g, olio EVO 20 g.
   Il massimo di fragranza e gusto; richiede una forte incordatura e l'acqua a piccoli flussi per non "annegare" la biga.
-- Da chiedere: cosa succede dopo il secondo impasto (riposo, panetti, frigo) con la biga.
+- Dopo il secondo impasto (Davide 9/11): riposo in massa sul banco o in un contenitore coperto, da 30 minuti a poche ore
+  secondo temperatura e prodotto; staglio (porzioni: panetti per la pizza, pagnotte per il pane); i panetti lievitano
+  fino al raddoppio prima di stendere e infornare.
