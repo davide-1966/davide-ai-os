@@ -87,3 +87,4 @@ Legenda: [ ] da fare · [x] fatto
 - [x] Annuncio app PUBBLICATO 22/10 (IT 12:00 IG+TikTok+YouTube, DE 12:30) + reel serali 22/10 pubblicati
 - 7/11 promemoria: oggi condividere IT errore n. 4 (18:30); dom 8/11 errore n. 5 reel di prova; lun 9/11 condividere DE funghi + controllo settimana.
 - 8/11 promemoria: oggi errore n. 5 (YT 13:00, DE 18:00, IT 18:30 reel di prova, niente TikTok). Settimana 10–14/11 ancora vuota: mar 10 DE bilancia con voce tedesca (attesa registrazione), Lezione 3 (attesa HeyGen), errori n. 6–8 (attesa video).
+- 9/11 promemoria: settimana 10–14/11 senza reel programmati; servono voce DE bilancia (mar), Lezione 3, video errore n. 6. Oggi: prova funnel DE con Essential.
