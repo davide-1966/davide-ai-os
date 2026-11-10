@@ -50,6 +50,21 @@ L["lezione4_de"]=dict(av=R+"/media/scuola_pizza/heygen_lezione4_de.mp4", cut=[],
         ("Gehen lassen bis zur Verdopplung, dann ausziehen und backen",50,DARK,30.6,35.5,260),
         ("Nächste Woche: Lektion 5",52,DARK,35.5,99,260),
         ("Kommentiere TEIG oder BIGA: Tabelle + 1 Monat App gratis",46,RED,30.6,99,1560)])
+L["lezione3_de"]=dict(av=R+"/media/scuola_pizza/heygen_lezione3_de.mp4", cut=[], hold=0.01, total=68.77, crop="crop=600:600:60:13",
+ segs=[(I+"biga_blocco_1.mp4",0,8.2,P),(FB+"biga_3.jpg",None,4.5,"foto"),(FB+"biga_1.jpg",None,6.8,"foto"),
+       (I+"biga_blocco_2.mp4",0,6.57,LAND),(FB+"biga_2.jpg",None,7.5,"foto"),(I+"biga_blocco_1.mp4",4.3,8.43,P),
+       (I+"impastatrice_3.mp4",5,9.4,P),(I+"impastatrice_4.mp4",0,7.1,P),(I+"impastatrice_2.mp4",7.5,12.77,P)],
+ cards=[("PIZZA-SCHULE · LEKTION 3\nDirekter Teig oder Biga?",60,RED,0,4.5,260),
+        ("Direkter Teig: alles zusammen, einmal kneten",52,DARK,4.5,7.9,260),
+        ("Biga: zwei Schritte\n1. Vorteig  2. zweiter Teig",52,DARK,7.9,12.7,260),
+        ("Biga 50 % auf 1 kg Mehl",54,DARK,12.7,19.5,260),
+        ("TAG 1 – die Biga\n500 g starkes Mehl W 350–380\n225–250 g Wasser\n4–5 g frische Hefe",50,DARK,19.5,30.4,260),
+        ("Ganz wenig kneten: die Biga bleibt grob",52,DARK,30.4,33.5,260),
+        ("Großer Behälter\n18 Stunden bei 18 °C",58,RED,33.5,39.5,260),
+        ("TAG 2 – in die Knetmaschine\n+ 500 g Mehl\nWasser bis 70 %\n20 g Salz\n(wenn du willst: 5 g Malz, 20 g Olivenöl)",46,DARK,39.5,53.4,260),
+        ("Biga 70 % oder 100 %: mehr Aroma, knusprigere Kruste, aber mehr Aufmerksamkeit",46,DARK,53.4,60.6,260),
+        ("Nächste Woche: Lektion 4",52,DARK,63.8,99,260),
+        ("Kommentiere BIGA oder TEIG: Tabelle + 1 Monat App gratis",46,RED,60.6,99,1560)])
 for name in sys.argv[1:]:
     c=L[name]; T=c["total"]; inp=[]; fc=[]
     for i,(f,ss,du,flt) in enumerate(c["segs"]):
