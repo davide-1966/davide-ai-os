@@ -2,9 +2,17 @@
 
 Legenda: [ ] da fare · [x] fatto
 
+## OGGI mar 10/11
+- [x] 09:45 Errore n. 9 "si strappa" (rifatto dal 3/10) pubblicato per tutti, IG + YouTube, testo con IMPASTO e BIGA
+- [ ] Condividere con tutti il reel DE "Fehler Nr. 5" (1.438 visualizzazioni, salti 31,7 %)
+- [ ] HeyGen (crediti tornati): lezioni 3 e 4 in TEDESCO con "Avatar"
+- [ ] Prova BIGA dal telefono → screenshot della tabella aperta
+- [ ] 19:30 esce da sola la lezione 3 (reel di prova + YouTube)
+- [ ] Mer 11/11: insight Errore n. 5 IT e Fehler Nr. 4 DE (bilancia con voce tedesca)
+
 - [ ] **LUN 9/11 (chiesto da Davide): verificare che il funnel funzioni con ManyChat Essential** → screenshot Billing del ManyChat DE (nome del piano) + prova TEIG da un altro profilo. Il piano IT passa a Essential il 25/11.
 
-- [ ] **SAB 7/11 verso le 18:30: Davide condivide con tutti il reel di prova IT "Errore n. 4" bilancia** (2.936 visualizzazioni, salti 32,6 %). Ricordarlo.
+- [x] **SAB 7/11 verso le 18:30: Davide condivide con tutti il reel di prova IT "Errore n. 4" bilancia** (2.936 visualizzazioni, salti 32,6 %). Ricordarlo.
 
 - [x] 7/11: Davide condivide OGGI con tutti il reel DE "Fehler Nr. 2" funghi (anticipato da lun 9/11; giorno libero sul DE). Lun 9/11 DE resta libero.
 
@@ -15,7 +23,7 @@ Legenda: [ ] da fare · [x] fatto
 
 ## Video
 - [ ] **PROVA ORARIO** (cambiata la sera del 1/11 in un'altra sessione, confermata da Davide 2/11): IG+TikTok IT alle 18:30, YouTube alle 13:00, DE alle 18:00; verdure/funghi/salsiccia come REEL DI PROVA (solo non follower). Lun 9/11: confronto con la media ~305 delle 19:30. Programmati 2–6/11 (verdure, forno, funghi, salsiccia, 21 °C); sab 7 e dom 8/11 programmati (errori n. 4 e 5).
-- [ ] Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → settimana 2–8/11 completa; dal 9/11 servono video nuovi (errore n. 6 promesso: es. stendere la pizza appena tolta dal frigo / dosi a occhio); servono pizze finite e Davide che parla in camera
+- [x] (9/11: arrivati 3 video veri teglia/pinsa → errori 6, 7, 8 programmati fino al 19/11) Girare i video nuovi (1080p o 720p): staglio, pallina, cassetta, stesura, infornata, pizza che esce → settimana 2–8/11 completa; dal 9/11 servono video nuovi (errore n. 6 promesso: es. stendere la pizza appena tolta dal frigo / dosi a occhio); servono pizze finite e Davide che parla in camera
 
 - [ ] Idea reel DE (dal commento di un follower di Lipsia, 26/10): "Teig wird in der Spirale zu warm?" → Reibung, max 15 Min. bei Davide, kaltes Wasser, am Ende messen (21 °C Pizzeria / 24 °C zu Hause). Serve Davide in camera.
 
@@ -28,7 +36,7 @@ Legenda: [ ] da fare · [x] fatto
 - [ ] Prova IMPASTO e TEIG da un altro profilo (screenshot del messaggio)
 - [ ] Rispondere sotto il commento IMPASTO del 29/10 rimasto senza tabella: "Ti ho scritto in DM… guarda nelle Richieste di messaggi"
 - [ ] Controllare che non ci siano promozioni attive (saldo Meta 7,40 € in addebito il 9/11)
-- [ ] KOMMENTIO (deciso 2/11, sostituisce ManyChat): dal computer finire app Meta "Kommentio" (developers.facebook.com/apps): caso d'uso = messaggi e contenuti Instagram (NON API Marketing), creare SENZA portfolio business (collegarlo dopo)
+- [ ] KOMMENTIO (9/11: ricerca fatta in knowledge/kommentio.md; prossimo passo app Meta con Horacle locale) (deciso 2/11, sostituisce ManyChat): dal computer finire app Meta "Kommentio" (developers.facebook.com/apps): caso d'uso = messaggi e contenuti Instagram (NON API Marketing), creare SENZA portfolio business (collegarlo dopo)
 - [ ] Risultati del lancio (28–30/10): insight reel di lancio IT/DE + installazioni in Play Console; attivare Premium a chi ha commentato IMPASTO/TEIG
 - [x] App in produzione su Google Play (Play Console 24/10: Produzione 1 app, 0 invii in revisione)
 - [ ] **LANCIO mar 27/10 18:30** (confermato): 1) ✅ link Play in bio IT+DE 2) ✅ reel lancio IT+DE programmati 27/10 18:30 (IT IG+TikTok 405806686, YouTube 405806717, DE 405806783) 3) storie conto alla rovescia (✅ storia 1 IT+DE 26/10; mar mattina storia 2; 18:30 storia 3 con link) 4) messaggio ai contatti – link Play in bio, reel lancio con Davide vero, storie, email ai contatti
@@ -37,7 +45,7 @@ Legenda: [ ] da fare · [x] fatto
 
 ## Tra qualche giorno
 - [ ] LINKEDIN (obiettivo KüchenKompass, 3 locali pilota): Davide crea il profilo con i testi di knowledge/linkedin/profilo_bozza.md, poi screenshot → /li-profile → primo post
-- [ ] PAGAMENTO APP PLAY: passo 1 dal computer – Play Console → Monetizza con Play → Prodotti → Abbonamenti (screenshot); premium_mensile 4,99 € + prova gratuita 1 mese
+- [x] (9/11 Davide: abbonamento fatto, si aspetta l'ok di Google) PAGAMENTO APP PLAY: passo 1 dal computer – Play Console → Monetizza con Play → Prodotti → Abbonamenti (screenshot); premium_mensile 4,99 € + prova gratuita 1 mese
 - [ ] Dopo il lancio: prima promozione del budget mensile (30–50 €/mese, deciso 25/10) – scegliere il reel con Davide (si avvia solo con il suo sì)
 - [ ] Caricare KüchenKompass su Netlify come sito nuovo (zip kuechenkompass-v3.zip) – meglio dopo l'incontro con Pasquale
 
