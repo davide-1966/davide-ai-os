@@ -6,10 +6,10 @@ REEL=[(21,9),(39,3),(45.5,2),(16,1.5)]
 YT=[(21,17),(39,10),(49.5,8),(15,5)]
 C={"pinsa_stesura_it":(REEL,[("ERRORE N. 8\nStendi la pinsa col mattarello?",60,RED,0,3.5,260),("Guarda come faccio io",50,DARK,0,3.5,560),
       ("Panetto da 280 g: con le dita, sulla semola",52,DARK,3.5,9,260),("Poi sulla pala",54,DARK,9,12,260),("Un filo d'olio prima di infornare",52,DARK,12,14,260),
-      ("Seguimi per l'errore n. 9",56,RED,14,99,260),("Commenta BIGA: tabella della biga + 1 mese gratis dell'app",46,RED,9,99,1560)]),
+      ("Seguimi: ogni giorno un segreto della mia pizzeria",48,RED,14,99,260),("Commenta BIGA: tabella della biga + 1 mese gratis dell'app",46,RED,9,99,1560)]),
    "pinsa_stesura_de":(REEL,[("FEHLER NR. 8\nPinsa mit dem Nudelholz ausrollen?",58,RED,0,3.5,260),("Schau, wie ich es mache",50,DARK,0,3.5,560),
       ("Teigling 280 g: mit den Fingern, auf Hartweizengrieß",50,DARK,3.5,9,260),("Dann auf den Schieber",54,DARK,9,12,260),("Etwas Olivenöl vor dem Backen",52,DARK,12,14,260),
-      ("Folge mir für Fehler Nr. 9",56,RED,14,99,260),("Kommentiere BIGA: Biga-Tabelle + 1 Monat App gratis",46,RED,9,99,1560)]),
+      ("Folge mir: jeden Tag ein Geheimnis aus meiner Pizzeria",46,RED,14,99,260),("Kommentiere BIGA: Biga-Tabelle + 1 Monat App gratis",46,RED,9,99,1560)]),
    "pinsa_yt_it":(YT,[("Come stendo la pinsa a casa",62,RED,0,3.5,260),("Panetto da 280 g, sulla semola, con le dita: niente mattarello",50,DARK,3.5,17,260),
       ("Poi sulla pala",54,DARK,17,22,260),("Un filo d'olio prima di infornare",52,DARK,22,27,260),("Forno di casa · impasto al 70% con la biga",52,DARK,27,35,260),
       ("Condimento anche prima, ma la mozzarella sempre alla fine",50,DARK,35,99,260),("Vai su Instagram @pizza_perfetta_a_casa e commenta BIGA",46,RED,27,99,1560)])}
