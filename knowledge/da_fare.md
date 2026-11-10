@@ -117,3 +117,5 @@ Classifica Metricool 10/10–9/11 (visualizzazioni · % che supera i 3 s):
 - 10/11: carosello '20 anni in pizzeria' (7 slide, foto vere) programmato mer 11/11: IT 12:00 (id 423018682), DE 12:30 (id 423244074). Regola nuova in CLAUDE.md: sempre IT e DE per tutto.
 - 10/11: Lektion 3 DE (reel di prova) mer 18/11 18:00 (id 423393622); Lektion 4 DE ven 20/11 18:00 (id 423398857). Settimana DE 16–20/11: lun Fehler 8, mer L3, ven L4.
 - [ ] Mer 11/11: screenshot insight IT Errore n. 5 e DE Fehler Nr. 4 → se >1.000 e salti <50%: DE gio 12 (o sab 14), IT ven 13 'Condividi con tutti'.
+- 10/11 sera: nuova chiusura dei reel (Davide "sì"): IT "Seguimi: ogni giorno un segreto della mia pizzeria", DE "Folge mir: jeden Tag ein Geheimnis aus meiner Pizzeria" (scritta rossa + testo), al posto di "Seguimi per l'errore n. X". Aggiornati video e testi: DE 423778230 (11/11), 423778276 (13/11), 423778358 (16/11); IT teglia IG 423778418 / YT 423778468; pinsa IG 423778542 / YT 423778597; errore 8 IG 423778684 / YT 423778776.
+- Fehler Nr. 4 DE (bilancia, voce tedesca) pubblicato 9/11 11:10 come reel di prova: https://www.instagram.com/reel/DfhFjntjmpw/
