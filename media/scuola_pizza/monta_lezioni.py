@@ -38,6 +38,18 @@ L={
         ("Lievitano fino al raddoppio, poi stendi e inforni",52,DARK,26.66,31.4,260),
         ("Prossima settimana: lezione 5",52,DARK,31.4,99,260),
         ("Commenta BIGA: la mia tabella della biga + 1 mese gratis dell'app",46,RED,31.4,99,1560)])}
+L["lezione4_de"]=dict(av=R+"/media/scuola_pizza/heygen_lezione4_de.mp4", cut=[], hold=0.01, total=40.68, crop="crop=600:600:60:13",
+ segs=[(I+"impastatrice_2.mp4",10,6.0,P),(I+"impastatrice_termometro.mp4",20,9.5,P),(N+"chiusura_pallina_alto.mp4",0,3.5,P),
+       (N+"pallina_bilancia_240g.mp4",3,5.2,BIL),(N+"chiusura_pallina_alto.mp4",10,6.4,P),(N+"cassette_da_12.mp4",0,5.0,P),
+       (N+"panetti_cassetta.jpg",None,5.18,"foto")],
+ cards=[("PIZZA-SCHULE · LEKTION 4\nWas nach der Biga kommt",60,RED,0,4.6,260),
+        ("Stockgare: auf der Arbeitsfläche oder im abgedeckten Behälter\n30 Minuten – ein paar Stunden",48,DARK,4.6,15.5,260),
+        ("Teig teilen und Teiglinge formen",54,DARK,15.5,19.0,260),
+        ("Ich wiege alle: 240 g",58,RED,19.0,24.2,260),
+        ("Jeden Teigling gut schließen",56,DARK,24.2,30.6,260),
+        ("Gehen lassen bis zur Verdopplung, dann ausziehen und backen",50,DARK,30.6,35.5,260),
+        ("Nächste Woche: Lektion 5",52,DARK,35.5,99,260),
+        ("Kommentiere TEIG oder BIGA: Tabelle + 1 Monat App gratis",46,RED,30.6,99,1560)])
 for name in sys.argv[1:]:
     c=L[name]; T=c["total"]; inp=[]; fc=[]
     for i,(f,ss,du,flt) in enumerate(c["segs"]):
@@ -57,7 +69,7 @@ for name in sys.argv[1:]:
     h=c["hold"]
     fc.append(f"{vs}concat=n={m}:v=1:a=0,tpad=stop_mode=clone:stop_duration={h}[avv]")
     fc.append(f"{as_}concat=n={m}:v=0:a=1,apad=pad_dur={h}[voice]")
-    fc.append(f"[avv]crop=900:900:90:20,scale={D}:{D},fps=30,format=rgba[av];[{k+1}:v]format=gray[mk];[av][mk]alphamerge[avc]")
+    fc.append(f"[avv]{c.get('crop','crop=900:900:90:20')},scale={D}:{D},fps=30,format=rgba[av];[{k+1}:v]format=gray[mk];[av][mk]alphamerge[avc]")
     fc.append(f"[bg][{k+2}:v]overlay=W-w-40:1100[b1];[b1][avc]overlay=W-{D}-48:1108[v0]")
     last="v0"; j=k+3
     for q,(t,fs,bg,a,b,y) in enumerate(c["cards"]):
