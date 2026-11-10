@@ -4,10 +4,10 @@ Legenda: [ ] da fare · [x] fatto
 
 ## OGGI mar 10/11
 - [x] 09:45 Errore n. 9 "si strappa" (rifatto dal 3/10) pubblicato per tutti, IG + YouTube, testo con IMPASTO e BIGA
-- [ ] Condividere con tutti il reel DE "Fehler Nr. 5" (1.438 visualizzazioni, salti 31,7 %)
+- [x] Condiviso con tutti il reel DE "Fehler Nr. 5" (10/11)
 - [ ] HeyGen (crediti tornati): lezioni 3 e 4 in TEDESCO con "Avatar"
 - [ ] Prova BIGA dal telefono → screenshot della tabella aperta
-- [ ] 19:30 esce da sola la lezione 3 (reel di prova + YouTube)
+- [x] 19:30 lezione 3 IT uscita (reel di prova + YouTube)
 - [ ] Mer 11/11: insight Errore n. 5 IT e Fehler Nr. 4 DE (bilancia con voce tedesca)
 
 - [ ] **LUN 9/11 (chiesto da Davide): verificare che il funnel funzioni con ManyChat Essential** → screenshot Billing del ManyChat DE (nome del piano) + prova TEIG da un altro profilo. Il piano IT passa a Essential il 25/11.
@@ -116,3 +116,4 @@ Classifica Metricool 10/10–9/11 (visualizzazioni · % che supera i 3 s):
 - 10/11: aggiornati i testi di TUTTI i post programmati con le due parole (IT: BIGA+IMPASTO, DE: BIGA+TEIG, YouTube: commenta BIGA o IMPASTO su Instagram). Gli id Metricool sono cambiati: DE 422861513 (11/11), 422861581 (13/11), 422861638 (16/11); IT lez.3 IG 422861686 / YT 422861751; lez.4 IG 422861807 / YT 422861869; teglia IG 422861913 / YT 422861964; pinsa YT 422862271 (15/11); pinsa IG 422862010 / YT 422862091 (17/11); errore 8 IG 422862150 / YT 422862195.
 - 10/11: carosello '20 anni in pizzeria' (7 slide, foto vere) programmato mer 11/11: IT 12:00 (id 423018682), DE 12:30 (id 423244074). Regola nuova in CLAUDE.md: sempre IT e DE per tutto.
 - 10/11: Lektion 3 DE (reel di prova) mer 18/11 18:00 (id 423393622); Lektion 4 DE ven 20/11 18:00 (id 423398857). Settimana DE 16–20/11: lun Fehler 8, mer L3, ven L4.
+- [ ] Mer 11/11: screenshot insight IT Errore n. 5 e DE Fehler Nr. 4 → se >1.000 e salti <50%: DE gio 12 (o sab 14), IT ven 13 'Condividi con tutti'.
