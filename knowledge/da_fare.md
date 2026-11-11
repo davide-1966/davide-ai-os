@@ -2,10 +2,17 @@
 
 Legenda: [ ] da fare · [x] fatto
 
-## OGGI mar 10/11
+## OGGI mer 11/11
+- [ ] 12:00 carosello IT "20 anni in pizzeria" · 12:30 carosello DE (automatici)
+- [ ] 18:00 DE Fehler Nr. 6 teglia, reel di prova (automatico)
+- [ ] Prova BIGA dal telefono → screenshot della tabella aperta
+- [ ] ⭐ Girare 1 video di 10–15 s con Davide che PARLA in camera (per l'italiano: i reel di sole mani in IT restano sotto 160 visualizzazioni)
+- [ ] Rispondere ai commenti del carosello e dei reel (BIGA / IMPASTO / TEIG arrivano da soli in DM)
+
+## Mar 10/11 (fatto)
 - [x] 09:45 Errore n. 9 "si strappa" (rifatto dal 3/10) pubblicato per tutti, IG + YouTube, testo con IMPASTO e BIGA
 - [x] Condiviso con tutti il reel DE "Fehler Nr. 5" (10/11)
-- [ ] HeyGen (crediti tornati): lezioni 3 e 4 in TEDESCO con "Avatar"
+- [x] HeyGen: lezioni 3 e 4 in tedesco fatte e programmate (DE 18/11 e 20/11)
 - [ ] Prova BIGA dal telefono → screenshot della tabella aperta
 - [x] 19:30 lezione 3 IT uscita (reel di prova + YouTube)
 - [ ] Mer 11/11: insight Errore n. 5 IT e Fehler Nr. 4 DE (bilancia con voce tedesca)
