@@ -2,9 +2,15 @@
 
 Legenda: [ ] da fare · [x] fatto
 
-## OGGI mer 11/11
-- [ ] 12:00 carosello IT "20 anni in pizzeria" · 12:30 carosello DE (automatici)
-- [ ] 18:00 DE Fehler Nr. 6 teglia, reel di prova (automatico)
+## OGGI gio 12/11
+- [ ] ⚠️ Decidere con Davide: i reel di prova su Metricool sono BOZZE (non escono): DE Fehler 6 (11/11, saltato), IT lezione 4 (stasera 19:30), IT teglia 14/11, DE pinsa 13/11, DE Fehler 8 16/11, IT pinsa 17/11, DE L3 18/11, IT errore 8 19/11, DE L4 20/11. Gli Short YouTube invece sono attivi.
+- [ ] 19:30 YouTube lezione 4 (attivo)
+- [ ] Prova BIGA dal telefono → screenshot
+- [ ] Video di 10–15 s con Davide che parla (per l'italiano)
+
+## Mer 11/11
+- [x] Caroselli 20 anni IT e DE pubblicati (11/11)
+- [ ] ⚠️ DE Fehler Nr. 6 NON uscito: l'11/11 alle 14:14–14:25 tutti i reel di prova IG (IT e DE) sono diventati BOZZE su Metricool (draft=true, nuovi id 4244…), non da questa sessione
 - [ ] Prova BIGA dal telefono → screenshot della tabella aperta
 - [ ] ⭐ Girare 1 video di 10–15 s con Davide che PARLA in camera (per l'italiano: i reel di sole mani in IT restano sotto 160 visualizzazioni)
 - [ ] Rispondere ai commenti del carosello e dei reel (BIGA / IMPASTO / TEIG arrivano da soli in DM)
