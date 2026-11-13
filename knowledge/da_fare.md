@@ -2,9 +2,14 @@
 
 Legenda: [ ] da fare · [x] fatto
 
-## OGGI gio 12/11
+## OGGI ven 13/11
+- [ ] ⚠️ Reel di prova IG ancora BOZZE su Metricool (13/11): saltati DE Fehler 6 (11/11) e IT lezione 4 (12/11); oggi DE pinsa 18:00 non esce. Serve il "sì, rimetti" di Davide.
+- [ ] Prova BIGA dal telefono → screenshot
+- [ ] Video di 10–15 s con Davide che parla (per l'italiano)
+
+## Gio 12/11
 - [ ] ⚠️ Decidere con Davide: i reel di prova su Metricool sono BOZZE (non escono): DE Fehler 6 (11/11, saltato), IT lezione 4 (stasera 19:30), IT teglia 14/11, DE pinsa 13/11, DE Fehler 8 16/11, IT pinsa 17/11, DE L3 18/11, IT errore 8 19/11, DE L4 20/11. Gli Short YouTube invece sono attivi.
-- [ ] 19:30 YouTube lezione 4 (attivo)
+- [x] YouTube lezione 4 pubblicato 12/11 (Instagram lezione 4 NON uscito: bozza)
 - [ ] Prova BIGA dal telefono → screenshot
 - [ ] Video di 10–15 s con Davide che parla (per l'italiano)
 
