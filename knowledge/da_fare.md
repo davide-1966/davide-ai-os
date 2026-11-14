@@ -2,7 +2,11 @@
 
 Legenda: [ ] da fare · [x] fatto
 
-## OGGI ven 13/11
+## OGGI sab 14/11
+- [ ] ⚠️ SCOPERTO: i reel Instagram ora li pubblica REGIA (sistema di Davide, commenti→DM + calendario reel), non Metricool. Le bozze su Metricool dell'11/11 erano per evitare doppie pubblicazioni; la mia riattivazione del 14/11 00:08 è stata riportata a bozza alle 09:15 (nessun doppione). Regia programmati: IT 17/11 e 19/11 19:30; DE oggi 18:00 (nuovo testo "Blechpizza mit wenig Wasser? Falsch!"), 16, 18, 20/11 18:00. NON in Regia: IT teglia (oggi), IT lezione 4 (15/11), DE Fehler 7 pinsa (15/11) → chiedere a Davide.
+- [ ] Regola: prima di toccare i reel IG controllare Regia (regia_overview); Metricool resta per YouTube.
+
+## Ven 13/11
 - [ ] ⚠️ Reel di prova IG ancora BOZZE su Metricool (13/11): saltati DE Fehler 6 (11/11) e IT lezione 4 (12/11); oggi DE pinsa 18:00 non esce. Serve il "sì, rimetti" di Davide.
 - [ ] Prova BIGA dal telefono → screenshot
 - [ ] Video di 10–15 s con Davide che parla (per l'italiano)
