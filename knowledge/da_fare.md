@@ -2,7 +2,13 @@
 
 Legenda: [ ] da fare · [x] fatto
 
-## OGGI sab 14/11
+## OGGI dom 15/11
+- [x] DE teglia uscita il 14/11 18:00 da Regia (non più in calendario, 0 errori)
+- [ ] 12:00 YouTube "Come stendo la pinsa a casa" (Metricool)
+- [ ] Ancora fuori da Regia: IT teglia (saltata 14/11), IT lezione 4, DE Fehler 7 pinsa → aspetto risposta di Davide
+- [ ] Prova BIGA dal telefono · video con Davide che parla
+
+## Sab 14/11
 - [ ] ⚠️ SCOPERTO: i reel Instagram ora li pubblica REGIA (sistema di Davide, commenti→DM + calendario reel), non Metricool. Le bozze su Metricool dell'11/11 erano per evitare doppie pubblicazioni; la mia riattivazione del 14/11 00:08 è stata riportata a bozza alle 09:15 (nessun doppione). Regia programmati: IT 17/11 e 19/11 19:30; DE oggi 18:00 (nuovo testo "Blechpizza mit wenig Wasser? Falsch!"), 16, 18, 20/11 18:00. NON in Regia: IT teglia (oggi), IT lezione 4 (15/11), DE Fehler 7 pinsa (15/11) → chiedere a Davide.
 - [ ] Regola: prima di toccare i reel IG controllare Regia (regia_overview); Metricool resta per YouTube.
 
