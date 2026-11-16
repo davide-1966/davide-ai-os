@@ -17,3 +17,4 @@
   Scrivi REGIA per la lista d'attesa 👇
 - Account professionale (Creator o Azienda), necessario per collegarlo a Regia.
 - Contenuti: solo registrazioni vere dello schermo di Regia (niente immagini AI), dati dei clienti coperti.
+- 16/11 ~07:00: account Instagram @regia_app_it SOSPESO subito dopo la creazione (controllo automatico di Instagram); Davide ha inviato il ricorso (risposta in ~1 ora). Non creare altri account nel frattempo. Nome «Instagram» non ammesso nel nome profilo → «Regia · Automazioni e Reel».
