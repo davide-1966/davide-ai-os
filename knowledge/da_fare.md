@@ -160,3 +160,16 @@ Classifica Metricool 10/10–9/11 (visualizzazioni · % che supera i 3 s):
 - 16/11: Davide «sì, programma i 3 Short tedeschi» → Metricool DE 7285585, YouTube Short 18:00, no AI: mar 17/11 Fehler 1 verdure (id 429600360), gio 19/11 Fehler 2 funghi (429600411), sab 21/11 Fehler 5 chiusura (429600465). CTA: Instagram @pizza_perfetta_a_casa2 + TEIG o BIGA. Nota: chiusura_de finisce con «Folge mir für Fehler Nr. 6».
 - 16/11: Short DE sab 21/11 aggiornato con chiusura_de_yt.mp4 (scritta «Folge mir: jeden Tag ein Geheimnis aus meiner Pizzeria»), nuovo id Metricool 429601892.
 - 16/11: canale YouTube DE completato: foto (come IT), banner (media/youtube_de/banner_de.jpg), descrizione DE, link Instagram DE. Prossimi Short DE: 17, 19, 21/11 18:00 (Metricool).
+
+## OGGI lun 16/11 (promemoria)
+- [x] Tolti da Regia i 3 doppioni (21, 23, 24/11)
+- [x] Canale YouTube tedesco creato, collegato a Metricool DE, foto + banner + descrizione
+- [x] 3 Short YouTube DE programmati (17, 19, 21/11 ore 18:00)
+- [x] Pagina Instagram @regia_app_it creata, riattivata dopo ricorso, account professionale
+- [x] Controllo del lunedì fatto (IT media 1.201, DE 178)
+- [ ] Oggi 18:00 esce da Regia il reel di prova DE Fehler 8 (automatico)
+- [ ] Collegare @regia_app_it a Regia: prima chiedere a Fable se «Ricollega Instagram» aggiunge o sostituisce
+- [ ] Screenshot insight Lezione 4 IT (2.281 visual.) → decidere condivisione mer 18 o ven 20/11
+- [ ] Sab 21/11: condividere con tutti la teglia IT
+- [ ] Video nuovi (calendario vuoto IT dal 20/11, DE dal 21/11) + Davide che parla in camera
+- [ ] Email «verifica il tuo account» di regia_app_it da confermare
