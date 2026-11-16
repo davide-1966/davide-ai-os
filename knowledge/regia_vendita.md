@@ -8,6 +8,7 @@
 - Ancora da sapere: dove si trova il codice di Regia (va salvato su GitHub).
 
 ## Pagina
+- Account creato 16/11: **@regia_app_it**. Logo fatto con Canva (design DAHbDVsVhGU): R bianca con play e ciak, sfondo viola-rosa-arancione.
 - Nome profilo: `Regia · Instagram automatico`
 - Bio (142 caratteri):
   Commento → messaggio automatico → nuovo cliente 📩
