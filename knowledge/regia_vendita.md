@@ -19,3 +19,4 @@
 - Contenuti: solo registrazioni vere dello schermo di Regia (niente immagini AI), dati dei clienti coperti.
 - 16/11 ~07:00: account Instagram @regia_app_it SOSPESO subito dopo la creazione (controllo automatico di Instagram); Davide ha inviato il ricorso (risposta in ~1 ora). Non creare altri account nel frattempo. Nome «Instagram» non ammesso nel nome profilo → «Regia · Automazioni e Reel».
 - 16/11 ~08:15: ricorso accettato, @regia_app_it attivo: nome «Regia · Automazioni e Reel», logo e bio a posto (verificato da screenshot). Manca: account professionale (Creator) e collegamento a Regia.
+- 16/11 08:45: Davide dice fatto l'account professionale di @regia_app_it (da verificare con screenshot). In Regia risultano collegati solo i 2 account pizza: @regia_app_it ancora da collegare dal pannello di Regia.
