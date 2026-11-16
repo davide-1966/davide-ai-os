@@ -159,3 +159,4 @@ Classifica Metricool 10/10–9/11 (visualizzazioni · % che supera i 3 s):
 - 16/11: Metricool DE 7285585 ora collegato al canale YouTube DE UCdSrSeQUHJpTj_AmY9lqtUw (verificato); IT 6891914 resta UCHWVTL… (verificato). (Le statistiche mostrate nella pagina erano ancora quelle vecchie.)
 - 16/11: Davide «sì, programma i 3 Short tedeschi» → Metricool DE 7285585, YouTube Short 18:00, no AI: mar 17/11 Fehler 1 verdure (id 429600360), gio 19/11 Fehler 2 funghi (429600411), sab 21/11 Fehler 5 chiusura (429600465). CTA: Instagram @pizza_perfetta_a_casa2 + TEIG o BIGA. Nota: chiusura_de finisce con «Folge mir für Fehler Nr. 6».
 - 16/11: Short DE sab 21/11 aggiornato con chiusura_de_yt.mp4 (scritta «Folge mir: jeden Tag ein Geheimnis aus meiner Pizzeria»), nuovo id Metricool 429601892.
+- 16/11: canale YouTube DE completato: foto (come IT), banner (media/youtube_de/banner_de.jpg), descrizione DE, link Instagram DE. Prossimi Short DE: 17, 19, 21/11 18:00 (Metricool).
